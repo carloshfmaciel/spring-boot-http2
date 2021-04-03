@@ -1,0 +1,2312 @@
+== Info:   Trying ::1...
+== Info: TCP_NODELAY set
+== Info: Connected to localhost (::1) port 8443 (#0)
+=> Send header, 86 bytes (0x56)
+0000: GET /products HTTP/1.1
+0018: Host: localhost:8443
+002e: User-Agent: curl/7.55.1
+0047: Accept: */*
+0054: 
+<= Recv header, 15 bytes (0xf)
+0000: HTTP/1.1 200 
+<= Recv header, 32 bytes (0x20)
+0000: Content-Type: application/json
+<= Recv header, 28 bytes (0x1c)
+0000: Transfer-Encoding: chunked
+<= Recv header, 37 bytes (0x25)
+0000: Date: Sat, 03 Apr 2021 06:19:33 GMT
+<= Recv header, 2 bytes (0x2)
+0000: 
+<= Recv data, 8078 bytes (0x1f8e)
+0000: 2000
+0006: {"total":26,"start":0,"limit":30,"offers":[{"id":1804463,"indexa
+0046: tionDate":"2021-03-12 07:10:46","lotNumber":1,"quantityInLot":1,
+0086: "totalReceivedProposals":0,"visits":0,"totalBidders":0,"totalBid
+00c6: s":0,"hidePrices":true,"endDate":"2021-03-31 00:00:00","endDateT
+0106: ime":"2021-03-31T00:00:00.000-0300","offerTypeId":1,"createAt":"
+0146: 2021-01-17 03:05:17","updateAt":"2021-02-11 16:11:59","statusId"
+0186: :1,"price":350000.0,"priceFormatted":"R$ 350.000,00","offerStatu
+01c6: s":{"statusCode":1,"removed":false,"stabbed":false,"subjudice":f
+0206: alse,"available":false,"closed":false,"giveYourBid":false,"sold"
+0246: :false,"reserved":false,"closedToBids":false,"wantToKnowThePrice
+0286: ":false,"makeYourProposal":true},"store":{},"offerDetail":{"id":
+02c6: 1804463,"initialBidValue":350000.0,"initialBidValueFormatted":"R
+0306: $ 350.000,00","currentMinBid":350000.0,"currentMinBidFormatted":
+0346: "R$ 350.000,00","currentMaxBid":350000.0,"currentMaxBidFormatted
+0386: ":"R$ 350.000,00","reservedPrice":350000.0,"reservedPriceFormatt
+03c6: ed":"R$ 350.000,00"},"manager":{"id":9,"name":"superbidind"},"cu
+0406: rrentTimestamp":"2021-04-03 02:39:59","auction":{"id":87598,"des
+0446: c":"Teste Habilita....o Aberto","localeId":"pt_BR","statusId":1,
+0486: "permissionTypeId":1,"portalId":2,"modalityId":1,"modalityDesc":
+04c6: "Leil..o","businessAreaId":1,"allOffersOfThisAuctionIsClosed":tr
+0506: ue,"beginDate":"2021-02-11 00:00:00","maxEnddateOffer":"2021-03-
+0546: 31 00:00:00","subMarketplaces":[{"subMarketplaceId":1,"subMarket
+0586: placeDesc":"Corporativo"}],"tags":[],"auctioneer":"Eduardo Sylvi
+05c6: o Schanzer","registry":"452","address":{"id":27029,"streetType":
+0606: "Alameda","street":"Lorena","number":"800","complement":"2.. and
+0646: ar","district":"Jardins","city":"S..o Paulo","stateCode":"SP","c
+0686: ountryName":"Brasil","type":5}},"winnerBid":{},"currentBidIncrem
+06c6: ent":{"currentBidIncrement":5000.0,"currentBidIncrementFormatted
+0706: ":"R$ 5.000,00"},"offerDescription":{"offerDescription":"Casa, R
+0746: esidencial, Uni..o, 4 dormit..rio(s), 3 vaga(s) de garagem Pagam
+0786: ento da comiss..o: Comprador<br />Cart..rio de Registro: 11.. RG
+07c6: I de Recife<br />Considera....es importantes:  Ocupado.\r<br /> 
+0806: Ficar..o a cargo do arrematante: assun....o dos riscos, provid..
+0846: ncias e custas necess..rias: (i) .. desocupa....o; (ii) .. apura
+0886: ....o e pagamento do IPTU, a partir do exerc..cio 2015, parcelas
+08c6:  vencidas e vincendas; (iii) .. regulariza....o do im..vel, nota
+0906: damente a averba....o da  ..rea constru..da perante os ..rg..os 
+0946: competentes; (iv) decorrentes da a....o judicial em tr..mite.\r<
+0986: br />\r<br />\r<br />\r<br /><br />Taxa de comiss..o: <br />Taxa
+09c6:  de servi..o: <br />Aceita Visita: sim<br />Descri....o: Casa, U
+0a06: ni..o, Desocupado, contendo 4 dormit..rio(s), sendo 1 su..te(s),
+0a46:  3 vaga(s) de garagem, 2 banheiro(s), 350.00 M.. de ..rea de ter
+0a86: reno, 100.00 M.. de ..rea constru..da, 80.00 M.. de ..rea ..til,
+0ac6:  90.00 M.. de ..rea privativa, 30.00 M.. de ..rea comum, 450.00 
+0b06: M.. de ..rea total. Matr..cula n.. 51509, 11.. RGI de Recife, In
+0b46: scri....o Prefeitura 15112-1518-263. IPTU anual R$ 2.500,00, val
+0b86: or de condom..nio mensal R$ 350,00, valor avaliado R$500.000,00.
+0bc6:  Im..vel situado em regi..o de baixa densidade ocupacional, com 
+0c06: predomin..ncia residencial, servida apenas por linha de ..nibus,
+0c46:  Im..vel encontra-se a 10min do centro, com f..cil acesso a tran
+0c86: sporte p..blico. . Teste Habilita....o Aberto"},"groupOffer":{"i
+0cc6: d":200459,"acceptProposal":true,"commissionPercent":5},"product"
+0d06: :{"productId":1662039,"shortDesc":"Casa, Residencial, Uni..o, 4 
+0d46: dormit..rio(s), 3 vaga(s) de garagem","detailedDescription":"Pag
+0d86: amento da comiss..o: Comprador<br />Cart..rio de Registro: 11.. 
+0dc6: RGI de Recife<br />Considera....es importantes:  Ocupado.\r<br /
+0e06: > Ficar..o a cargo do arrematante: assun....o dos riscos, provid
+0e46: ..ncias e custas necess..rias: (i) .. desocupa....o; (ii) .. apu
+0e86: ra....o e pagamento do IPTU, a partir do exerc..cio 2015, parcel
+0ec6: as vencidas e vincendas; (iii) .. regulariza....o do im..vel, no
+0f06: tadamente a averba....o da  ..rea constru..da perante os ..rg..o
+0f46: s competentes; (iv) decorrentes da a....o judicial em tr..mite.\
+0f86: r<br />\r<br />\r<br />\r<br /><br />Taxa de comiss..o: <br />Ta
+0fc6: xa de servi..o: <br />Aceita Visita: sim<br />Descri....o: Casa,
+1006:  Uni..o, Desocupado, contendo 4 dormit..rio(s), sendo 1 su..te(s
+1046: ), 3 vaga(s) de garagem, 2 banheiro(s), 350.00 M.. de ..rea de t
+1086: erreno, 100.00 M.. de ..rea constru..da, 80.00 M.. de ..rea ..ti
+10c6: l, 90.00 M.. de ..rea privativa, 30.00 M.. de ..rea comum, 450.0
+1106: 0 M.. de ..rea total. Matr..cula n.. 51509, 11.. RGI de Recife, 
+1146: Inscri....o Prefeitura 15112-1518-263. IPTU anual R$ 2.500,00, v
+1186: alor de condom..nio mensal R$ 350,00, valor avaliado R$500.000,0
+11c6: 0. Im..vel situado em regi..o de baixa densidade ocupacional, co
+1206: m predomin..ncia residencial, servida apenas por linha de ..nibu
+1246: s, Im..vel encontra-se a 10min do centro, com f..cil acesso a tr
+1286: ansporte p..blico. .","template":{"groups":[{"title":"Caracter..
+12c6: sticas do Im..vel","properties":[{"title":"..rea Total","type":"
+1306: number","value":"120"},{"title":"..rea ..til","type":"number","v
+1346: alue":"120"},{"title":"..rea Comum","type":"number","value":"30.
+1386: 00"},{"title":"..rea Privativa","type":"number","value":"90.0"},
+13c6: {"title":"..rea do Terreno","type":"number","value":"350.0"},{"t
+1406: itle":"Situa....o","type":"string","value":"Desocupado"}]},{"tit
+1446: le":"Valores","properties":[{"title":"Condi....es de Pagamento",
+1486: "type":"string","value":""},{"title":"Condom..nio","type":"numbe
+14c6: r","value":"350"},{"title":"IPTU Anual","type":"number","value":
+1506: "2500"}]},{"title":"Documentos","properties":[{"title":"N..mero 
+1546: da Matr..cula","type":"string","value":"51509"},{"title":"N..mer
+1586: o do Contribuinte","type":"string","value":"15112-1518-263"}]},{
+15c6: "title":"Descri....o do im..vel","properties":[{"title":"Quartos
+1606: ","type":"number","value":"3"},{"title":"Su..tes","type":"number
+1646: ","value":"1"},{"title":"Salas","type":"number","value":"1"},{"t
+1686: itle":"Escrit..rios","type":"number","value":"1"},{"title":"Copa
+16c6: s","type":"number","value":"1"},{"title":"Cozinhas","type":"numb
+1706: er","value":"1"},{"title":"Lavabos","type":"number","value":"1"}
+1746: ,{"title":"Banheiros","type":"number","value":"2"},{"title":"Dor
+1786: mit..rios de Empregada","type":"number","value":"1"},{"title":"V
+17c6: arandas","type":"number","value":"1"},{"title":"Piscinas","type"
+1806: :"number","value":"1"}]}]},"subCategory":{"id":10111,"descriptio
+1846: n":"Casa Padr..o","translation":{"map":{"es_PE":"Casa Padr..o","
+1886: en_US":"Casa Padr..o","es_AR":"Casa Padr..o","es_MX":"Casa Padr.
+18c6: .o","es_CO":"Casa Padr..o","pt_BR":"Casa Padr..o","en_UK":"Casa 
+1906: Padr..o","es_CL":"Casa Padr..o"}},"evidence":"F","subGrupo":0,"g
+1946: rupo":0,"position":2,"category":{"id":10109,"description":"Resid
+1986: encial","translation":{"map":{"es_PE":"Habitaciones","en_US":"Re
+19c6: sidencial","es_AR":"Habitaciones","es_MX":"Habitaciones","es_CO"
+1a06: :"Vivienda","pt_BR":"Residencial","en_UK":"Residencial","es_CL":
+1a46: "Habitaciones"}},"evidence":"F","subGrupo":0,"grupo":0,"position
+1a86: ":1}},"model":{},"brand":{},"location":{"city":"Limeira","cityId
+1ac6: ":"ChIJww3ftlWAyJQRzZ6AOfP1Dhs","state":"S..o Paulo","stateId":"
+1b06: ChIJrVgvRn1ZzpQRF3x74eJBUh4","country":"Brasil","countryId":"ChI
+1b46: JzyjM68dZnAARYz4p8gYVWik"},"productType":{"id":13,"description":
+1b86: "Im..veis","translation":{"map":{"es_PE":"Inmuebles","en_US":"Re
+1bc6: al Estate","es_AR":"Inmuebles","es_MX":"Inmuebles","es_CO":"Inmu
+1c06: ebles","pt_BR":"Im..veis","en_UK":"Real Estate","es_CL":"Inmuebl
+1c46: es"}},"showBrand":false,"showModel":false},"judicial":{}},"selle
+1c86: r":{"id":685079,"name":"Fca Fiat Chrysler Autom..veis Brasil Ltd
+1cc6: a","city":"Betim","phone":[{"ddi":"55","ddd":"31","number":"2123
+1d06: 6267"}],"company":[{"fantasyName":"FCA FIAT CHRYSLER AUTOM..VEIS
+1d46: "}]},"offersEvent":[{"offerId":1804463,"productShortDesc":"Casa,
+1d86:  Residencial, Uni..o, 4 dormit..rio(s), 3 vaga(s) de garagem"}],
+1dc6: "isFavorite":false},{"id":1804480,"indexationDate":"2021-03-12 0
+1e06: 7:10:51","lotNumber":4,"quantityInLot":1,"totalReceivedProposals
+1e46: ":0,"visits":0,"totalBidders":0,"totalBids":0,"hidePrices":true,
+1e86: "endDate":"2021-03-04 00:00:00","endDateTime":"2021-03-04T00:00:
+1ec6: 00.000-0300","offerTypeId":1,"createAt":"2021-02-03 15:03:25","u
+1f06: pdateAt":"2021-02-03 15:06:54","statusId":1,"price":20.0,"priceF
+1f46: ormatted":"R$ 20,00","offerStatus":{"statusCode":1,"removed":fal
+1f86: se,"stab
+<= Recv data, 57344 bytes (0xe000)
+0000: bed":false,"subjudice":false,"available":false,"closed":false,"g
+0040: iveYourBid":false,"sold":false,"reserved":false,"closedT
+007a: 2000
+0080: oBids":false,"wantToKnowThePrice":true,"makeYourProposal":false}
+00c0: ,"store":{},"offerDetail":{"id":1804480,"initialBidValue":20.0,"
+0100: initialBidValueFormatted":"R$ 20,00","currentMinBid":20.0,"curre
+0140: ntMinBidFormatted":"R$ 20,00","currentMaxBid":20.0,"currentMaxBi
+0180: dFormatted":"R$ 20,00","reservedPrice":23,"reservedPriceFormatte
+01c0: d":"R$ 23,00"},"manager":{"id":9,"name":"superbidind"},"currentT
+0200: imestamp":"2021-04-03 02:39:59","auction":{"id":87583,"desc":"Ev
+0240: ento BMW 2021","localeId":"pt_BR","statusId":1,"permissionTypeId
+0280: ":1,"portalId":2,"modalityId":1,"modalityDesc":"Leil..o","busine
+02c0: ssAreaId":1,"allOffersOfThisAuctionIsClosed":true,"beginDate":"2
+0300: 021-02-03 00:00:00","maxEnddateOffer":"2021-03-04 00:00:00","sub
+0340: Marketplaces":[{"subMarketplaceId":1,"subMarketplaceDesc":"Corpo
+0380: rativo"}],"tags":[],"auctioneer":"Rodrigo de Queiroz Sodr.. Sant
+03c0: oro","registry":"449","address":{"id":27029,"streetType":"Alamed
+0400: a","street":"Lorena","number":"800","complement":"2.. andar","di
+0440: strict":"Jardins","city":"S..o Paulo","stateCode":"SP","countryN
+0480: ame":"Brasil","type":5}},"winnerBid":{},"currentBidIncrement":{"
+04c0: currentBidIncrement":5,"currentBidIncrementFormatted":"R$ 5,00"}
+0500: ,"offerDescription":{"offerDescription":"Combo De Ve..culos: Che
+0540: vrolet S10 Lt Dd4 2.8 (06 Unidades) Combo De Ve..culos: Chevrole
+0580: t S10 Lt Dd4 2.8 (06 Unidades)<br> Evento BMW 2021"},"groupOffer
+05c0: ":{"id":200360,"acceptProposal":false,"commissionPercent":5},"pr
+0600: oduct":{"productId":1662052,"shortDesc":"Combo De Ve..culos: Che
+0640: vrolet S10 Lt Dd4 2.8 (06 Unidades)","detailedDescription":"Comb
+0680: o De Ve..culos: Chevrolet S10 Lt Dd4 2.8 (06 Unidades)<br>","tem
+06c0: plate":{"groups":[]},"subCategory":{"id":10002,"description":"Co
+0700: nvers..veis","translation":{"map":{"es_PE":"Descapotable","en_US
+0740: ":"Cabriolet","es_AR":"Descapotable","es_MX":"Descapotable","es_
+0780: CO":"Descapotable","pt_BR":"Convers..veis","en_UK":"Cabriolet","
+07c0: es_CL":"Descapotable"}},"evidence":"F","subGrupo":0,"grupo":0,"p
+0800: osition":2,"category":{"id":10000,"description":"Carros","transl
+0840: ation":{"map":{"es_PE":"Autos","en_US":"Cars","es_AR":"Autos","e
+0880: s_MX":"Autos","es_CO":"Autos","pt_BR":"Carros","en_UK":"Cars","e
+08c0: s_CL":"Autos"}},"evidence":"F","subGrupo":0,"grupo":0,"position"
+0900: :1}},"model":{},"brand":{},"location":{"city":"S..o Paulo","city
+0940: Id":"ChIJ0WGkg4FEzpQRrlsz_whLqZs","state":"S..o Paulo","stateId"
+0980: :"ChIJrVgvRn1ZzpQRF3x74eJBUh4","country":"Brasil","countryId":"C
+09c0: hIJzyjM68dZnAARYz4p8gYVWik"},"productType":{"id":10,"description
+0a00: ":"Carros & Motos","translation":{"map":{"es_PE":"Autos & Motos"
+0a40: ,"en_US":"Cars & Motorcycles","es_AR":"Autos & Motos","es_MX":"A
+0a80: utos & Motos","es_CO":"Autos & Motos","pt_BR":"Carros & Motos","
+0ac0: en_UK":"Cars & Motorcycles","es_CL":"Autos & Motos"}},"showBrand
+0b00: ":true,"showModel":true},"judicial":{}},"seller":{"id":670836,"n
+0b40: ame":"Votorantim Cimentos S A","city":"Gua..ra","phone":[{"ddi":
+0b80: "55","ddd":"48","number":"34627414"}],"company":[{"fantasyName":
+0bc0: "VOTORANTIM CIMENTOS"}]},"offersEvent":[{"offerId":1803381,"prod
+0c00: uctShortDesc":"BMW 125I"},{"offerId":1804480,"productShortDesc":
+0c40: "Combo De Ve..culos: Chevrolet S10 Lt Dd4 2.8 (06 Unidades)"}],"
+0c80: isFavorite":false},{"id":1797506,"indexationDate":"2021-03-12 07
+0cc0: :11:54","lotNumber":2,"quantityInLot":1,"totalReceivedProposals"
+0d00: :0,"visits":0,"totalBidders":0,"totalBids":0,"hidePrices":true,"
+0d40: endDate":"2021-01-31 00:00:00","endDateTime":"2021-01-30T23:00:0
+0d80: 0.000-0300","offerTypeId":11,"createAt":"2020-06-03 10:43:57","u
+0dc0: pdateAt":"2020-06-03 10:48:52","statusId":1,"offerStatus":{"stat
+0e00: usCode":1,"removed":false,"stabbed":false,"subjudice":false,"ava
+0e40: ilable":false,"closed":false,"giveYourBid":false,"sold":false,"r
+0e80: eserved":false,"closedToBids":false,"wantToKnowThePrice":false,"
+0ec0: makeYourProposal":false},"store":{"id":261,"name":"Mercedes-Benz
+0f00:  Certified","highlight":false,"storeVisibleOnPortal":false},"off
+0f40: erDetail":{"id":1797506,"directSaleValue":190000.0,"directSaleVa
+0f80: lueFormatted":"R$ 190.000,00"},"manager":{"id":55,"name":"mardis
+0fc0: aSaoLuis"},"currentTimestamp":"2021-04-03 02:39:59","auction":{"
+1000: id":87286,"desc":"Mardisa S..o Luis","localeId":"pt_BR","statusI
+1040: d":3,"permissionTypeId":2,"portalId":2,"modalityId":6,"modalityD
+1080: esc":"Venda Direta","businessAreaId":1,"allOffersOfThisAuctionIs
+10c0: Closed":true,"beginDate":"2020-06-02 00:00:00","maxEnddateOffer"
+1100: :"2021-01-31 00:00:00","tags":[],"address":{"id":27029,"streetTy
+1140: pe":"Alameda","street":"Lorena","number":"800","complement":"2..
+1180:  andar","district":"Jardins","city":"S..o Paulo","stateCode":"SP
+11c0: ","type":5}},"winnerBid":{},"currentBidIncrement":{},"offerDescr
+1200: iption":{"offerDescription":"C 200 EQ Boost C 200 EQ Boost Mardi
+1240: sa S..o Luis"},"groupOffer":{"id":199818,"acceptProposal":false}
+1280: ,"product":{"productId":1655699,"shortDesc":"C 200 EQ Boost","ga
+12c0: lleryJson":[{"originalFileName":"WhatsApp Image 2020-05-27 at 12
+1300: .04.27.jpg","highlight":true,"link":"https://static.s4bdigital.n
+1340: et/photos/2265a98d-665c-421c-9e05-d94ffdea7827.jpg","contentType
+1380: ":"image/jpeg"},{"originalFileName":"WhatsApp Image 2020-05-27 a
+13c0: t 12.04.28.jpg","highlight":false,"link":"https://static.s4bdigi
+1400: tal.net/photos/7f687c8b-f865-474e-ad84-ad854298a884.jpg","conten
+1440: tType":"image/jpeg"},{"originalFileName":"WhatsApp Image 2020-05
+1480: -27 at 12.04.29 (1).jpeg","highlight":false,"link":"https://stat
+14c0: ic.s4bdigital.net/photos/f177335f-9b6d-46f8-b9d6-f6130682acdc.jp
+1500: eg","contentType":"image/jpeg"},{"originalFileName":"WhatsApp Im
+1540: age 2020-05-27 at 12.04.29.jpeg","highlight":false,"link":"https
+1580: ://static.s4bdigital.net/photos/c346efc1-bed9-41ce-b9eb-81a09ea8
+15c0: 74bb.jpeg","contentType":"image/jpeg"},{"originalFileName":"What
+1600: sApp Image 2020-05-27 at 12.04.28 (1).jpeg","highlight":false,"l
+1640: ink":"https://static.s4bdigital.net/photos/d494cbeb-1996-407c-92
+1680: 38-86d74f27e202.jpeg","contentType":"image/jpeg"},{"originalFile
+16c0: Name":"WhatsApp Image 2020-05-27 at 12.04.30.jpeg","highlight":f
+1700: alse,"link":"https://static.s4bdigital.net/photos/9c0544de-3dd3-
+1740: 42c5-b8bc-8bbd8c7c402b.jpeg","contentType":"image/jpeg"}],"detai
+1780: ledDescription":"C 200 EQ Boost","template":{"groups":[{"title":
+17c0: "Identifica....o","properties":[{"title":"Marca","type":"string"
+1800: ,"value":"Mercedes-Benz"},{"title":"Modelo","type":"string","val
+1840: ue":"C 200 EQ Boost"},{"title":"Placa","type":"string","value":"
+1880: Final: 6"},{"title":"Ano Fabrica....o","type":"integer","value":
+18c0: "2019"},{"title":"Ano Modelo","type":"integer","value":"2019"},{
+1900: "title":"UF","type":"string","value":"MA"},{"title":"Munic..pio"
+1940: ,"type":"string","value":"S..o Luis"}]},{"title":"Informa....es"
+1980: ,"properties":[{"title":"Quilometragem","type":"integer","value"
+19c0: :"4800"},{"title":"Cor","type":"string","value":"Preto"},{"title
+1a00: ":"Combust..vel","type":"string","value":"Gasolina"},{"title":"T
+1a40: ipo de C..mbio","type":"string","value":"Autom..tico"},{"title":
+1a80: "N..mero de Portas","type":"integer","value":"4"}]},{"properties
+1ac0: ":[{"type":"multivalue","value":"assistentedefreiobas.controleel
+1b00: etronicodeestabilidadeesp..curvedynamicassist"}]}]},"subCategory
+1b40: ":{"id":10006,"description":"Sedans","translation":{"map":{"es_P
+1b80: E":"Sedanes","en_US":"Sedans","es_AR":"Sedanes","es_MX":"Sedanes
+1bc0: ","es_CO":"Sedanes","pt_BR":"Sedans","en_UK":"Sedans","es_CL":"S
+1c00: edanes"}},"evidence":"F","subGrupo":0,"grupo":0,"position":6,"ca
+1c40: tegory":{"id":10000,"description":"Carros","translation":{"map":
+1c80: {"es_PE":"Autos","en_US":"Cars","es_AR":"Autos","es_MX":"Autos",
+1cc0: "es_CO":"Autos","pt_BR":"Carros","en_UK":"Cars","es_CL":"Autos"}
+1d00: },"evidence":"F","subGrupo":0,"grupo":0,"position":1}},"model":{
+1d40: },"brand":{},"location":{"city":"S..o Lu..s","cityId":"ChIJIW1_b
+1d80: _CP9gcRR96jWeQCMZg","state":"Maranh..o","stateId":"ChIJ5RzMm3rX7
+1dc0: QcRNCls2aOrdmI","country":"Brasil","countryId":"ChIJzyjM68dZnAAR
+1e00: Yz4p8gYVWik"},"productType":{"id":10,"description":"Carros & Mot
+1e40: os","translation":{"map":{"es_PE":"Autos & Motos","en_US":"Cars 
+1e80: & Motorcycles","es_AR":"Autos & Motos","es_MX":"Autos & Motos","
+1ec0: es_CO":"Autos & Motos","pt_BR":"Carros & Motos","en_UK":"Cars & 
+1f00: Motorcycles","es_CL":"Autos & Motos"}},"showBrand":true,"showMod
+1f40: el":true},"judicial":{}},"seller":{"id":1306543,"name":"MARDISA 
+1f80: VEICULOS SA","city":"S..o Lu..s","phone":[{"ddi":"55","ddd":"11"
+1fc0: ,"number":"00000000"},{"ddi":"55","ddd":"11","number":"59958779"
+2000: }],"company":[{"fantasyName":"MARDISA VEICULOS SA"}]},"offersEve
+2040: nt":[{"offerId":1797503,"productShortDesc":"A 250 Vision"},{"off
+2082: 2000
+2088: erId":1797506,"productShortDesc":"C 200 EQ Boost"}],"isFavorite"
+20c8: :false},{"id":1804439,"indexationDate":"2021-03-12 07:11:55","lo
+2108: tNumber":2,"quantityInLot":1,"totalReceivedProposals":0,"visits"
+2148: :0,"totalBidders":0,"totalBids":0,"hidePrices":true,"endDate":"2
+2188: 021-02-15 18:00:00","endDateTime":"2021-02-15T17:00:00.000-0300"
+21c8: ,"offerTypeId":1,"createAt":"2021-01-17 03:05:04","updateAt":"20
+2208: 21-01-22 10:57:29","statusId":1,"price":513000.0,"priceFormatted
+2248: ":"R$ 513.000,00","offerStatus":{"statusCode":1,"removed":false,
+2288: "stabbed":false,"subjudice":false,"available":false,"closed":fal
+22c8: se,"giveYourBid":false,"sold":false,"reserved":false,"closedToBi
+2308: ds":false,"wantToKnowThePrice":true,"makeYourProposal":false},"s
+2348: tore":{},"offerDetail":{"id":1804439,"initialBidValue":513000.0,
+2388: "initialBidValueFormatted":"R$ 513.000,00","currentMinBid":51300
+23c8: 0.0,"currentMinBidFormatted":"R$ 513.000,00","currentMaxBid":513
+2408: 000.0,"currentMaxBidFormatted":"R$ 513.000,00","reservedPrice":5
+2448: 13000.0,"reservedPriceFormatted":"R$ 513.000,00"},"manager":{"id
+2488: ":9,"name":"superbidind"},"currentTimestamp":"2021-04-03 02:39:5
+24c8: 9","auction":{"id":87587,"desc":"Resale Integra....o","localeId"
+2508: :"pt_BR","statusId":1,"permissionTypeId":1,"portalId":2,"modalit
+2548: yId":1,"modalityDesc":"Leil..o","businessAreaId":1,"allOffersOfT
+2588: hisAuctionIsClosed":true,"beginDate":"2020-09-15 07:00:00","maxE
+25c8: nddateOffer":"2021-02-15 18:00:00","tags":[],"auctioneer":"LUIZ 
+2608: TOCIAKI HIRANO","registry":"1126","address":{"id":27029,"streetT
+2648: ype":"Alameda","street":"Lorena","number":"800","complement":"2.
+2688: . andar","district":"Jardins","city":"S..o Paulo","stateCode":"S
+26c8: P","countryName":"Brasil","type":5}},"winnerBid":{},"currentBidI
+2708: ncrement":{"currentBidIncrement":5000.0,"currentBidIncrementForm
+2748: atted":"R$ 5.000,00"},"offerDescription":{"offerDescription":"Ap
+2788: artamento, Residencial, 2 vaga(s) de garagem Pagamento da comiss
+27c8: ..o: Comprador<br />Cart..rio de Registro: 2.. CRI DE JO..O PESS
+2808: OA/PB<br />Considera....es importantes:  OCUPADO.\r<br /> A....O
+2848:  JUDICIAL - PROC. 0812389-74.2018.8.15.2001 DA 3.. VARA C..VEL D
+2888: A COMARCA DA CAPITAL DO ESTADO DA PARA..BA.\r<br />\r<br /> FICA
+28c8: R..O A CARGO DO ARREMATANTE: ASSUN....O DOS RISCOS, PROVID..NCIA
+2908: S E CUSTAS NECESS..RIAS: (I) .. DESOCUPA....O; (II) DECORRENTES 
+2948: DA A....O JUDICIAL EM TR..MITE.\r<br /> O VENDEDOR RESPONDER.. P
+2988: ELA EVIC....O DE DIREITOS NOS TERMOS DOS ITENS 4.10 A 4.12 DO ED
+29c8: ITAL.\r<br /> OS D..BITOS DE IPTU E CONDOM..NIO SER..O QUITADOS 
+2a08: PELO VENDEDOR AT.. A DATA DO LEIL..O.<br />Taxa de comiss..o: 5.
+2a48: 0<br />Taxa de servi..o: 0.0<br />Aceita Visita: nao<br />Descri
+2a88: ....o: Apartamento, Ocupado, contendo 2 vaga(s) de garagem, 157.
+2ac8: 42 M.. de ..rea ..til, 231.61 M.. de ..rea total. Matr..cula n..
+2b08:  94812, 2.. CRI DE JO..O PESSOA/PB, Inscri....o Prefeitura 33503
+2b48: 8-0. Valor avaliado R$705.000,00. Resale Integra....o"},"groupOf
+2b88: fer":{"id":200400,"acceptProposal":false,"commissionPercent":5},
+2bc8: "product":{"productId":1662010,"shortDesc":"Apartamento, Residen
+2c08: cial, 2 vaga(s) de garagem","galleryJson":[{"originalFileName":"
+2c48: https://images.resale.com.br/397fc0c3-8729-a302-f7eb-5c542cdd4fe
+2c88: c","link":"https://static.s4bdigital.net/stg/photos/e3613c54-ecb
+2cc8: 9-4b81-9a9a-097c2d23c4cd.jpeg","contentType":"image/jpeg"},{"ori
+2d08: ginalFileName":"https://images.resale.com.br/bcb92027-c57c-1143-
+2d48: fd7b-5c59a6ad44ad","link":"https://static.s4bdigital.net/stg/pho
+2d88: tos/b7d69961-ebea-4116-835a-d236e4848731.jpeg","contentType":"im
+2dc8: age/jpeg"},{"originalFileName":"https://images.resale.com.br/f16
+2e08: 70c9c-60fc-e1e9-aa02-5c59a619f226","link":"https://static.s4bdig
+2e48: ital.net/stg/photos/b52fbe8c-2e6f-43ca-bf29-a768c04ddbb3.jpeg","
+2e88: contentType":"image/jpeg"},{"originalFileName":"https://images.r
+2ec8: esale.com.br/33412d7c-a8a2-ada7-d7d4-5c59a638f56d","link":"https
+2f08: ://static.s4bdigital.net/stg/photos/5ae5a754-8af2-4a06-a3ff-f8a0
+2f48: 7702e1aa.jpeg","contentType":"image/jpeg"},{"originalFileName":"
+2f88: https://images.resale.com.br/6934418f-3b96-715f-fde2-5c59a64cac7
+2fc8: 8","link":"https://static.s4bdigital.net/stg/photos/51cd1aae-e1f
+3008: 5-4407-bd46-8855a17521fe.jpeg","contentType":"image/jpeg"},{"ori
+3048: ginalFileName":"https://images.resale.com.br/9e8fc4dc-be0d-74e5-
+3088: ef7f-5c59a61be4a6","link":"https://static.s4bdigital.net/stg/pho
+30c8: tos/a4326536-9dd2-40f2-8fc9-9e7895ad6b46.jpeg","contentType":"im
+3108: age/jpeg"},{"originalFileName":"https://images.resale.com.br/d35
+3148: f0391-7886-43bd-d81d-5c59a61a3fb3","link":"https://static.s4bdig
+3188: ital.net/stg/photos/0e3294ae-dc00-4f0e-911f-8e9881c96971.jpeg","
+31c8: contentType":"image/jpeg"},{"originalFileName":"https://images.r
+3208: esale.com.br/4bfcfb40-3174-1c3b-7df3-5c59a66d3c5e","link":"https
+3248: ://static.s4bdigital.net/stg/photos/591ff2f9-0aba-42c3-8a2d-e7f0
+3288: 59439653.jpeg","contentType":"image/jpeg"},{"originalFileName":"
+32c8: https://images.resale.com.br/b9986f66-6a1c-a4e1-517d-5c59a69bcac
+3308: a","link":"https://static.s4bdigital.net/stg/photos/21116542-41b
+3348: b-40b9-957e-1c4692e16337.jpeg","contentType":"image/jpeg"},{"ori
+3388: ginalFileName":"https://images.resale.com.br/837240a0-a9bf-fb3b-
+33c8: 7b27-5c59a6c11f7b","link":"https://static.s4bdigital.net/stg/pho
+3408: tos/bfde69e2-0856-4618-a5ee-848e8e1fd298.jpeg","contentType":"im
+3448: age/jpeg"},{"originalFileName":"https://images.resale.com.br/15b
+3488: 16439-11c2-2e05-2bcc-5c59a66970d4","link":"https://static.s4bdig
+34c8: ital.net/stg/photos/ffeb994e-893b-495c-8c2d-8eea2c7509e8.jpeg","
+3508: contentType":"image/jpeg"},{"originalFileName":"5b6b9bb4-590b-09
+3548: f1-d047-5c542cb7d094.pdf","link":"https://static.s4bdigital.net/
+3588: stg/documents/40e26cc3-00b2-407d-a3f1-2532f279bc13.pdf","content
+35c8: Type":"application/pdf"},{"originalFileName":"d6be2028-d847-2026
+3608: -db74-5c542c221ee7.pdf","link":"https://static.s4bdigital.net/st
+3648: g/documents/dd01ac53-6a1c-43e1-a39b-fe367a5301bb.pdf","contentTy
+3688: pe":"application/pdf"}],"detailedDescription":"Pagamento da comi
+36c8: ss..o: Comprador<br />Cart..rio de Registro: 2.. CRI DE JO..O PE
+3708: SSOA/PB<br />Considera....es importantes:  OCUPADO.\r<br /> A...
+3748: .O JUDICIAL - PROC. 0812389-74.2018.8.15.2001 DA 3.. VARA C..VEL
+3788:  DA COMARCA DA CAPITAL DO ESTADO DA PARA..BA.\r<br />\r<br /> FI
+37c8: CAR..O A CARGO DO ARREMATANTE: ASSUN....O DOS RISCOS, PROVID..NC
+3808: IAS E CUSTAS NECESS..RIAS: (I) .. DESOCUPA....O; (II) DECORRENTE
+3848: S DA A....O JUDICIAL EM TR..MITE.\r<br /> O VENDEDOR RESPONDER..
+3888:  PELA EVIC....O DE DIREITOS NOS TERMOS DOS ITENS 4.10 A 4.12 DO 
+38c8: EDITAL.\r<br /> OS D..BITOS DE IPTU E CONDOM..NIO SER..O QUITADO
+3908: S PELO VENDEDOR AT.. A DATA DO LEIL..O.<br />Taxa de comiss..o: 
+3948: 5.0<br />Taxa de servi..o: 0.0<br />Aceita Visita: nao<br />Desc
+3988: ri....o: Apartamento, Ocupado, contendo 2 vaga(s) de garagem, 15
+39c8: 7.42 M.. de ..rea ..til, 231.61 M.. de ..rea total. Matr..cula n
+3a08: .. 94812, 2.. CRI DE JO..O PESSOA/PB, Inscri....o Prefeitura 335
+3a48: 038-0. Valor avaliado R$705.000,00.","template":{"groups":[{"tit
+3a88: le":"Descri....o do im..vel","properties":[{"title":"Quartos","t
+3ac8: ype":"number","value":"0"},{"title":"Su..tes","type":"number","v
+3b08: alue":"0"},{"title":"Salas","type":"number","value":"0"},{"title
+3b48: ":"Escrit..rios","type":"number","value":"0"},{"title":"Copas","
+3b88: type":"number","value":"0"},{"title":"Cozinhas","type":"number",
+3bc8: "value":"0"},{"title":"Lavabos","type":"number","value":"0"},{"t
+3c08: itle":"Banheiros","type":"number","value":"0"},{"title":"Dormit.
+3c48: .rios de Empregada","type":"number","value":"0"},{"title":"Varan
+3c88: das","type":"number","value":"0"},{"title":"Piscinas","type":"nu
+3cc8: mber","value":"0"}]},{"title":"Detalhes do Im..vel","properties"
+3d08: :[]},{"title":"Caracter..sticas do Im..vel","properties":[{"titl
+3d48: e":"..rea Total","type":"number","value":"231.61"},{"title":"..r
+3d88: ea ..til","type":"number","value":"157.42"},{"title":"..rea Comu
+3dc8: m","type":"number","value":"0.00"},{"title":"..rea Privativa","t
+3e08: ype":"number","value":"0.0"},{"title":"..rea do Terreno","type":
+3e48: "number","value":"0.0"},{"title":"Situa....o","type":"string","v
+3e88: alue":"Ocupado"}]},{"title":"Valores","properties":[{"title":"Co
+3ec8: ndi....es de Pagamento","type":"string","value":"&Agrave; vista 
+3f08: com 10% de desconto;<br />Cr&eacute;dito Imobili&aacute;rio em a
+3f48: t&eacute; 420 meses;<br />D&ecirc; seu im&oacute;vel como forma 
+3f88: de pagamento, saiba como no link www.reex.com.br."},{"title":"Co
+3fc8: ndom..nio","type":"number","value":"0"},{"title":"IPTU Anual","t
+4008: ype":"number","value":"0"}]},{"title":"Documentos","properties":
+4048: [{"title":"N..mero da Matr..cula","type":"string","value":"94812
+408a: 2000
+4090: "},{"title":"N..mero do Contribuinte","type":"string","value":"3
+40d0: 35038-0"}]}]},"subCategory":{"id":10110,"description":"Apartamen
+4110: to Padr..o","translation":{"map":{"es_PE":"Apartamento Padr..o",
+4150: "en_US":"Apartamento Padr..o","es_AR":"Apartamento Padr..o","es_
+4190: MX":"Apartamento Padr..o","es_CO":"Apartamento Padr..o","pt_BR":
+41d0: "Apartamento Padr..o","en_UK":"Apartamento Padr..o","es_CL":"Apa
+4210: rtamento Padr..o"}},"evidence":"F","subGrupo":0,"grupo":0,"posit
+4250: ion":1,"category":{"id":10109,"description":"Residencial","trans
+4290: lation":{"map":{"es_PE":"Habitaciones","en_US":"Residencial","es
+42d0: _AR":"Habitaciones","es_MX":"Habitaciones","es_CO":"Vivienda","p
+4310: t_BR":"Residencial","en_UK":"Residencial","es_CL":"Habitaciones"
+4350: }},"evidence":"F","subGrupo":0,"grupo":0,"position":1}},"model":
+4390: {},"brand":{},"location":{"city":"Jo..o Pessoa","cityId":"ChIJ16
+43d0: OaATnorAcRNNsmbZxKQW4","state":"Para..ba","stateId":"ChIJz8iY7rZ
+4410: MpQcRtAE8MiSbKB8","country":"Brasil","countryId":"ChIJzyjM68dZnA
+4450: ARYz4p8gYVWik"},"productType":{"id":13,"description":"Im..veis",
+4490: "translation":{"map":{"es_PE":"Inmuebles","en_US":"Real Estate",
+44d0: "es_AR":"Inmuebles","es_MX":"Inmuebles","es_CO":"Inmuebles","pt_
+4510: BR":"Im..veis","en_UK":"Real Estate","es_CL":"Inmuebles"}},"show
+4550: Brand":false,"showModel":false},"judicial":{}},"seller":{"id":93
+4590: 709,"name":"1.. Vara de Fal..ncias e Recupera....es Judiciais do
+45d0:  Foro Central da Capital - SP","city":"S..o Paulo","courtId":29,
+4610: "phone":[{"ddi":"55","ddd":"11","number":"32847522"}],"company":
+4650: [{"fantasyName":"1.. Vara de Fal..ncias e Recupera....es Judicia
+4690: is do Foro Central da Comarca da Capital/SP"}]},"offersEvent":[{
+46d0: "offerId":1804458,"productShortDesc":"Casa, Residencial, Uni..o,
+4710:  4 dormit..rio(s), 3 vaga(s) de garagem"},{"offerId":1804464,"pr
+4750: oductShortDesc":"Casa, Residencial, Uni..o, 4 dormit..rio(s), 3 
+4790: vaga(s) de garagem"},{"offerId":1804441,"productShortDesc":"Casa
+47d0: , Residencial, Uni..o, 4 dormit..rio(s), 3 vaga(s) de garagem"},
+4810: {"offerId":1804439,"productShortDesc":"Apartamento, Residencial,
+4850:  2 vaga(s) de garagem"},{"offerId":1804454,"productShortDesc":"C
+4890: asa, Residencial, Uni..o, 4 dormit..rio(s), 3 vaga(s) de garagem
+48d0: "},{"offerId":1804453,"productShortDesc":"Casa, Residencial, Uni
+4910: ..o, 4 dormit..rio(s), 3 vaga(s) de garagem"}],"isFavorite":fals
+4950: e},{"id":1804540,"indexationDate":"2021-03-12 07:12:01","lotNumb
+4990: er":10,"subLotNumber":100,"quantityInLot":1,"totalReceivedPropos
+49d0: als":0,"visits":0,"totalBidders":0,"totalBids":0,"endDate":"2021
+4a10: -12-31 00:00:00","endDateTime":"2021-12-30T23:00:00.000-0300","o
+4a50: fferTypeId":1,"createAt":"2021-02-26 12:59:02","updateAt":"2021-
+4a90: 02-26 13:03:45","statusId":1,"price":100.0,"priceFormatted":"R$ 
+4ad0: 100,00","offerStatus":{"statusCode":1,"removed":false,"stabbed":
+4b10: false,"subjudice":false,"available":false,"closed":false,"giveYo
+4b50: urBid":true,"sold":false,"reserved":false,"closedToBids":false,"
+4b90: wantToKnowThePrice":false,"makeYourProposal":false},"subLote":"1
+4bd0: 00","store":{"id":641,"name":"Mapfre","highlight":true,"storeVis
+4c10: ibleOnPortal":true,"position":1,"logoUri":"https://static.s4bdig
+4c50: ital.net/logos_empresas/mapfrelogo.png"},"offerDetail":{"id":180
+4c90: 4540,"initialBidValue":100.0,"initialBidValueFormatted":"R$ 100,
+4cd0: 00","currentMinBid":100.0,"currentMinBidFormatted":"R$ 100,00","
+4d10: currentMaxBid":100.0,"currentMaxBidFormatted":"R$ 100,00","reser
+4d50: vedPrice":1000.0,"reservedPriceFormatted":"R$ 1.000,00"},"manage
+4d90: r":{"id":9,"name":"superbidind"},"currentTimestamp":"2021-04-03 
+4dd0: 02:39:59","auction":{"id":87668,"desc":"COBRANCA_HABILITACAO","l
+4e10: ocaleId":"pt_BR","statusId":1,"permissionTypeId":1,"portalId":2,
+4e50: "modalityId":1,"modalityDesc":"Leil..o","businessAreaId":1,"allO
+4e90: ffersOfThisAuctionIsClosed":false,"beginDate":"2021-02-16 00:00:
+4ed0: 00","maxEnddateOffer":"2021-12-31 00:00:00","tags":[],"auctionee
+4f10: r":"Jos.. Roberto Bortoletto Junior","registry":"791","address":
+4f50: {"id":27029,"streetType":"Alameda","street":"Lorena","number":"8
+4f90: 00","complement":"2.. andar","district":"Jardins","city":"S..o P
+4fd0: aulo","stateCode":"SP","countryName":"Brasil","type":5}},"winner
+5010: Bid":{},"currentBidIncrement":{"currentBidIncrement":50.0,"curre
+5050: ntBidIncrementFormatted":"R$ 50,00"},"offerDescription":{"offerD
+5090: escription":"CARRO CONSERVADO Ford Ecosport COBRANCA_HABILITACAO
+50d0: "},"groupOffer":{"id":200559,"acceptProposal":false,"commissionP
+5110: ercent":5},"product":{"productId":1662112,"shortDesc":"CARRO CON
+5150: SERVADO","template":{"groups":[{"title":"Identifica....o","prope
+5190: rties":[{"title":"Marca","type":"string","value":"Ford"},{"title
+51d0: ":"Modelo","type":"string","value":"Ecosport titanium"},{"title"
+5210: :"Placa","type":"string","value":"Final: 6"},{"title":"Ano Fabri
+5250: ca....o","type":"integer","value":"2021"},{"title":"Ano Modelo",
+5290: "type":"integer","value":"2021"},{"title":"UF","type":"string","
+52d0: value":"sc"},{"title":"Munic..pio","type":"string","value":"palh
+5310: oca"}]},{"title":"Itens Obrigat..rios/Opcionais","properties":[{
+5350: "title":"Pneu Estepe","type":"boolean","value":"Sim"},{"title":"
+5390: Macaco","type":"boolean","value":"Sim"},{"title":"Chave de Roda"
+53d0: ,"type":"boolean","value":"Sim"},{"title":"Tri..ngulo de Sinaliz
+5410: a....o","type":"boolean","value":"Sim"}]}]},"subCategory":{"id":
+5450: 10007,"description":"SUV","translation":{"map":{"es_PE":"SUV ","
+5490: en_US":"SUV","es_AR":"SUV","es_MX":"SUV ","es_CO":"SUV","pt_BR":
+54d0: "SUV","en_UK":"SUV","es_CL":"SUV"}},"evidence":"F","subGrupo":0,
+5510: "grupo":0,"position":7,"category":{"id":10000,"description":"Car
+5550: ros","translation":{"map":{"es_PE":"Autos","en_US":"Cars","es_AR
+5590: ":"Autos","es_MX":"Autos","es_CO":"Autos","pt_BR":"Carros","en_U
+55d0: K":"Cars","es_CL":"Autos"}},"evidence":"F","subGrupo":0,"grupo":
+5610: 0,"position":1}},"model":{"id":834,"description":"Ecosport"},"br
+5650: and":{"id":27,"description":"Ford"},"location":{"city":"Palho..a
+5690: ","cityId":"ChIJwSq-1Q4yJ5URBqqQnTsWhz0","state":"Santa Catarina
+56d0: ","stateId":"ChIJ-f9SwCVN2ZQRK6t_7YB1Jys","country":"Brasil","co
+5710: untryId":"ChIJzyjM68dZnAARYz4p8gYVWik"},"productType":{"id":10,"
+5750: description":"Carros & Motos","translation":{"map":{"es_PE":"Aut
+5790: os & Motos","en_US":"Cars & Motorcycles","es_AR":"Autos & Motos"
+57d0: ,"es_MX":"Autos & Motos","es_CO":"Autos & Motos","pt_BR":"Carros
+5810:  & Motos","en_UK":"Cars & Motorcycles","es_CL":"Autos & Motos"}}
+5850: ,"showBrand":true,"showModel":true},"judicial":{}},"seller":{"id
+5890: ":67484,"name":"P..ntano Empreendimentos LTDA - EPP","city":"Cap
+58d0: utira","phone":[{"ddi":"55","ddd":"31","number":"38735126"},{"dd
+5910: i":"55","ddd":"31","number":"38735269"}],"company":[{"fantasyNam
+5950: e":"PANTANO"}]},"offersEvent":[{"offerId":1804540,"productShortD
+5990: esc":"CARRO CONSERVADO"}],"isFavorite":false},{"id":1804567,"ind
+59d0: exationDate":"2021-03-19 08:50:03","lotNumber":2,"quantityInLot"
+5a10: :1,"totalReceivedProposals":0,"visits":0,"totalBidders":0,"total
+5a50: Bids":0,"hidePrices":true,"endDate":"2021-03-19 09:45:29","endDa
+5a90: teTime":"2021-03-19T09:45:29.000-0300","offerTypeId":1,"createAt
+5ad0: ":"2021-03-09 09:33:18","updateAt":"2021-03-17 09:46:45","status
+5b10: Id":1,"price":1000.0,"priceFormatted":"R$ 1.000,00","offerStatus
+5b50: ":{"statusCode":1,"removed":false,"stabbed":false,"subjudice":fa
+5b90: lse,"available":false,"closed":false,"giveYourBid":false,"sold":
+5bd0: false,"reserved":false,"closedToBids":false,"wantToKnowThePrice"
+5c10: :true,"makeYourProposal":false},"store":{},"offerDetail":{"id":1
+5c50: 804567,"initialBidValue":1000.0,"initialBidValueFormatted":"R$ 1
+5c90: .000,00","currentMinBid":1000.0,"currentMinBidFormatted":"R$ 1.0
+5cd0: 00,00","currentMaxBid":1000.0,"currentMaxBidFormatted":"R$ 1.000
+5d10: ,00","reservedPrice":15000.0,"reservedPriceFormatted":"R$ 15.000
+5d50: ,00"},"manager":{"id":9,"name":"superbidind"},"currentTimestamp"
+5d90: :"2021-04-03 02:39:59","auction":{"id":87676,"desc":"Pipeline Se
+5dd0: rvice Teste 2","localeId":"pt_BR","statusId":1,"permissionTypeId
+5e10: ":1,"portalId":2,"modalityId":1,"modalityDesc":"Leil..o","busine
+5e50: ssAreaId":1,"allOffersOfThisAuctionIsClosed":true,"beginDate":"2
+5e90: 021-03-09 00:00:00","maxEnddateOffer":"2021-03-19 09:45:29","sub
+5ed0: Marketplaces":[{"subMarketplaceId":1,"subMarketplaceDesc":"Corpo
+5f10: rativo"}],"tags":[],"auctioneer":"Eduardo Sylvio Schanzer","regi
+5f50: stry":"452","address":{"id":27029,"streetType":"Alameda","street
+5f90: ":"Lorena","number":"800","complement":"2.. andar","district":"J
+5fd0: ardins","city":"S..o Paulo","stateCode":"SP","type":5}},"winnerB
+6010: id":{},"currentBidIncrement":{"currentBidIncrement":100.0,"curre
+6050: ntBidIncrementFormatted":"R$ 100,00"},"offerDescription":{"offer
+6092: 2000
+6098: Description":"Toyota Corolla Toyota Corolla Toyota Corolla Pipel
+60d8: ine Service Teste 2"},"groupOffer":{"id":200586,"acceptProposal"
+6118: :false,"commissionPercent":5},"product":{"productId":1662135,"sh
+6158: ortDesc":"Toyota Corolla","detailedDescription":"Toyota Corolla"
+6198: ,"template":{"groups":[{"title":"Acess..rios","properties":[{"ti
+61d8: tle":"Multim..dia","type":"string","value":"Avariado"},{"title":
+6218: "Dire....o El..trica","type":"string","value":"Sim"}]}]},"subCat
+6258: egory":{"id":10006,"description":"Sedans","translation":{"map":{
+6298: "es_PE":"Sedanes","en_US":"Sedans","es_AR":"Sedanes","es_MX":"Se
+62d8: danes","es_CO":"Sedanes","pt_BR":"Sedans","en_UK":"Sedans","es_C
+6318: L":"Sedanes"}},"evidence":"F","subGrupo":0,"grupo":0,"position":
+6358: 6,"category":{"id":10000,"description":"Carros","translation":{"
+6398: map":{"es_PE":"Autos","en_US":"Cars","es_AR":"Autos","es_MX":"Au
+63d8: tos","es_CO":"Autos","pt_BR":"Carros","en_UK":"Cars","es_CL":"Au
+6418: tos"}},"evidence":"F","subGrupo":0,"grupo":0,"position":1}},"mod
+6458: el":{"id":785,"description":"Corolla"},"brand":{"id":35,"descrip
+6498: tion":"Toyota"},"location":{},"productType":{"id":10,"descriptio
+64d8: n":"Carros & Motos","translation":{"map":{"es_PE":"Autos & Motos
+6518: ","en_US":"Cars & Motorcycles","es_AR":"Autos & Motos","es_MX":"
+6558: Autos & Motos","es_CO":"Autos & Motos","pt_BR":"Carros & Motos",
+6598: "en_UK":"Cars & Motorcycles","es_CL":"Autos & Motos"}},"showBran
+65d8: d":true,"showModel":true},"judicial":{}},"seller":{"id":685079,"
+6618: name":"Fca Fiat Chrysler Autom..veis Brasil Ltda","city":"Betim"
+6658: ,"phone":[{"ddi":"55","ddd":"31","number":"21236267"}],"company"
+6698: :[{"fantasyName":"FCA FIAT CHRYSLER AUTOM..VEIS"}]},"offersEvent
+66d8: ":[{"offerId":1804567,"productShortDesc":"Toyota Corolla"}],"isF
+6718: avorite":false},{"id":1791257,"indexationDate":"2021-03-12 07:11
+6758: :35","lotNumber":5,"quantityInLot":1,"totalReceivedProposals":0,
+6798: "visits":0,"totalBidders":0,"totalBids":0,"hidePrices":true,"end
+67d8: Date":"2021-01-01 00:00:00","endDateTime":"2020-12-31T23:00:00.0
+6818: 00-0300","offerTypeId":11,"createAt":"2020-05-15 15:25:59","upda
+6858: teAt":"2020-05-15 15:32:34","statusId":1,"offerStatus":{"statusC
+6898: ode":1,"removed":false,"stabbed":false,"subjudice":false,"availa
+68d8: ble":false,"closed":false,"giveYourBid":false,"sold":false,"rese
+6918: rved":false,"closedToBids":false,"wantToKnowThePrice":false,"mak
+6958: eYourProposal":false},"store":{"id":261,"name":"Mercedes-Benz Ce
+6998: rtified","highlight":false,"storeVisibleOnPortal":false},"offerD
+69d8: etail":{"id":1791257,"directSaleValue":188000.0,"directSaleValue
+6a18: Formatted":"R$ 188.000,00"},"manager":{"id":51,"name":"Bamaq Aut
+6a58: om..veis"},"currentTimestamp":"2021-04-03 02:39:59","auction":{"
+6a98: id":86699,"desc":"Bamaq 2020","localeId":"pt_BR","statusId":3,"p
+6ad8: ermissionTypeId":2,"portalId":2,"modalityId":6,"modalityDesc":"V
+6b18: enda Direta","businessAreaId":1,"allOffersOfThisAuctionIsClosed"
+6b58: :true,"beginDate":"2020-04-28 00:00:00","maxEnddateOffer":"2021-
+6b98: 01-01 00:00:00","tags":[],"address":{"id":27029,"streetType":"Al
+6bd8: ameda","street":"Lorena","number":"800","complement":"2.. andar"
+6c18: ,"district":"Jardins","city":"S..o Paulo","stateCode":"SP","type
+6c58: ":5}},"winnerBid":{},"currentBidIncrement":{},"offerDescription"
+6c98: :{"offerDescription":"C 200 EQ Boost C 200 EQ Boost Bamaq 2020"}
+6cd8: ,"groupOffer":{"id":198951,"acceptProposal":false},"product":{"p
+6d18: roductId":1650915,"shortDesc":"C 200 EQ Boost","galleryJson":[{"
+6d58: originalFileName":"24719602_637211988216064800.jpg","highlight":
+6d98: true,"link":"https://static.s4bdigital.net/photos/70601460-67c7-
+6dd8: 4c35-9019-fc963e4d6d2b.jpg","contentType":"image/jpeg"},{"origin
+6e18: alFileName":"24719602_637211988236064620.jpg","link":"https://st
+6e58: atic.s4bdigital.net/photos/841eaaec-b32a-4a91-848e-024417981ff9.
+6e98: jpg","contentType":"image/jpeg"},{"originalFileName":"24719602_6
+6ed8: 37211988253564389.jpg","link":"https://static.s4bdigital.net/pho
+6f18: tos/1cae5dd2-f0df-49fb-bf66-da63a70b44da.jpg","contentType":"ima
+6f58: ge/jpeg"},{"originalFileName":"24719602_637211988294970264.jpg",
+6f98: "link":"https://static.s4bdigital.net/photos/85f92577-7109-4d99-
+6fd8: 9297-8a511f87d1b9.jpg","contentType":"image/jpeg"},{"originalFil
+7018: eName":"24719602_637211988303251393.jpg","link":"https://static.
+7058: s4bdigital.net/photos/ff68cac8-120b-41b4-b211-3585b7116421.jpg",
+7098: "contentType":"image/jpeg"}],"detailedDescription":"C 200 EQ Boo
+70d8: st","template":{"groups":[{"title":"Identifica....o","properties
+7118: ":[{"title":"Marca","type":"string","value":"Mercedes-Benz"},{"t
+7158: itle":"Modelo","type":"string","value":"C 200 EQ BOOST"},{"title
+7198: ":"Placa","type":"string","value":"Final: 8"},{"title":"Ano Fabr
+71d8: ica....o","type":"integer","value":"2018"},{"title":"Ano Modelo"
+7218: ,"type":"integer","value":"2019"},{"title":"UF","type":"string",
+7258: "value":"MG"},{"title":"Munic..pio","type":"string","value":"Bel
+7298: o Horizonte"}]},{"title":"Informa....es","properties":[{"title":
+72d8: "Quilometragem","type":"integer","value":"11754"},{"title":"Cor"
+7318: ,"type":"string","value":"Preto"},{"title":"Combust..vel","type"
+7358: :"string","value":"Gasolina"},{"title":"Tipo de C..mbio","type":
+7398: "string","value":"Autom..tico"},{"title":"N..mero de Portas","ty
+73d8: pe":"integer","value":"4"}]}]},"subCategory":{"id":10006,"descri
+7418: ption":"Sedans","translation":{"map":{"es_PE":"Sedanes","en_US":
+7458: "Sedans","es_AR":"Sedanes","es_MX":"Sedanes","es_CO":"Sedanes","
+7498: pt_BR":"Sedans","en_UK":"Sedans","es_CL":"Sedanes"}},"evidence":
+74d8: "F","subGrupo":0,"grupo":0,"position":6,"category":{"id":10000,"
+7518: description":"Carros","translation":{"map":{"es_PE":"Autos","en_
+7558: US":"Cars","es_AR":"Autos","es_MX":"Autos","es_CO":"Autos","pt_B
+7598: R":"Carros","en_UK":"Cars","es_CL":"Autos"}},"evidence":"F","sub
+75d8: Grupo":0,"grupo":0,"position":1}},"model":{},"brand":{},"locatio
+7618: n":{"city":"Belo Horizonte","cityId":"ChIJMyzPysqQpgARlznSOl55NV
+7658: s","state":"Minas Gerais","stateId":"ChIJiUIyZaGQpgARs-edN8lwIRE
+7698: ","country":"Brasil","countryId":"ChIJzyjM68dZnAARYz4p8gYVWik"},
+76d8: "productType":{"id":10,"description":"Carros & Motos","translati
+7718: on":{"map":{"es_PE":"Autos & Motos","en_US":"Cars & Motorcycles"
+7758: ,"es_AR":"Autos & Motos","es_MX":"Autos & Motos","es_CO":"Autos 
+7798: & Motos","pt_BR":"Carros & Motos","en_UK":"Cars & Motorcycles","
+77d8: es_CL":"Autos & Motos"}},"showBrand":true,"showModel":true},"jud
+7818: icial":{}},"seller":{"id":77947,"name":"Mercedes Benz do Brasil 
+7858: Ltda","city":"S..o Bernardo do Campo","phone":[{"ddi":"55","ddd"
+7898: :"11","number":"21637800"}],"company":[{"fantasyName":"MERCEDES-
+78d8: BENZ DO BRASIL"}]},"offersEvent":[{"offerId":1788835,"productSho
+7918: rtDesc":"C 200 EQ Boost"},{"offerId":1788801,"productShortDesc":
+7958: "C 180 Avantgarde"},{"offerId":1791257,"productShortDesc":"C 200
+7998:  EQ Boost"},{"offerId":1788662,"productShortDesc":"C  AMG 43"}],
+79d8: "isFavorite":false},{"id":1793340,"indexationDate":"2021-03-12 0
+7a18: 7:11:49","lotNumber":4,"quantityInLot":1,"totalReceivedProposals
+7a58: ":0,"visits":0,"totalBidders":0,"totalBids":0,"hidePrices":true,
+7a98: "endDate":"2021-01-31 00:00:00","endDateTime":"2021-01-30T23:00:
+7ad8: 00.000-0300","offerTypeId":11,"createAt":"2020-05-21 13:46:35","
+7b18: updateAt":"2020-05-21 13:51:16","statusId":1,"offerStatus":{"sta
+7b58: tusCode":1,"removed":false,"stabbed":false,"subjudice":false,"av
+7b98: ailable":false,"closed":false,"giveYourBid":false,"sold":false,"
+7bd8: reserved":false,"closedToBids":false,"wantToKnowThePrice":false,
+7c18: "makeYourProposal":false},"store":{"id":261,"name":"Mercedes-Ben
+7c58: z Certified","highlight":false,"storeVisibleOnPortal":false},"of
+7c98: ferDetail":{"id":1793340,"directSaleValue":125003,"directSaleVal
+7cd8: ueFormatted":"R$ 125.003,00"},"manager":{"id":52,"name":"europam
+7d18: otors"},"currentTimestamp":"2021-04-03 02:39:59","auction":{"id"
+7d58: :87055,"desc":"Europa Motors 2020","localeId":"pt_BR","statusId"
+7d98: :3,"permissionTypeId":1,"portalId":2,"modalityId":6,"modalityDes
+7dd8: c":"Venda Direta","businessAreaId":1,"allOffersOfThisAuctionIsCl
+7e18: osed":true,"beginDate":"2020-05-19 00:00:00","maxEnddateOffer":"
+7e58: 2021-01-31 00:00:00","tags":[],"address":{"id":27029,"streetType
+7e98: ":"Alameda","street":"Lorena","number":"800","complement":"2.. a
+7ed8: ndar","district":"Jardins","city":"S..o Paulo","stateCode":"SP",
+7f18: "type":5}},"winnerBid":{},"currentBidIncrement":{},"offerDescrip
+7f58: tion":{"offerDescription":"C 180 Avantgarde Mercedes Benz C 180 
+7f98: Avantgarde C 180 Avantgarde Europa Motors 2020"},"groupOffer":{"
+7fd8: id":199465,"acceptProposal":false},"product":{"productId":165254
+8018: 7,"shortDesc":"C 180 Avantgarde","galleryJson":[{"originalFileNa
+8058: me":"20200511_102516.jpg","highlight":true,"link":"https://stati
+809a: 2000
+80a0: c.s4bdigital.net/photos/3e19c749-0ee4-47ed-9f6e-648b14cf8c46.jpg
+80e0: ","contentType":"image/jpeg"},{"originalFileName":"20200511_1026
+8120: 27.jpg","highlight":false,"link":"https://static.s4bdigital.net/
+8160: photos/1297fbc2-6d21-491d-b26a-d2bdf7a9f42a.jpg","contentType":"
+81a0: image/jpeg"},{"originalFileName":"20200511_102619.jpg","highligh
+81e0: t":false,"link":"https://static.s4bdigital.net/photos/80fcd767-7
+8220: 565-4b4a-ac26-a3b09a3aab6d.jpg","contentType":"image/jpeg"},{"or
+8260: iginalFileName":"20200511_102601.jpg","highlight":false,"link":"
+82a0: https://static.s4bdigital.net/photos/2d817a68-15d7-45bb-bc08-a2c
+82e0: 8f99ba8b5.jpg","contentType":"image/jpeg"},{"originalFileName":"
+8320: 20200511_102529.jpg","highlight":false,"link":"https://static.s4
+8360: bdigital.net/photos/18d369db-53b6-4c4b-b2fb-f50fa8a0fecf.jpg","c
+83a0: ontentType":"image/jpeg"}],"detailedDescription":"C 180 Avantgar
+83e0: de","template":{"groups":[{"title":"Identifica....o","properties
+8420: ":[{"title":"Marca","type":"string","value":"Mercedes-Benz"},{"t
+8460: itle":"Modelo","type":"string","value":"C180 Avantgarde"},{"titl
+84a0: e":"Placa","type":"string","value":"Final: 4"},{"title":"Ano Fab
+84e0: rica....o","type":"integer","value":"2018"},{"title":"Ano Modelo
+8520: ","type":"integer","value":"2018"},{"title":"UF","type":"string"
+8560: ,"value":"SP"},{"title":"Munic..pio","type":"string","value":"Ca
+85a0: mpinas"}]},{"title":"Informa....es","properties":[{"title":"Quil
+85e0: ometragem","type":"integer","value":"20800"},{"title":"Cor","typ
+8620: e":"string","value":"Preto"},{"title":"Combust..vel","type":"str
+8660: ing","value":"Gasolina"},{"title":"Tipo de C..mbio","type":"stri
+86a0: ng","value":"Autom..tico"},{"title":"N..mero de Portas","type":"
+86e0: integer","value":"4"}]},{"title":"Acess..rios","properties":[{"t
+8720: itle":"Seguran..a","type":"multivalue","value":"Assistente de fr
+8760: eio (BAS).Controle eletr..nico de estabilidade (ESP.. Curve Dyna
+87a0: mic Assist)"}]}]},"subCategory":{"id":10006,"description":"Sedan
+87e0: s","translation":{"map":{"es_PE":"Sedanes","en_US":"Sedans","es_
+8820: AR":"Sedanes","es_MX":"Sedanes","es_CO":"Sedanes","pt_BR":"Sedan
+8860: s","en_UK":"Sedans","es_CL":"Sedanes"}},"evidence":"F","subGrupo
+88a0: ":0,"grupo":0,"position":6,"category":{"id":10000,"description":
+88e0: "Carros","translation":{"map":{"es_PE":"Autos","en_US":"Cars","e
+8920: s_AR":"Autos","es_MX":"Autos","es_CO":"Autos","pt_BR":"Carros","
+8960: en_UK":"Cars","es_CL":"Autos"}},"evidence":"F","subGrupo":0,"gru
+89a0: po":0,"position":1}},"model":{"id":10453,"description":"C 180 Av
+89e0: antgarde"},"brand":{"id":1,"description":"Mercedes Benz"},"locat
+8a20: ion":{"city":"Campinas","cityId":"ChIJJWNL5x3GyJQRKsJ4IWo65Rc","
+8a60: state":"S..o Paulo","stateId":"ChIJrVgvRn1ZzpQRF3x74eJBUh4","cou
+8aa0: ntry":"Brasil","countryId":"ChIJzyjM68dZnAARYz4p8gYVWik"},"produ
+8ae0: ctType":{"id":10,"description":"Carros & Motos","translation":{"
+8b20: map":{"es_PE":"Autos & Motos","en_US":"Cars & Motorcycles","es_A
+8b60: R":"Autos & Motos","es_MX":"Autos & Motos","es_CO":"Autos & Moto
+8ba0: s","pt_BR":"Carros & Motos","en_UK":"Cars & Motorcycles","es_CL"
+8be0: :"Autos & Motos"}},"showBrand":true,"showModel":true},"judicial"
+8c20: :{}},"seller":{"id":1045137,"name":"NOVA EUROPAMOTORS COMERCIO D
+8c60: E VEICULOS LTDA","city":"S..o Paulo","phone":[{"ddi":"55","ddd":
+8ca0: "19","number":"37588800"},{"ddi":"55","ddd":"11","number":"00000
+8ce0: 000"}],"company":[{"fantasyName":"Nova"}]},"offersEvent":[{"offe
+8d20: rId":1793333,"productShortDesc":"C 180 Avantgarde"},{"offerId":1
+8d60: 793332,"productShortDesc":"C 180 Avantgarde"},{"offerId":1793334
+8da0: ,"productShortDesc":"C200 EQ"},{"offerId":1793340,"productShortD
+8de0: esc":"C 180 Avantgarde"}],"isFavorite":false},{"id":1797503,"ind
+8e20: exationDate":"2021-03-12 07:11:52","lotNumber":1,"quantityInLot"
+8e60: :1,"totalReceivedProposals":0,"visits":0,"totalBidders":0,"total
+8ea0: Bids":0,"hidePrices":true,"endDate":"2021-01-31 00:00:00","endDa
+8ee0: teTime":"2021-01-30T23:00:00.000-0300","offerTypeId":11,"createA
+8f20: t":"2020-06-03 10:29:47","updateAt":"2020-06-03 10:35:52","statu
+8f60: sId":1,"offerStatus":{"statusCode":1,"removed":false,"stabbed":f
+8fa0: alse,"subjudice":false,"available":false,"closed":false,"giveYou
+8fe0: rBid":false,"sold":false,"reserved":false,"closedToBids":false,"
+9020: wantToKnowThePrice":false,"makeYourProposal":false},"store":{"id
+9060: ":261,"name":"Mercedes-Benz Certified","highlight":false,"storeV
+90a0: isibleOnPortal":false},"offerDetail":{"id":1797503,"directSaleVa
+90e0: lue":185000.0,"directSaleValueFormatted":"R$ 185.000,00"},"manag
+9120: er":{"id":55,"name":"mardisaSaoLuis"},"currentTimestamp":"2021-0
+9160: 4-03 02:39:59","auction":{"id":87286,"desc":"Mardisa S..o Luis",
+91a0: "localeId":"pt_BR","statusId":3,"permissionTypeId":2,"portalId":
+91e0: 2,"modalityId":6,"modalityDesc":"Venda Direta","businessAreaId":
+9220: 1,"allOffersOfThisAuctionIsClosed":true,"beginDate":"2020-06-02 
+9260: 00:00:00","maxEnddateOffer":"2021-01-31 00:00:00","tags":[],"add
+92a0: ress":{"id":27029,"streetType":"Alameda","street":"Lorena","numb
+92e0: er":"800","complement":"2.. andar","district":"Jardins","city":"
+9320: S..o Paulo","stateCode":"SP","type":5}},"winnerBid":{},"currentB
+9360: idIncrement":{},"offerDescription":{"offerDescription":"A 250 Vi
+93a0: sion A 250 Vision Mardisa S..o Luis"},"groupOffer":{"id":199818,
+93e0: "acceptProposal":false},"product":{"productId":1655696,"shortDes
+9420: c":"A 250 Vision","galleryJson":[{"originalFileName":"WhatsApp I
+9460: mage 2020-05-27 at 10.06.14.jpeg","highlight":true,"link":"https
+94a0: ://static.s4bdigital.net/photos/2cd452cf-5626-48c6-b72e-25091f04
+94e0: d969.jpeg","contentType":"image/jpeg"},{"originalFileName":"What
+9520: sApp Image 2020-05-27 at 10.06.15 (2).jpeg","highlight":false,"l
+9560: ink":"https://static.s4bdigital.net/photos/20650917-db95-4e08-84
+95a0: 50-98ce7128daf8.jpeg","contentType":"image/jpeg"},{"originalFile
+95e0: Name":"WhatsApp Image 2020-05-27 at 10.06.18 (1).jpeg","highligh
+9620: t":false,"link":"https://static.s4bdigital.net/photos/3059873d-e
+9660: f28-43cb-b566-1ec03eaa77fb.jpeg","contentType":"image/jpeg"},{"o
+96a0: riginalFileName":"WhatsApp Image 2020-05-27 at 10.06.17 (1).jpeg
+96e0: ","highlight":false,"link":"https://static.s4bdigital.net/photos
+9720: /1891af66-848f-4732-aee0-b689ee417aa5.jpeg","contentType":"image
+9760: /jpeg"},{"originalFileName":"WhatsApp Image 2020-05-27 at 10.06.
+97a0: 18.jpg","highlight":false,"link":"https://static.s4bdigital.net/
+97e0: photos/5f95a647-c87c-416a-b861-918256bdcaf2.jpg","contentType":"
+9820: image/jpeg"},{"originalFileName":"WhatsApp Image 2020-05-27 at 1
+9860: 0.06.15.jpg","highlight":false,"link":"https://static.s4bdigital
+98a0: .net/photos/fba34eb1-b72a-4feb-95a9-a7dd0c09f501.jpg","contentTy
+98e0: pe":"image/jpeg"},{"originalFileName":"WhatsApp Image 2020-05-27
+9920:  at 10.06.15 (1).jpg","highlight":false,"link":"https://static.s
+9960: 4bdigital.net/photos/fcef5d20-abd5-4a30-a432-72b548aa6737.jpg","
+99a0: contentType":"image/jpeg"}],"detailedDescription":"A 250 Vision"
+99e0: ,"template":{"groups":[{"title":"Identifica....o","properties":[
+9a20: {"title":"Marca","type":"string","value":"Mercedes-Benz"},{"titl
+9a60: e":"Modelo","type":"string","value":"A 250 Vision"},{"title":"Pl
+9aa0: aca","type":"string","value":"Final: 0"},{"title":"Ano Fabrica..
+9ae0: ..o","type":"integer","value":"2019"},{"title":"Ano Modelo","typ
+9b20: e":"integer","value":"2020"},{"title":"UF","type":"string","valu
+9b60: e":"MA"},{"title":"Munic..pio","type":"string","value":"S..o Lui
+9ba0: s"}]},{"title":"Informa....es","properties":[{"title":"Quilometr
+9be0: agem","type":"integer","value":"4950"},{"title":"Cor","type":"st
+9c20: ring","value":"Preto"},{"title":"Combust..vel","type":"string","
+9c60: value":"Gasolina"},{"title":"Tipo de C..mbio","type":"string","v
+9ca0: alue":"Autom..tico"},{"title":"N..mero de Portas","type":"intege
+9ce0: r","value":"4"}]},{"properties":[{"type":"multivalue","value":"a
+9d20: ssistentedefreiobas.controleeletronicodeestabilidadeesp..curvedy
+9d60: namicassist"}]}]},"subCategory":{"id":10004,"description":"Hatch
+9da0: es","translation":{"map":{"es_PE":"Hatchback","en_US":"Hatchback
+9de0: ","es_AR":"Hatchback","es_MX":"Hatchback","es_CO":"Hatchback","p
+9e20: t_BR":"Hatches","en_UK":"Hatchback","es_CL":"Hatchback"}},"evide
+9e60: nce":"F","subGrupo":0,"grupo":0,"position":4,"category":{"id":10
+9ea0: 000,"description":"Carros","translation":{"map":{"es_PE":"Autos"
+9ee0: ,"en_US":"Cars","es_AR":"Autos","es_MX":"Autos","es_CO":"Autos",
+9f20: "pt_BR":"Carros","en_UK":"Cars","es_CL":"Autos"}},"evidence":"F"
+9f60: ,"subGrupo":0,"grupo":0,"position":1}},"model":{},"brand":{},"lo
+9fa0: cation":{"city":"S..o Lu..s","cityId":"ChIJIW1_b_CP9gcRR96jWeQCM
+9fe0: Zg","state":"Maranh..o","stateId":"ChIJ5RzMm3rX7QcRNCls2aOrdmI",
+a020: "country":"Brasil","countryId":"ChIJzyjM68dZnAARYz4p8gYVWik"},"p
+a060: roductType":{"id":10,"description":"Carros & Motos","translation
+a0a2: 2000
+a0a8: ":{"map":{"es_PE":"Autos & Motos","en_US":"Cars & Motorcycles","
+a0e8: es_AR":"Autos & Motos","es_MX":"Autos & Motos","es_CO":"Autos & 
+a128: Motos","pt_BR":"Carros & Motos","en_UK":"Cars & Motorcycles","es
+a168: _CL":"Autos & Motos"}},"showBrand":true,"showModel":true},"judic
+a1a8: ial":{}},"seller":{"id":1306543,"name":"MARDISA VEICULOS SA","ci
+a1e8: ty":"S..o Lu..s","phone":[{"ddi":"55","ddd":"11","number":"00000
+a228: 000"},{"ddi":"55","ddd":"11","number":"59958779"}],"company":[{"
+a268: fantasyName":"MARDISA VEICULOS SA"}]},"offersEvent":[{"offerId":
+a2a8: 1797503,"productShortDesc":"A 250 Vision"},{"offerId":1797506,"p
+a2e8: roductShortDesc":"C 200 EQ Boost"}],"isFavorite":false},{"id":17
+a328: 88801,"indexationDate":"2021-03-12 07:11:53","lotNumber":3,"quan
+a368: tityInLot":1,"totalReceivedProposals":0,"visits":0,"totalBidders
+a3a8: ":0,"totalBids":0,"hidePrices":true,"endDate":"2021-01-01 00:00:
+a3e8: 00","endDateTime":"2020-12-31T23:00:00.000-0300","offerTypeId":1
+a428: 1,"createAt":"2020-05-12 16:58:54","updateAt":"2020-05-15 15:07:
+a468: 49","statusId":1,"offerStatus":{"statusCode":1,"removed":false,"
+a4a8: stabbed":false,"subjudice":false,"available":false,"closed":fals
+a4e8: e,"giveYourBid":false,"sold":false,"reserved":false,"closedToBid
+a528: s":false,"wantToKnowThePrice":false,"makeYourProposal":false},"s
+a568: tore":{"id":261,"name":"Mercedes-Benz Certified","highlight":fal
+a5a8: se,"storeVisibleOnPortal":false},"offerDetail":{"id":1788801,"di
+a5e8: rectSaleValue":123500.0,"directSaleValueFormatted":"R$ 123.500,0
+a628: 0"},"manager":{"id":51,"name":"Bamaq Autom..veis"},"currentTimes
+a668: tamp":"2021-04-03 02:39:59","auction":{"id":86699,"desc":"Bamaq 
+a6a8: 2020","localeId":"pt_BR","statusId":3,"permissionTypeId":2,"port
+a6e8: alId":2,"modalityId":6,"modalityDesc":"Venda Direta","businessAr
+a728: eaId":1,"allOffersOfThisAuctionIsClosed":true,"beginDate":"2020-
+a768: 04-28 00:00:00","maxEnddateOffer":"2021-01-01 00:00:00","tags":[
+a7a8: ],"address":{"id":27029,"streetType":"Alameda","street":"Lorena"
+a7e8: ,"number":"800","complement":"2.. andar","district":"Jardins","c
+a828: ity":"S..o Paulo","stateCode":"SP","type":5}},"winnerBid":{},"cu
+a868: rrentBidIncrement":{},"offerDescription":{"offerDescription":"C 
+a8a8: 180 Avantgarde Mercedes Benz C 180 Avantgarde C 180 Avantgarde B
+a8e8: amaq 2020"},"groupOffer":{"id":198951,"acceptProposal":false},"p
+a928: roduct":{"productId":1648982,"shortDesc":"C 180 Avantgarde","gal
+a968: leryJson":[{"originalFileName":"IMG_9279.JPG","highlight":true,"
+a9a8: link":"https://static.s4bdigital.net/photos/92ae3894-fc6c-404a-a
+a9e8: f0c-3aa9a6d149f1.jpg","contentType":"image/jpeg"},{"originalFile
+aa28: Name":"IMG_9270.JPG","highlight":false,"link":"https://static.s4
+aa68: bdigital.net/photos/bb48be85-4177-4232-ad68-cb2f8375a80e.jpg","c
+aaa8: ontentType":"image/jpeg"},{"originalFileName":"IMG_9271.JPG","hi
+aae8: ghlight":false,"link":"https://static.s4bdigital.net/photos/cf17
+ab28: 0093-cb72-497d-9011-f11b79d0dcc7.jpg","contentType":"image/jpeg"
+ab68: },{"originalFileName":"IMG_9273.JPG","highlight":false,"link":"h
+aba8: ttps://static.s4bdigital.net/photos/d0a5bbbc-0ede-433c-aef0-5cb5
+abe8: 7ebca46b.jpg","contentType":"image/jpeg"},{"originalFileName":"I
+ac28: MG_9274.JPG","highlight":false,"link":"https://static.s4bdigital
+ac68: .net/photos/11164078-f10a-4706-8fe6-6f1f9118db18.jpg","contentTy
+aca8: pe":"image/jpeg"},{"originalFileName":"IMG_9281.JPG","highlight"
+ace8: :false,"link":"https://static.s4bdigital.net/photos/08aaa2b4-5c4
+ad28: 5-4d04-81c3-8c348831c494.jpg","contentType":"image/jpeg"},{"orig
+ad68: inalFileName":"IMG_9288.JPG","highlight":false,"link":"https://s
+ada8: tatic.s4bdigital.net/photos/9c90a0a0-d44b-4350-a3b1-907e7899ed25
+ade8: .jpg","contentType":"image/jpeg"},{"originalFileName":"IMG_9292.
+ae28: JPG","highlight":false,"link":"https://static.s4bdigital.net/pho
+ae68: tos/2731bfe9-926a-4686-b69a-20f98b5f2003.jpg","contentType":"ima
+aea8: ge/jpeg"}],"detailedDescription":"C 180 Avantgarde","template":{
+aee8: "groups":[{"title":"Identifica....o","properties":[{"title":"Mar
+af28: ca","type":"string","value":"Mercedes-Benz"},{"title":"Modelo","
+af68: type":"string","value":"C 180 Avantgarde"},{"title":"Placa","typ
+afa8: e":"string","value":"Final: 0"},{"title":"Ano Fabrica....o","typ
+afe8: e":"integer","value":"2017"},{"title":"Ano Modelo","type":"integ
+b028: er","value":"2018"},{"title":"UF","type":"string","value":"MG"},
+b068: {"title":"Munic..pio","type":"string","value":"Belo Horizonte"}]
+b0a8: },{"title":"Informa....es","properties":[{"title":"Quilometragem
+b0e8: ","type":"integer","value":"23650"},{"title":"Cor","type":"strin
+b128: g","value":"Azul"},{"title":"Combust..vel","type":"string","valu
+b168: e":"Gasolina e ..lcool"},{"title":"Tipo de C..mbio","type":"stri
+b1a8: ng","value":"Autom..tico"},{"title":"N..mero de Portas","type":"
+b1e8: integer","value":"4"}]}]},"subCategory":{"id":10006,"description
+b228: ":"Sedans","translation":{"map":{"es_PE":"Sedanes","en_US":"Seda
+b268: ns","es_AR":"Sedanes","es_MX":"Sedanes","es_CO":"Sedanes","pt_BR
+b2a8: ":"Sedans","en_UK":"Sedans","es_CL":"Sedanes"}},"evidence":"F","
+b2e8: subGrupo":0,"grupo":0,"position":6,"category":{"id":10000,"descr
+b328: iption":"Carros","translation":{"map":{"es_PE":"Autos","en_US":"
+b368: Cars","es_AR":"Autos","es_MX":"Autos","es_CO":"Autos","pt_BR":"C
+b3a8: arros","en_UK":"Cars","es_CL":"Autos"}},"evidence":"F","subGrupo
+b3e8: ":0,"grupo":0,"position":1}},"model":{"id":10453,"description":"
+b428: C 180 Avantgarde"},"brand":{"id":1,"description":"Mercedes Benz"
+b468: },"location":{"city":"Belo Horizonte","cityId":"ChIJMyzPysqQpgAR
+b4a8: lznSOl55NVs","state":"Minas Gerais","stateId":"ChIJiUIyZaGQpgARs
+b4e8: -edN8lwIRE","country":"Brasil","countryId":"ChIJzyjM68dZnAARYz4p
+b528: 8gYVWik"},"productType":{"id":10,"description":"Carros & Motos",
+b568: "translation":{"map":{"es_PE":"Autos & Motos","en_US":"Cars & Mo
+b5a8: torcycles","es_AR":"Autos & Motos","es_MX":"Autos & Motos","es_C
+b5e8: O":"Autos & Motos","pt_BR":"Carros & Motos","en_UK":"Cars & Moto
+b628: rcycles","es_CL":"Autos & Motos"}},"showBrand":true,"showModel":
+b668: true},"judicial":{}},"seller":{"id":77947,"name":"Mercedes Benz 
+b6a8: do Brasil Ltda","city":"S..o Bernardo do Campo","phone":[{"ddi":
+b6e8: "55","ddd":"11","number":"21637800"}],"company":[{"fantasyName":
+b728: "MERCEDES-BENZ DO BRASIL"}]},"offersEvent":[{"offerId":1788835,"
+b768: productShortDesc":"C 200 EQ Boost"},{"offerId":1788801,"productS
+b7a8: hortDesc":"C 180 Avantgarde"},{"offerId":1791257,"productShortDe
+b7e8: sc":"C 200 EQ Boost"},{"offerId":1788662,"productShortDesc":"C  
+b828: AMG 43"}],"isFavorite":false},{"id":1804454,"indexationDate":"20
+b868: 21-03-12 07:12:00","lotNumber":4,"quantityInLot":1,"totalReceive
+b8a8: dProposals":0,"visits":0,"totalBidders":0,"totalBids":0,"hidePri
+b8e8: ces":true,"endDate":"2021-02-15 18:00:00","endDateTime":"2021-02
+b928: -15T17:00:00.000-0300","offerTypeId":1,"createAt":"2021-01-17 03
+b968: :05:06","updateAt":"2021-01-17 03:09:09","statusId":1,"price":35
+b9a8: 0000.0,"priceFormatted":"R$ 350.000,00","offerStatus":{"statusCo
+b9e8: de":1,"removed":false,"stabbed":false,"subjudice":false,"availab
+ba28: le":false,"closed":false,"giveYourBid":false,"sold":false,"reser
+ba68: ved":false,"closedToBids":false,"wantToKnowThePrice":true,"makeY
+baa8: ourProposal":false},"store":{},"offerDetail":{"id":1804454,"init
+bae8: ialBidValue":350000.0,"initialBidValueFormatted":"R$ 350.000,00"
+bb28: ,"currentMinBid":350000.0,"currentMinBidFormatted":"R$ 350.000,0
+bb68: 0","currentMaxBid":350000.0,"currentMaxBidFormatted":"R$ 350.000
+bba8: ,00","reservedPrice":350000.0,"reservedPriceFormatted":"R$ 350.0
+bbe8: 00,00"},"manager":{"id":9,"name":"superbidind"},"currentTimestam
+bc28: p":"2021-04-03 02:39:59","auction":{"id":87587,"desc":"Resale In
+bc68: tegra....o","localeId":"pt_BR","statusId":1,"permissionTypeId":1
+bca8: ,"portalId":2,"modalityId":1,"modalityDesc":"Leil..o","businessA
+bce8: reaId":1,"allOffersOfThisAuctionIsClosed":true,"beginDate":"2020
+bd28: -09-15 07:00:00","maxEnddateOffer":"2021-02-15 18:00:00","tags":
+bd68: [],"auctioneer":"LUIZ TOCIAKI HIRANO","registry":"1126","address
+bda8: ":{"id":27029,"streetType":"Alameda","street":"Lorena","number":
+bde8: "800","complement":"2.. andar","district":"Jardins","city":"S..o
+be28:  Paulo","stateCode":"SP","countryName":"Brasil","type":5}},"winn
+be68: erBid":{},"currentBidIncrement":{"currentBidIncrement":5000.0,"c
+bea8: urrentBidIncrementFormatted":"R$ 5.000,00"},"offerDescription":{
+bee8: "offerDescription":"Casa, Residencial, Uni..o, 4 dormit..rio(s),
+bf28:  3 vaga(s) de garagem Pagamento da comiss..o: Comprador<br />Car
+bf68: t..rio de Registro: 13.. RGI de Recife<br />Considera....es impo
+bfa8: rtantes:  Ocupado.\r<br /> Ficar..o a cargo do arrematante: assu
+bfe8: n....o dos riscos, provid..ncias e custas necess..rias: (i) .. d
+c028: esocupa....o; (ii) .. apura....o e pagamento do IPTU, a partir d
+c068: o exerc..cio 2015, parcelas vencidas e vincendas; (iii) .. regul
+c0aa: 2000
+c0b0: ariza....o do im..vel, notadamente a averba....o da  ..rea const
+c0f0: ru..da perante os ..rg..os competentes; (iv) decorrentes da a...
+c130: .o judicial em tr..mite.\r<br />\r<br />\r<br />\r<br /><br />Ta
+c170: xa de comiss..o: <br />Taxa de servi..o: <br />Aceita Visita: si
+c1b0: m<br />Descri....o: Casa, Uni..o, Desocupado, contendo 4 dormit.
+c1f0: .rio(s), sendo 1 su..te(s), 3 vaga(s) de garagem, 2 banheiro(s),
+c230:  350.00 M.. de ..rea de terreno, 100.00 M.. de ..rea constru..da
+c270: , 80.00 M.. de ..rea ..til, 90.00 M.. de ..rea privativa, 30.00 
+c2b0: M.. de ..rea comum, 450.00 M.. de ..rea total. Matr..cula n.. 51
+c2f0: 511, 13.. RGI de Recife, Inscri....o Prefeitura 15112-1518-265. 
+c330: IPTU anual R$ 2.500,00, valor de condom..nio mensal R$ 350,00, v
+c370: alor avaliado R$500.000,00. Im..vel situado em regi..o de baixa 
+c3b0: densidade ocupacional, com predomin..ncia residencial, servida a
+c3f0: penas por linha de ..nibus, Im..vel encontra-se a 10min do centr
+c430: o, com f..cil acesso a transporte p..blico. . Resale Integra....
+c470: o"},"groupOffer":{"id":200400,"acceptProposal":false,"commission
+c4b0: Percent":5},"product":{"productId":1662016,"shortDesc":"Casa, Re
+c4f0: sidencial, Uni..o, 4 dormit..rio(s), 3 vaga(s) de garagem","deta
+c530: iledDescription":"Pagamento da comiss..o: Comprador<br />Cart..r
+c570: io de Registro: 13.. RGI de Recife<br />Considera....es importan
+c5b0: tes:  Ocupado.\r<br /> Ficar..o a cargo do arrematante: assun...
+c5f0: .o dos riscos, provid..ncias e custas necess..rias: (i) .. desoc
+c630: upa....o; (ii) .. apura....o e pagamento do IPTU, a partir do ex
+c670: erc..cio 2015, parcelas vencidas e vincendas; (iii) .. regulariz
+c6b0: a....o do im..vel, notadamente a averba....o da  ..rea constru..
+c6f0: da perante os ..rg..os competentes; (iv) decorrentes da a....o j
+c730: udicial em tr..mite.\r<br />\r<br />\r<br />\r<br /><br />Taxa d
+c770: e comiss..o: <br />Taxa de servi..o: <br />Aceita Visita: sim<br
+c7b0:  />Descri....o: Casa, Uni..o, Desocupado, contendo 4 dormit..rio
+c7f0: (s), sendo 1 su..te(s), 3 vaga(s) de garagem, 2 banheiro(s), 350
+c830: .00 M.. de ..rea de terreno, 100.00 M.. de ..rea constru..da, 80
+c870: .00 M.. de ..rea ..til, 90.00 M.. de ..rea privativa, 30.00 M.. 
+c8b0: de ..rea comum, 450.00 M.. de ..rea total. Matr..cula n.. 51511,
+c8f0:  13.. RGI de Recife, Inscri....o Prefeitura 15112-1518-265. IPTU
+c930:  anual R$ 2.500,00, valor de condom..nio mensal R$ 350,00, valor
+c970:  avaliado R$500.000,00. Im..vel situado em regi..o de baixa dens
+c9b0: idade ocupacional, com predomin..ncia residencial, servida apena
+c9f0: s por linha de ..nibus, Im..vel encontra-se a 10min do centro, c
+ca30: om f..cil acesso a transporte p..blico. .","template":{"groups":
+ca70: [{"title":"Descri....o do im..vel","properties":[{"title":"Quart
+cab0: os","type":"number","value":"3"},{"title":"Su..tes","type":"numb
+caf0: er","value":"1"},{"title":"Salas","type":"number","value":"1"},{
+cb30: "title":"Escrit..rios","type":"number","value":"1"},{"title":"Co
+cb70: pas","type":"number","value":"1"},{"title":"Cozinhas","type":"nu
+cbb0: mber","value":"1"},{"title":"Lavabos","type":"number","value":"1
+cbf0: "},{"title":"Banheiros","type":"number","value":"2"},{"title":"D
+cc30: ormit..rios de Empregada","type":"number","value":"1"},{"title":
+cc70: "Varandas","type":"number","value":"1"},{"title":"Piscinas","typ
+ccb0: e":"number","value":"1"}]},{"title":"Detalhes do Im..vel","prope
+ccf0: rties":[]},{"title":"Caracter..sticas do Im..vel","properties":[
+cd30: {"title":"..rea Total","type":"number","value":"450"},{"title":"
+cd70: ..rea ..til","type":"number","value":"80"},{"title":"..rea Comum
+cdb0: ","type":"number","value":"30.00"},{"title":"..rea Privativa","t
+cdf0: ype":"number","value":"90.0"},{"title":"..rea do Terreno","type"
+ce30: :"number","value":"350.0"},{"title":"Situa....o","type":"string"
+ce70: ,"value":"Desocupado"}]},{"title":"Valores","properties":[{"titl
+ceb0: e":"Condi....es de Pagamento","type":"string","value":""},{"titl
+cef0: e":"Condom..nio","type":"number","value":"350"},{"title":"IPTU A
+cf30: nual","type":"number","value":"2500"}]},{"title":"Documentos","p
+cf70: roperties":[{"title":"N..mero da Matr..cula","type":"string","va
+cfb0: lue":"51511"},{"title":"N..mero do Contribuinte","type":"string"
+cff0: ,"value":"15112-1518-265"}]}]},"subCategory":{"id":10111,"descri
+d030: ption":"Casa Padr..o","translation":{"map":{"es_PE":"Casa Padr..
+d070: o","en_US":"Casa Padr..o","es_AR":"Casa Padr..o","es_MX":"Casa P
+d0b0: adr..o","es_CO":"Casa Padr..o","pt_BR":"Casa Padr..o","en_UK":"C
+d0f0: asa Padr..o","es_CL":"Casa Padr..o"}},"evidence":"F","subGrupo":
+d130: 0,"grupo":0,"position":2,"category":{"id":10109,"description":"R
+d170: esidencial","translation":{"map":{"es_PE":"Habitaciones","en_US"
+d1b0: :"Residencial","es_AR":"Habitaciones","es_MX":"Habitaciones","es
+d1f0: _CO":"Vivienda","pt_BR":"Residencial","en_UK":"Residencial","es_
+d230: CL":"Habitaciones"}},"evidence":"F","subGrupo":0,"grupo":0,"posi
+d270: tion":1}},"model":{},"brand":{},"location":{"city":"S..o Louren.
+d2b0: .o da Mata","cityId":"ChIJAxmUfUoFqwcR6k0JGxMpY_Q","state":"Pern
+d2f0: ambuco","stateId":"ChIJxYYck518AAcRJhdAk2oZ4B0","country":"Brasi
+d330: l","countryId":"ChIJzyjM68dZnAARYz4p8gYVWik"},"productType":{"id
+d370: ":13,"description":"Im..veis","translation":{"map":{"es_PE":"Inm
+d3b0: uebles","en_US":"Real Estate","es_AR":"Inmuebles","es_MX":"Inmue
+d3f0: bles","es_CO":"Inmuebles","pt_BR":"Im..veis","en_UK":"Real Estat
+d430: e","es_CL":"Inmuebles"}},"showBrand":false,"showModel":false},"j
+d470: udicial":{}},"seller":{"id":93709,"name":"1.. Vara de Fal..ncias
+d4b0:  e Recupera....es Judiciais do Foro Central da Capital - SP","ci
+d4f0: ty":"S..o Paulo","courtId":29,"phone":[{"ddi":"55","ddd":"11","n
+d530: umber":"32847522"}],"company":[{"fantasyName":"1.. Vara de Fal..
+d570: ncias e Recupera....es Judiciais do Foro Central da Comarca da C
+d5b0: apital/SP"}]},"offersEvent":[{"offerId":1804458,"productShortDes
+d5f0: c":"Casa, Residencial, Uni..o, 4 dormit..rio(s), 3 vaga(s) de ga
+d630: ragem"},{"offerId":1804464,"productShortDesc":"Casa, Residencial
+d670: , Uni..o, 4 dormit..rio(s), 3 vaga(s) de garagem"},{"offerId":18
+d6b0: 04441,"productShortDesc":"Casa, Residencial, Uni..o, 4 dormit..r
+d6f0: io(s), 3 vaga(s) de garagem"},{"offerId":1804439,"productShortDe
+d730: sc":"Apartamento, Residencial, 2 vaga(s) de garagem"},{"offerId"
+d770: :1804454,"productShortDesc":"Casa, Residencial, Uni..o, 4 dormit
+d7b0: ..rio(s), 3 vaga(s) de garagem"},{"offerId":1804453,"productShor
+d7f0: tDesc":"Casa, Residencial, Uni..o, 4 dormit..rio(s), 3 vaga(s) d
+d830: e garagem"}],"isFavorite":false},{"id":1793334,"indexationDate":
+d870: "2021-03-12 07:11:36","lotNumber":3,"quantityInLot":1,"totalRece
+d8b0: ivedProposals":0,"visits":0,"totalBidders":0,"totalBids":0,"hide
+d8f0: Prices":true,"endDate":"2021-01-31 00:00:00","endDateTime":"2021
+d930: -01-30T23:00:00.000-0300","offerTypeId":11,"createAt":"2020-05-2
+d970: 1 13:29:42","updateAt":"2020-05-21 13:33:52","statusId":1,"offer
+d9b0: Status":{"statusCode":1,"removed":false,"stabbed":false,"subjudi
+d9f0: ce":false,"available":false,"closed":false,"giveYourBid":false,"
+da30: sold":false,"reserved":false,"closedToBids":false,"wantToKnowThe
+da70: Price":false,"makeYourProposal":false},"store":{"id":261,"name":
+dab0: "Mercedes-Benz Certified","highlight":false,"storeVisibleOnPorta
+daf0: l":false},"offerDetail":{"id":1793334,"directSaleValue":190000.0
+db30: ,"directSaleValueFormatted":"R$ 190.000,00"},"manager":{"id":52,
+db70: "name":"europamotors"},"currentTimestamp":"2021-04-03 02:39:59",
+dbb0: "auction":{"id":87055,"desc":"Europa Motors 2020","localeId":"pt
+dbf0: _BR","statusId":3,"permissionTypeId":1,"portalId":2,"modalityId"
+dc30: :6,"modalityDesc":"Venda Direta","businessAreaId":1,"allOffersOf
+dc70: ThisAuctionIsClosed":true,"beginDate":"2020-05-19 00:00:00","max
+dcb0: EnddateOffer":"2021-01-31 00:00:00","tags":[],"address":{"id":27
+dcf0: 029,"streetType":"Alameda","street":"Lorena","number":"800","com
+dd30: plement":"2.. andar","district":"Jardins","city":"S..o Paulo","s
+dd70: tateCode":"SP","type":5}},"winnerBid":{},"currentBidIncrement":{
+ddb0: },"offerDescription":{"offerDescription":"C200 EQ Mercedes Benz 
+ddf0: C200 C200 EQ Europa Motors 2020"},"groupOffer":{"id":199465,"acc
+de30: eptProposal":false},"product":{"productId":1652546,"shortDesc":"
+de70: C200 EQ","galleryJson":[{"originalFileName":"20200511_093315.jpg
+deb0: ","highlight":true,"link":"https://static.s4bdigital.net/photos/
+def0: c26b46a5-3734-49f3-82cd-7127e30f44d9.jpg","contentType":"image/j
+df30: peg"},{"originalFileName":"20200511_125130.jpg","highlight":fals
+df70: e,"link":"https://static.s4bdigital.net/photos/c40f8477-6aca-4b2
+dfb0: 7-9da3-b0aee4ecdd56.jpg","contentType":"image/jpeg"},{"originalF
+dff0: ileName":"202005
+<= Recv data, 79802 bytes (0x137ba)
+0000: 11_093439.jpg","highlight":false,"link":"https://static.s4bdigit
+0040: al.net/photos/94b882d3-fd82-4c68-8065-8e5e5ca5b0f0.jpg","content
+0080: Type":"image/jpeg"},{"originalFileName":"2020051
+00b2: 2000
+00b8: 1_093431.jpg","highlight":false,"link":"https://static.s4bdigita
+00f8: l.net/photos/4d5341c7-2732-4a2f-9e32-c94dcb87ce17.jpg","contentT
+0138: ype":"image/jpeg"},{"originalFileName":"20200511_093422.jpg","hi
+0178: ghlight":false,"link":"https://static.s4bdigital.net/photos/a59f
+01b8: 1c38-8a16-42ff-a6f7-7d41dbf7406b.jpg","contentType":"image/jpeg"
+01f8: },{"originalFileName":"20200511_093406.jpg","highlight":false,"l
+0238: ink":"https://static.s4bdigital.net/photos/c2dfabd3-f752-44ee-94
+0278: 1d-21e8d19c3ea0.jpg","contentType":"image/jpeg"},{"originalFileN
+02b8: ame":"20200511_093330.jpg","highlight":false,"link":"https://sta
+02f8: tic.s4bdigital.net/photos/bd55b2fd-ee70-42d5-b41b-bb695f6e194c.j
+0338: pg","contentType":"image/jpeg"}],"detailedDescription":"C200 EQ"
+0378: ,"template":{"groups":[{"title":"Identifica....o","properties":[
+03b8: {"title":"Marca","type":"string","value":"Mercedes-Benz"},{"titl
+03f8: e":"Modelo","type":"string","value":"C 200 EQ"},{"title":"Placa"
+0438: ,"type":"string","value":"Final: 8"},{"title":"Ano Fabrica....o"
+0478: ,"type":"integer","value":"2019"},{"title":"Ano Modelo","type":"
+04b8: integer","value":"2019"},{"title":"UF","type":"string","value":"
+04f8: SP"},{"title":"Munic..pio","type":"string","value":"Campinas"}]}
+0538: ,{"title":"Informa....es","properties":[{"title":"Quilometragem"
+0578: ,"type":"integer","value":"8500"},{"title":"Cor","type":"string"
+05b8: ,"value":"Azul"},{"title":"Combust..vel","type":"string","value"
+05f8: :"Gasolina"},{"title":"Tipo de C..mbio","type":"string","value":
+0638: "Autom..tico"},{"title":"N..mero de Portas","type":"integer","va
+0678: lue":"4"}]},{"title":"Acess..rios","properties":[{"title":"Segur
+06b8: an..a","type":"multivalue","value":"Assistente de freio (BAS).Co
+06f8: ntrole eletr..nico de estabilidade (ESP.. Curve Dynamic Assist)"
+0738: }]}]},"subCategory":{"id":10006,"description":"Sedans","translat
+0778: ion":{"map":{"es_PE":"Sedanes","en_US":"Sedans","es_AR":"Sedanes
+07b8: ","es_MX":"Sedanes","es_CO":"Sedanes","pt_BR":"Sedans","en_UK":"
+07f8: Sedans","es_CL":"Sedanes"}},"evidence":"F","subGrupo":0,"grupo":
+0838: 0,"position":6,"category":{"id":10000,"description":"Carros","tr
+0878: anslation":{"map":{"es_PE":"Autos","en_US":"Cars","es_AR":"Autos
+08b8: ","es_MX":"Autos","es_CO":"Autos","pt_BR":"Carros","en_UK":"Cars
+08f8: ","es_CL":"Autos"}},"evidence":"F","subGrupo":0,"grupo":0,"posit
+0938: ion":1}},"model":{"id":693,"description":"C200"},"brand":{"id":1
+0978: ,"description":"Mercedes Benz"},"location":{"city":"Campinas","c
+09b8: ityId":"ChIJJWNL5x3GyJQRKsJ4IWo65Rc","state":"S..o Paulo","state
+09f8: Id":"ChIJrVgvRn1ZzpQRF3x74eJBUh4","country":"Brasil","countryId"
+0a38: :"ChIJzyjM68dZnAARYz4p8gYVWik"},"productType":{"id":10,"descript
+0a78: ion":"Carros & Motos","translation":{"map":{"es_PE":"Autos & Mot
+0ab8: os","en_US":"Cars & Motorcycles","es_AR":"Autos & Motos","es_MX"
+0af8: :"Autos & Motos","es_CO":"Autos & Motos","pt_BR":"Carros & Motos
+0b38: ","en_UK":"Cars & Motorcycles","es_CL":"Autos & Motos"}},"showBr
+0b78: and":true,"showModel":true},"judicial":{}},"seller":{"id":104513
+0bb8: 7,"name":"NOVA EUROPAMOTORS COMERCIO DE VEICULOS LTDA","city":"S
+0bf8: ..o Paulo","phone":[{"ddi":"55","ddd":"19","number":"37588800"},
+0c38: {"ddi":"55","ddd":"11","number":"00000000"}],"company":[{"fantas
+0c78: yName":"Nova"}]},"offersEvent":[{"offerId":1793333,"productShort
+0cb8: Desc":"C 180 Avantgarde"},{"offerId":1793332,"productShortDesc":
+0cf8: "C 180 Avantgarde"},{"offerId":1793334,"productShortDesc":"C200 
+0d38: EQ"},{"offerId":1793340,"productShortDesc":"C 180 Avantgarde"}],
+0d78: "isFavorite":false},{"id":1803381,"indexationDate":"2021-03-12 0
+0db8: 7:11:40","lotNumber":1,"subLotNumber":1,"quantityInLot":1,"total
+0df8: ReceivedProposals":0,"visits":0,"totalBidders":0,"totalBids":0,"
+0e38: hidePrices":true,"endDate":"2021-01-31 00:00:00","endDateTime":"
+0e78: 2021-01-30T23:00:00.000-0300","offerTypeId":1,"createAt":"2020-1
+0eb8: 2-14 02:45:07","updateAt":"2021-02-03 15:01:10","statusId":1,"pr
+0ef8: ice":100000.0,"priceFormatted":"R$ 100.000,00","offerStatus":{"s
+0f38: tatusCode":1,"removed":false,"stabbed":false,"subjudice":false,"
+0f78: available":false,"closed":false,"giveYourBid":false,"sold":false
+0fb8: ,"reserved":false,"closedToBids":false,"wantToKnowThePrice":true
+0ff8: ,"makeYourProposal":false},"subLote":"1","store":{},"offerDetail
+1038: ":{"id":1803381,"initialBidValue":100000.0,"initialBidValueForma
+1078: tted":"R$ 100.000,00","currentMinBid":100000.0,"currentMinBidFor
+10b8: matted":"R$ 100.000,00","currentMaxBid":100000.0,"currentMaxBidF
+10f8: ormatted":"R$ 100.000,00","reservedPrice":100000.0,"reservedPric
+1138: eFormatted":"R$ 100.000,00"},"manager":{"id":9,"name":"superbidi
+1178: nd"},"currentTimestamp":"2021-04-03 02:39:59","auction":{"id":87
+11b8: 583,"desc":"Evento BMW 2021","localeId":"pt_BR","statusId":1,"pe
+11f8: rmissionTypeId":1,"portalId":2,"modalityId":1,"modalityDesc":"Le
+1238: il..o","businessAreaId":1,"allOffersOfThisAuctionIsClosed":true,
+1278: "beginDate":"2021-02-03 00:00:00","maxEnddateOffer":"2021-03-04 
+12b8: 00:00:00","subMarketplaces":[{"subMarketplaceId":1,"subMarketpla
+12f8: ceDesc":"Corporativo"}],"tags":[],"auctioneer":"Rodrigo de Queir
+1338: oz Sodr.. Santoro","registry":"449","address":{"id":27029,"stree
+1378: tType":"Alameda","street":"Lorena","number":"800","complement":"
+13b8: 2.. andar","district":"Jardins","city":"S..o Paulo","stateCode":
+13f8: "SP","type":5}},"winnerBid":{},"currentBidIncrement":{"currentBi
+1438: dIncrement":2000.0,"currentBidIncrementFormatted":"R$ 2.000,00"}
+1478: ,"offerDescription":{"offerDescription":"BMW 125I BMW 125i BMW 1
+14b8: 25I Evento BMW 2021"},"groupOffer":{"id":200360,"acceptProposal"
+14f8: :false,"commissionPercent":5},"product":{"productId":1660793,"sh
+1538: ortDesc":"BMW 125I","galleryJson":[{"originalFileName":"maxresde
+1578: fault.jpg","highlight":true,"link":"https://static.s4bdigital.ne
+15b8: t/stg/photos/8cd23b1d-5172-496f-a1ff-105e323b8259.jpg","contentT
+15f8: ype":"image/jpeg"}],"detailedDescription":"BMW 125I","template":
+1638: {"groups":[]},"subCategory":{"id":10006,"description":"Sedans","
+1678: translation":{"map":{"es_PE":"Sedanes","en_US":"Sedans","es_AR":
+16b8: "Sedanes","es_MX":"Sedanes","es_CO":"Sedanes","pt_BR":"Sedans","
+16f8: en_UK":"Sedans","es_CL":"Sedanes"}},"evidence":"F","subGrupo":0,
+1738: "grupo":0,"position":6,"category":{"id":10000,"description":"Car
+1778: ros","translation":{"map":{"es_PE":"Autos","en_US":"Cars","es_AR
+17b8: ":"Autos","es_MX":"Autos","es_CO":"Autos","pt_BR":"Carros","en_U
+17f8: K":"Cars","es_CL":"Autos"}},"evidence":"F","subGrupo":0,"grupo":
+1838: 0,"position":1}},"model":{"id":9,"description":"125i"},"brand":{
+1878: "id":2,"description":"BMW"},"location":{"city":"S..o Paulo","cit
+18b8: yId":"ChIJ0WGkg4FEzpQRrlsz_whLqZs","state":"S..o Paulo","stateId
+18f8: ":"ChIJrVgvRn1ZzpQRF3x74eJBUh4","country":"Brasil","countryId":"
+1938: ChIJzyjM68dZnAARYz4p8gYVWik"},"productType":{"id":10,"descriptio
+1978: n":"Carros & Motos","translation":{"map":{"es_PE":"Autos & Motos
+19b8: ","en_US":"Cars & Motorcycles","es_AR":"Autos & Motos","es_MX":"
+19f8: Autos & Motos","es_CO":"Autos & Motos","pt_BR":"Carros & Motos",
+1a38: "en_UK":"Cars & Motorcycles","es_CL":"Autos & Motos"}},"showBran
+1a78: d":true,"showModel":true},"judicial":{}},"seller":{"id":670836,"
+1ab8: name":"Votorantim Cimentos S A","city":"Gua..ra","phone":[{"ddi"
+1af8: :"55","ddd":"48","number":"34627414"}],"company":[{"fantasyName"
+1b38: :"VOTORANTIM CIMENTOS"}]},"offersEvent":[{"offerId":1803381,"pro
+1b78: ductShortDesc":"BMW 125I"},{"offerId":1804480,"productShortDesc"
+1bb8: :"Combo De Ve..culos: Chevrolet S10 Lt Dd4 2.8 (06 Unidades)"}],
+1bf8: "isFavorite":false},{"id":1793333,"indexationDate":"2021-03-12 0
+1c38: 7:11:44","lotNumber":2,"quantityInLot":1,"totalReceivedProposals
+1c78: ":0,"visits":0,"totalBidders":0,"totalBids":0,"hidePrices":true,
+1cb8: "endDate":"2021-01-31 00:00:00","endDateTime":"2021-01-30T23:00:
+1cf8: 00.000-0300","offerTypeId":11,"createAt":"2020-05-21 13:02:29","
+1d38: updateAt":"2020-05-21 13:13:51","statusId":1,"offerStatus":{"sta
+1d78: tusCode":1,"removed":false,"stabbed":false,"subjudice":false,"av
+1db8: ailable":false,"closed":false,"giveYourBid":false,"sold":false,"
+1df8: reserved":false,"closedToBids":false,"wantToKnowThePrice":false,
+1e38: "makeYourProposal":false},"store":{"id":261,"name":"Mercedes-Ben
+1e78: z Certified","highlight":false,"storeVisibleOnPortal":false},"of
+1eb8: ferDetail":{"id":1793333,"directSaleValue":140000.0,"directSaleV
+1ef8: alueFormatted":"R$ 140.000,00"},"manager":{"id":52,"name":"europ
+1f38: amotors"},"currentTimestamp":"2021-04-03 02:39:59","auction":{"i
+1f78: d":87055,"desc":"Europa Motors 2020","localeId":"pt_BR","statusI
+1fb8: d":3,"permissionTypeId":1,"portalId":2,"modalityId":6,"modalityD
+1ff8: esc":"Venda Direta","businessAreaId":1,"allOffersOfThisAuctionIs
+2038: Closed":true,"beginDate":"2020-05-19 00:00:00","maxEnddateOffer"
+2078: :"2021-01-31 00:00:00","tags":[],"address":{"id":27029,"streetTy
+20ba: 2000
+20c0: pe":"Alameda","street":"Lorena","number":"800","complement":"2..
+2100:  andar","district":"Jardins","city":"S..o Paulo","stateCode":"SP
+2140: ","type":5}},"winnerBid":{},"currentBidIncrement":{},"offerDescr
+2180: iption":{"offerDescription":"C 180 Avantgarde C 180 Avantgarde E
+21c0: uropa Motors 2020"},"groupOffer":{"id":199465,"acceptProposal":f
+2200: alse},"product":{"productId":1652545,"shortDesc":"C 180 Avantgar
+2240: de","galleryJson":[{"originalFileName":"20200130_112314.jpg","hi
+2280: ghlight":true,"link":"https://static.s4bdigital.net/photos/76e32
+22c0: e47-eec0-4f10-911b-007e20be2a25.jpg","contentType":"image/jpeg"}
+2300: ,{"originalFileName":"20200130_112352.jpg","highlight":false,"li
+2340: nk":"https://static.s4bdigital.net/photos/7be6fcae-da3d-4206-89e
+2380: 1-7df4cfa01d39.jpg","contentType":"image/jpeg"},{"originalFileNa
+23c0: me":"20200130_112344.jpg","highlight":false,"link":"https://stat
+2400: ic.s4bdigital.net/photos/022f9ba4-ae7b-4852-96fa-724b9902488f.jp
+2440: g","contentType":"image/jpeg"},{"originalFileName":"20200130_112
+2480: 336.jpg","highlight":false,"link":"https://static.s4bdigital.net
+24c0: /photos/af375c04-6268-4eca-9958-5d3e7d761759.jpg","contentType":
+2500: "image/jpeg"},{"originalFileName":"20200130_112300.jpg","highlig
+2540: ht":false,"link":"https://static.s4bdigital.net/photos/7acf5726-
+2580: ecb9-4090-a3d0-f2bc670f8a13.jpg","contentType":"image/jpeg"},{"o
+25c0: riginalFileName":"2bb3d31f-2da5-4187-b389-e7aade19ed2e.jpeg","hi
+2600: ghlight":false,"link":"https://static.s4bdigital.net/photos/fea2
+2640: aee4-0e24-4c29-9b76-6646801ad881.jpeg","contentType":"image/jpeg
+2680: "}],"detailedDescription":"C 180 Avantgarde","template":{"groups
+26c0: ":[{"title":"Identifica....o","properties":[{"title":"Marca","ty
+2700: pe":"string","value":"Mercedes-Benz"},{"title":"Modelo","type":"
+2740: string","value":"C180 Avantgarde"},{"title":"Placa","type":"stri
+2780: ng","value":"Final: 0"},{"title":"Ano Fabrica....o","type":"inte
+27c0: ger","value":"2018"},{"title":"Ano Modelo","type":"integer","val
+2800: ue":"2019"},{"title":"UF","type":"string","value":"SP"},{"title"
+2840: :"Munic..pio","type":"string","value":"Campinas"}]},{"title":"In
+2880: forma....es","properties":[{"title":"Quilometragem","type":"inte
+28c0: ger","value":"17800"},{"title":"Cor","type":"string","value":"Pr
+2900: eto"},{"title":"Combust..vel","type":"string","value":"Gasolina"
+2940: },{"title":"Tipo de C..mbio","type":"string","value":"Autom..tic
+2980: o"},{"title":"N..mero de Portas","type":"integer","value":"4"}]}
+29c0: ,{"title":"Acess..rios","properties":[{"title":"Seguran..a","typ
+2a00: e":"multivalue","value":"Assistente de freio (BAS).Controle elet
+2a40: r..nico de estabilidade (ESP.. Curve Dynamic Assist)"}]}]},"subC
+2a80: ategory":{"id":10006,"description":"Sedans","translation":{"map"
+2ac0: :{"es_PE":"Sedanes","en_US":"Sedans","es_AR":"Sedanes","es_MX":"
+2b00: Sedanes","es_CO":"Sedanes","pt_BR":"Sedans","en_UK":"Sedans","es
+2b40: _CL":"Sedanes"}},"evidence":"F","subGrupo":0,"grupo":0,"position
+2b80: ":6,"category":{"id":10000,"description":"Carros","translation":
+2bc0: {"map":{"es_PE":"Autos","en_US":"Cars","es_AR":"Autos","es_MX":"
+2c00: Autos","es_CO":"Autos","pt_BR":"Carros","en_UK":"Cars","es_CL":"
+2c40: Autos"}},"evidence":"F","subGrupo":0,"grupo":0,"position":1}},"m
+2c80: odel":{},"brand":{},"location":{"city":"Campinas","cityId":"ChIJ
+2cc0: JWNL5x3GyJQRKsJ4IWo65Rc","state":"S..o Paulo","stateId":"ChIJrVg
+2d00: vRn1ZzpQRF3x74eJBUh4","country":"Brasil","countryId":"ChIJzyjM68
+2d40: dZnAARYz4p8gYVWik"},"productType":{"id":10,"description":"Carros
+2d80:  & Motos","translation":{"map":{"es_PE":"Autos & Motos","en_US":
+2dc0: "Cars & Motorcycles","es_AR":"Autos & Motos","es_MX":"Autos & Mo
+2e00: tos","es_CO":"Autos & Motos","pt_BR":"Carros & Motos","en_UK":"C
+2e40: ars & Motorcycles","es_CL":"Autos & Motos"}},"showBrand":true,"s
+2e80: howModel":true},"judicial":{}},"seller":{"id":1045137,"name":"NO
+2ec0: VA EUROPAMOTORS COMERCIO DE VEICULOS LTDA","city":"S..o Paulo","
+2f00: phone":[{"ddi":"55","ddd":"19","number":"37588800"},{"ddi":"55",
+2f40: "ddd":"11","number":"00000000"}],"company":[{"fantasyName":"Nova
+2f80: "}]},"offersEvent":[{"offerId":1793333,"productShortDesc":"C 180
+2fc0:  Avantgarde"},{"offerId":1793332,"productShortDesc":"C 180 Avant
+3000: garde"},{"offerId":1793334,"productShortDesc":"C200 EQ"},{"offer
+3040: Id":1793340,"productShortDesc":"C 180 Avantgarde"}],"isFavorite"
+3080: :false},{"id":1804464,"indexationDate":"2021-03-12 07:11:50","lo
+30c0: tNumber":6,"quantityInLot":1,"totalReceivedProposals":0,"visits"
+3100: :0,"totalBidders":0,"totalBids":0,"hidePrices":true,"endDate":"2
+3140: 021-02-15 18:00:00","endDateTime":"2021-02-15T17:00:00.000-0300"
+3180: ,"offerTypeId":1,"createAt":"2021-01-17 03:05:22","updateAt":"20
+31c0: 21-01-17 03:09:09","statusId":1,"price":350000.0,"priceFormatted
+3200: ":"R$ 350.000,00","offerStatus":{"statusCode":1,"removed":false,
+3240: "stabbed":false,"subjudice":false,"available":false,"closed":fal
+3280: se,"giveYourBid":false,"sold":false,"reserved":false,"closedToBi
+32c0: ds":false,"wantToKnowThePrice":true,"makeYourProposal":false},"s
+3300: tore":{},"offerDetail":{"id":1804464,"initialBidValue":350000.0,
+3340: "initialBidValueFormatted":"R$ 350.000,00","currentMinBid":35000
+3380: 0.0,"currentMinBidFormatted":"R$ 350.000,00","currentMaxBid":350
+33c0: 000.0,"currentMaxBidFormatted":"R$ 350.000,00","reservedPrice":3
+3400: 50000.0,"reservedPriceFormatted":"R$ 350.000,00"},"manager":{"id
+3440: ":9,"name":"superbidind"},"currentTimestamp":"2021-04-03 02:39:5
+3480: 9","auction":{"id":87587,"desc":"Resale Integra....o","localeId"
+34c0: :"pt_BR","statusId":1,"permissionTypeId":1,"portalId":2,"modalit
+3500: yId":1,"modalityDesc":"Leil..o","businessAreaId":1,"allOffersOfT
+3540: hisAuctionIsClosed":true,"beginDate":"2020-09-15 07:00:00","maxE
+3580: nddateOffer":"2021-02-15 18:00:00","tags":[],"auctioneer":"LUIZ 
+35c0: TOCIAKI HIRANO","registry":"1126","address":{"id":27029,"streetT
+3600: ype":"Alameda","street":"Lorena","number":"800","complement":"2.
+3640: . andar","district":"Jardins","city":"S..o Paulo","stateCode":"S
+3680: P","countryName":"Brasil","type":5}},"winnerBid":{},"currentBidI
+36c0: ncrement":{"currentBidIncrement":5000.0,"currentBidIncrementForm
+3700: atted":"R$ 5.000,00"},"offerDescription":{"offerDescription":"Ca
+3740: sa, Residencial, Uni..o, 4 dormit..rio(s), 3 vaga(s) de garagem 
+3780: Pagamento da comiss..o: Comprador<br />Cart..rio de Registro: 29
+37c0: .. RGI de Recife<br />Considera....es importantes:  Ocupado.\r<b
+3800: r /> Ficar..o a cargo do arrematante: assun....o dos riscos, pro
+3840: vid..ncias e custas necess..rias: (i) .. desocupa....o; (ii) .. 
+3880: apura....o e pagamento do IPTU, a partir do exerc..cio 2015, par
+38c0: celas vencidas e vincendas; (iii) .. regulariza....o do im..vel,
+3900:  notadamente a averba....o da  ..rea constru..da perante os ..rg
+3940: ..os competentes; (iv) decorrentes da a....o judicial em tr..mit
+3980: e.\r<br />\r<br />\r<br />\r<br /><br />Taxa de comiss..o: <br /
+39c0: >Taxa de servi..o: <br />Aceita Visita: sim<br />Descri....o: Ca
+3a00: sa, Uni..o, Desocupado, contendo 4 dormit..rio(s), sendo 1 su..t
+3a40: e(s), 3 vaga(s) de garagem, 2 banheiro(s), 350.00 M.. de ..rea d
+3a80: e terreno, 100.00 M.. de ..rea constru..da, 80.00 M.. de ..rea .
+3ac0: .til, 90.00 M.. de ..rea privativa, 30.00 M.. de ..rea comum, 45
+3b00: 0.00 M.. de ..rea total. Matr..cula n.. 51527, 29.. RGI de Recif
+3b40: e, Inscri....o Prefeitura 15112-1518-281. IPTU anual R$ 2.500,00
+3b80: , valor de condom..nio mensal R$ 350,00, valor avaliado R$500.00
+3bc0: 0,00. Im..vel situado em regi..o de baixa densidade ocupacional,
+3c00:  com predomin..ncia residencial, servida apenas por linha de ..n
+3c40: ibus, Im..vel encontra-se a 10min do centro, com f..cil acesso a
+3c80:  transporte p..blico. . Resale Integra....o"},"groupOffer":{"id"
+3cc0: :200400,"acceptProposal":false,"commissionPercent":5},"product":
+3d00: {"productId":1662032,"shortDesc":"Casa, Residencial, Uni..o, 4 d
+3d40: ormit..rio(s), 3 vaga(s) de garagem","detailedDescription":"Paga
+3d80: mento da comiss..o: Comprador<br />Cart..rio de Registro: 29.. R
+3dc0: GI de Recife<br />Considera....es importantes:  Ocupado.\r<br />
+3e00:  Ficar..o a cargo do arrematante: assun....o dos riscos, provid.
+3e40: .ncias e custas necess..rias: (i) .. desocupa....o; (ii) .. apur
+3e80: a....o e pagamento do IPTU, a partir do exerc..cio 2015, parcela
+3ec0: s vencidas e vincendas; (iii) .. regulariza....o do im..vel, not
+3f00: adamente a averba....o da  ..rea constru..da perante os ..rg..os
+3f40:  competentes; (iv) decorrentes da a....o judicial em tr..mite.\r
+3f80: <br />\r<br />\r<br />\r<br /><br />Taxa de comiss..o: <br />Tax
+3fc0: a de servi..o: <br />Aceita Visita: sim<br />Descri....o: Casa, 
+4000: Uni..o, Desocupado, contendo 4 dormit..rio(s), sendo 1 su..te(s)
+4040: , 3 vaga(s) de garagem, 2 banheiro(s), 350.00 M.. de ..rea de te
+4080: rreno, 100.00 M.. de ..rea constru..da, 80.00 M.. de ..rea ..til
+40c2: 2000
+40c8: , 90.00 M.. de ..rea privativa, 30.00 M.. de ..rea comum, 450.00
+4108:  M.. de ..rea total. Matr..cula n.. 51527, 29.. RGI de Recife, I
+4148: nscri....o Prefeitura 15112-1518-281. IPTU anual R$ 2.500,00, va
+4188: lor de condom..nio mensal R$ 350,00, valor avaliado R$500.000,00
+41c8: . Im..vel situado em regi..o de baixa densidade ocupacional, com
+4208:  predomin..ncia residencial, servida apenas por linha de ..nibus
+4248: , Im..vel encontra-se a 10min do centro, com f..cil acesso a tra
+4288: nsporte p..blico. .","template":{"groups":[{"title":"Descri....o
+42c8:  do im..vel","properties":[{"title":"Quartos","type":"number","v
+4308: alue":"3"},{"title":"Su..tes","type":"number","value":"1"},{"tit
+4348: le":"Salas","type":"number","value":"1"},{"title":"Escrit..rios"
+4388: ,"type":"number","value":"1"},{"title":"Copas","type":"number","
+43c8: value":"1"},{"title":"Cozinhas","type":"number","value":"1"},{"t
+4408: itle":"Lavabos","type":"number","value":"1"},{"title":"Banheiros
+4448: ","type":"number","value":"2"},{"title":"Dormit..rios de Emprega
+4488: da","type":"number","value":"1"},{"title":"Varandas","type":"num
+44c8: ber","value":"1"},{"title":"Piscinas","type":"number","value":"1
+4508: "}]},{"title":"Detalhes do Im..vel","properties":[]},{"title":"C
+4548: aracter..sticas do Im..vel","properties":[{"title":"..rea Total"
+4588: ,"type":"number","value":"450"},{"title":"..rea ..til","type":"n
+45c8: umber","value":"80"},{"title":"..rea Comum","type":"number","val
+4608: ue":"30.00"},{"title":"..rea Privativa","type":"number","value":
+4648: "90.0"},{"title":"..rea do Terreno","type":"number","value":"350
+4688: .0"},{"title":"Situa....o","type":"string","value":"Desocupado"}
+46c8: ]},{"title":"Valores","properties":[{"title":"Condi....es de Pag
+4708: amento","type":"string","value":""},{"title":"Condom..nio","type
+4748: ":"number","value":"350"},{"title":"IPTU Anual","type":"number",
+4788: "value":"2500"}]},{"title":"Documentos","properties":[{"title":"
+47c8: N..mero da Matr..cula","type":"string","value":"51527"},{"title"
+4808: :"N..mero do Contribuinte","type":"string","value":"15112-1518-2
+4848: 81"}]}]},"subCategory":{"id":10111,"description":"Casa Padr..o",
+4888: "translation":{"map":{"es_PE":"Casa Padr..o","en_US":"Casa Padr.
+48c8: .o","es_AR":"Casa Padr..o","es_MX":"Casa Padr..o","es_CO":"Casa 
+4908: Padr..o","pt_BR":"Casa Padr..o","en_UK":"Casa Padr..o","es_CL":"
+4948: Casa Padr..o"}},"evidence":"F","subGrupo":0,"grupo":0,"position"
+4988: :2,"category":{"id":10109,"description":"Residencial","translati
+49c8: on":{"map":{"es_PE":"Habitaciones","en_US":"Residencial","es_AR"
+4a08: :"Habitaciones","es_MX":"Habitaciones","es_CO":"Vivienda","pt_BR
+4a48: ":"Residencial","en_UK":"Residencial","es_CL":"Habitaciones"}},"
+4a88: evidence":"F","subGrupo":0,"grupo":0,"position":1}},"model":{},"
+4ac8: brand":{},"location":{"city":"S..o Louren..o da Mata","cityId":"
+4b08: ChIJAxmUfUoFqwcR6k0JGxMpY_Q","state":"Pernambuco","stateId":"ChI
+4b48: JxYYck518AAcRJhdAk2oZ4B0","country":"Brasil","countryId":"ChIJzy
+4b88: jM68dZnAARYz4p8gYVWik"},"productType":{"id":13,"description":"Im
+4bc8: ..veis","translation":{"map":{"es_PE":"Inmuebles","en_US":"Real 
+4c08: Estate","es_AR":"Inmuebles","es_MX":"Inmuebles","es_CO":"Inmuebl
+4c48: es","pt_BR":"Im..veis","en_UK":"Real Estate","es_CL":"Inmuebles"
+4c88: }},"showBrand":false,"showModel":false},"judicial":{}},"seller":
+4cc8: {"id":93709,"name":"1.. Vara de Fal..ncias e Recupera....es Judi
+4d08: ciais do Foro Central da Capital - SP","city":"S..o Paulo","cour
+4d48: tId":29,"phone":[{"ddi":"55","ddd":"11","number":"32847522"}],"c
+4d88: ompany":[{"fantasyName":"1.. Vara de Fal..ncias e Recupera....es
+4dc8:  Judiciais do Foro Central da Comarca da Capital/SP"}]},"offersE
+4e08: vent":[{"offerId":1804458,"productShortDesc":"Casa, Residencial,
+4e48:  Uni..o, 4 dormit..rio(s), 3 vaga(s) de garagem"},{"offerId":180
+4e88: 4464,"productShortDesc":"Casa, Residencial, Uni..o, 4 dormit..ri
+4ec8: o(s), 3 vaga(s) de garagem"},{"offerId":1804441,"productShortDes
+4f08: c":"Casa, Residencial, Uni..o, 4 dormit..rio(s), 3 vaga(s) de ga
+4f48: ragem"},{"offerId":1804439,"productShortDesc":"Apartamento, Resi
+4f88: dencial, 2 vaga(s) de garagem"},{"offerId":1804454,"productShort
+4fc8: Desc":"Casa, Residencial, Uni..o, 4 dormit..rio(s), 3 vaga(s) de
+5008:  garagem"},{"offerId":1804453,"productShortDesc":"Casa, Residenc
+5048: ial, Uni..o, 4 dormit..rio(s), 3 vaga(s) de garagem"}],"isFavori
+5088: te":false},{"id":1804453,"indexationDate":"2021-03-12 07:12:03",
+50c8: "lotNumber":3,"quantityInLot":1,"totalReceivedProposals":0,"visi
+5108: ts":0,"totalBidders":0,"totalBids":0,"hidePrices":true,"endDate"
+5148: :"2021-02-15 18:00:00","endDateTime":"2021-02-15T17:00:00.000-03
+5188: 00","offerTypeId":1,"createAt":"2021-01-17 03:05:06","updateAt":
+51c8: "2021-01-17 03:09:09","statusId":1,"price":350000.0,"priceFormat
+5208: ted":"R$ 350.000,00","offerStatus":{"statusCode":1,"removed":fal
+5248: se,"stabbed":false,"subjudice":false,"available":false,"closed":
+5288: false,"giveYourBid":false,"sold":false,"reserved":false,"closedT
+52c8: oBids":false,"wantToKnowThePrice":true,"makeYourProposal":false}
+5308: ,"store":{},"offerDetail":{"id":1804453,"initialBidValue":350000
+5348: .0,"initialBidValueFormatted":"R$ 350.000,00","currentMinBid":35
+5388: 0000.0,"currentMinBidFormatted":"R$ 350.000,00","currentMaxBid":
+53c8: 350000.0,"currentMaxBidFormatted":"R$ 350.000,00","reservedPrice
+5408: ":350000.0,"reservedPriceFormatted":"R$ 350.000,00"},"manager":{
+5448: "id":9,"name":"superbidind"},"currentTimestamp":"2021-04-03 02:3
+5488: 9:59","auction":{"id":87587,"desc":"Resale Integra....o","locale
+54c8: Id":"pt_BR","statusId":1,"permissionTypeId":1,"portalId":2,"moda
+5508: lityId":1,"modalityDesc":"Leil..o","businessAreaId":1,"allOffers
+5548: OfThisAuctionIsClosed":true,"beginDate":"2020-09-15 07:00:00","m
+5588: axEnddateOffer":"2021-02-15 18:00:00","tags":[],"auctioneer":"LU
+55c8: IZ TOCIAKI HIRANO","registry":"1126","address":{"id":27029,"stre
+5608: etType":"Alameda","street":"Lorena","number":"800","complement":
+5648: "2.. andar","district":"Jardins","city":"S..o Paulo","stateCode"
+5688: :"SP","countryName":"Brasil","type":5}},"winnerBid":{},"currentB
+56c8: idIncrement":{"currentBidIncrement":5000.0,"currentBidIncrementF
+5708: ormatted":"R$ 5.000,00"},"offerDescription":{"offerDescription":
+5748: "Casa, Residencial, Uni..o, 4 dormit..rio(s), 3 vaga(s) de garag
+5788: em Pagamento da comiss..o: Comprador<br />Cart..rio de Registro:
+57c8:  5.. RGI de Recife<br />Considera....es importantes:  Ocupado.\r
+5808: <br /> Ficar..o a cargo do arrematante: assun....o dos riscos, p
+5848: rovid..ncias e custas necess..rias: (i) .. desocupa....o; (ii) .
+5888: . apura....o e pagamento do IPTU, a partir do exerc..cio 2015, p
+58c8: arcelas vencidas e vincendas; (iii) .. regulariza....o do im..ve
+5908: l, notadamente a averba....o da  ..rea constru..da perante os ..
+5948: rg..os competentes; (iv) decorrentes da a....o judicial em tr..m
+5988: ite.\r<br />\r<br />\r<br />\r<br /><br />Taxa de comiss..o: <br
+59c8:  />Taxa de servi..o: <br />Aceita Visita: sim<br />Descri....o: 
+5a08: Casa, Uni..o, Desocupado, contendo 4 dormit..rio(s), sendo 1 su.
+5a48: .te(s), 3 vaga(s) de garagem, 2 banheiro(s), 350.00 M.. de ..rea
+5a88:  de terreno, 100.00 M.. de ..rea constru..da, 80.00 M.. de ..rea
+5ac8:  ..til, 90.00 M.. de ..rea privativa, 30.00 M.. de ..rea comum, 
+5b08: 450.00 M.. de ..rea total. Matr..cula n.. 51503, 5.. RGI de Reci
+5b48: fe, Inscri....o Prefeitura 15112-1518-257. IPTU anual R$ 2.500,0
+5b88: 0, valor de condom..nio mensal R$ 350,00, valor avaliado R$500.0
+5bc8: 00,00. Im..vel situado em regi..o de baixa densidade ocupacional
+5c08: , com predomin..ncia residencial, servida apenas por linha de ..
+5c48: nibus, Im..vel encontra-se a 10min do centro, com f..cil acesso 
+5c88: a transporte p..blico. . Resale Integra....o"},"groupOffer":{"id
+5cc8: ":200400,"acceptProposal":false,"commissionPercent":5},"product"
+5d08: :{"productId":1662030,"shortDesc":"Casa, Residencial, Uni..o, 4 
+5d48: dormit..rio(s), 3 vaga(s) de garagem","detailedDescription":"Pag
+5d88: amento da comiss..o: Comprador<br />Cart..rio de Registro: 5.. R
+5dc8: GI de Recife<br />Considera....es importantes:  Ocupado.\r<br />
+5e08:  Ficar..o a cargo do arrematante: assun....o dos riscos, provid.
+5e48: .ncias e custas necess..rias: (i) .. desocupa....o; (ii) .. apur
+5e88: a....o e pagamento do IPTU, a partir do exerc..cio 2015, parcela
+5ec8: s vencidas e vincendas; (iii) .. regulariza....o do im..vel, not
+5f08: adamente a averba....o da  ..rea constru..da perante os ..rg..os
+5f48:  competentes; (iv) decorrentes da a....o judicial em tr..mite.\r
+5f88: <br />\r<br />\r<br />\r<br /><br />Taxa de comiss..o: <br />Tax
+5fc8: a de servi..o: <br />Aceita Visita: sim<br />Descri....o: Casa, 
+6008: Uni..o, Desocupado, contendo 4 dormit..rio(s), sendo 1 su..te(s)
+6048: , 3 vaga(s) de garagem, 2 banheiro(s), 350.00 M.. de ..rea de te
+6088: rreno, 100.00 M.. de ..rea constru..da, 80.00 M.. de ..rea ..til
+60ca: 2000
+60d0: , 90.00 M.. de ..rea privativa, 30.00 M.. de ..rea comum, 450.00
+6110:  M.. de ..rea total. Matr..cula n.. 51503, 5.. RGI de Recife, In
+6150: scri....o Prefeitura 15112-1518-257. IPTU anual R$ 2.500,00, val
+6190: or de condom..nio mensal R$ 350,00, valor avaliado R$500.000,00.
+61d0:  Im..vel situado em regi..o de baixa densidade ocupacional, com 
+6210: predomin..ncia residencial, servida apenas por linha de ..nibus,
+6250:  Im..vel encontra-se a 10min do centro, com f..cil acesso a tran
+6290: sporte p..blico. .","template":{"groups":[{"title":"Descri....o 
+62d0: do im..vel","properties":[{"title":"Quartos","type":"number","va
+6310: lue":"3"},{"title":"Su..tes","type":"number","value":"1"},{"titl
+6350: e":"Salas","type":"number","value":"1"},{"title":"Escrit..rios",
+6390: "type":"number","value":"1"},{"title":"Copas","type":"number","v
+63d0: alue":"1"},{"title":"Cozinhas","type":"number","value":"1"},{"ti
+6410: tle":"Lavabos","type":"number","value":"1"},{"title":"Banheiros"
+6450: ,"type":"number","value":"2"},{"title":"Dormit..rios de Empregad
+6490: a","type":"number","value":"1"},{"title":"Varandas","type":"numb
+64d0: er","value":"1"},{"title":"Piscinas","type":"number","value":"1"
+6510: }]},{"title":"Detalhes do Im..vel","properties":[]},{"title":"Ca
+6550: racter..sticas do Im..vel","properties":[{"title":"..rea Total",
+6590: "type":"number","value":"450"},{"title":"..rea ..til","type":"nu
+65d0: mber","value":"80"},{"title":"..rea Comum","type":"number","valu
+6610: e":"30.00"},{"title":"..rea Privativa","type":"number","value":"
+6650: 90.0"},{"title":"..rea do Terreno","type":"number","value":"350.
+6690: 0"},{"title":"Situa....o","type":"string","value":"Desocupado"}]
+66d0: },{"title":"Valores","properties":[{"title":"Condi....es de Paga
+6710: mento","type":"string","value":""},{"title":"Condom..nio","type"
+6750: :"number","value":"350"},{"title":"IPTU Anual","type":"number","
+6790: value":"2500"}]},{"title":"Documentos","properties":[{"title":"N
+67d0: ..mero da Matr..cula","type":"string","value":"51503"},{"title":
+6810: "N..mero do Contribuinte","type":"string","value":"15112-1518-25
+6850: 7"}]}]},"subCategory":{"id":10111,"description":"Casa Padr..o","
+6890: translation":{"map":{"es_PE":"Casa Padr..o","en_US":"Casa Padr..
+68d0: o","es_AR":"Casa Padr..o","es_MX":"Casa Padr..o","es_CO":"Casa P
+6910: adr..o","pt_BR":"Casa Padr..o","en_UK":"Casa Padr..o","es_CL":"C
+6950: asa Padr..o"}},"evidence":"F","subGrupo":0,"grupo":0,"position":
+6990: 2,"category":{"id":10109,"description":"Residencial","translatio
+69d0: n":{"map":{"es_PE":"Habitaciones","en_US":"Residencial","es_AR":
+6a10: "Habitaciones","es_MX":"Habitaciones","es_CO":"Vivienda","pt_BR"
+6a50: :"Residencial","en_UK":"Residencial","es_CL":"Habitaciones"}},"e
+6a90: vidence":"F","subGrupo":0,"grupo":0,"position":1}},"model":{},"b
+6ad0: rand":{},"location":{"city":"S..o Louren..o da Mata","cityId":"C
+6b10: hIJAxmUfUoFqwcR6k0JGxMpY_Q","state":"Pernambuco","stateId":"ChIJ
+6b50: xYYck518AAcRJhdAk2oZ4B0","country":"Brasil","countryId":"ChIJzyj
+6b90: M68dZnAARYz4p8gYVWik"},"productType":{"id":13,"description":"Im.
+6bd0: .veis","translation":{"map":{"es_PE":"Inmuebles","en_US":"Real E
+6c10: state","es_AR":"Inmuebles","es_MX":"Inmuebles","es_CO":"Inmueble
+6c50: s","pt_BR":"Im..veis","en_UK":"Real Estate","es_CL":"Inmuebles"}
+6c90: },"showBrand":false,"showModel":false},"judicial":{}},"seller":{
+6cd0: "id":93709,"name":"1.. Vara de Fal..ncias e Recupera....es Judic
+6d10: iais do Foro Central da Capital - SP","city":"S..o Paulo","court
+6d50: Id":29,"phone":[{"ddi":"55","ddd":"11","number":"32847522"}],"co
+6d90: mpany":[{"fantasyName":"1.. Vara de Fal..ncias e Recupera....es 
+6dd0: Judiciais do Foro Central da Comarca da Capital/SP"}]},"offersEv
+6e10: ent":[{"offerId":1804458,"productShortDesc":"Casa, Residencial, 
+6e50: Uni..o, 4 dormit..rio(s), 3 vaga(s) de garagem"},{"offerId":1804
+6e90: 464,"productShortDesc":"Casa, Residencial, Uni..o, 4 dormit..rio
+6ed0: (s), 3 vaga(s) de garagem"},{"offerId":1804441,"productShortDesc
+6f10: ":"Casa, Residencial, Uni..o, 4 dormit..rio(s), 3 vaga(s) de gar
+6f50: agem"},{"offerId":1804439,"productShortDesc":"Apartamento, Resid
+6f90: encial, 2 vaga(s) de garagem"},{"offerId":1804454,"productShortD
+6fd0: esc":"Casa, Residencial, Uni..o, 4 dormit..rio(s), 3 vaga(s) de 
+7010: garagem"},{"offerId":1804453,"productShortDesc":"Casa, Residenci
+7050: al, Uni..o, 4 dormit..rio(s), 3 vaga(s) de garagem"}],"isFavorit
+7090: e":false},{"id":1804566,"indexationDate":"2021-03-17 09:50:01","
+70d0: lotNumber":2,"quantityInLot":1,"totalReceivedProposals":0,"visit
+7110: s":0,"totalBidders":0,"totalBids":0,"hidePrices":true,"endDate":
+7150: "2021-03-17 08:45:28","endDateTime":"2021-03-17T08:45:28.000-030
+7190: 0","offerTypeId":1,"createAt":"2021-03-09 09:33:18","updateAt":"
+71d0: 2021-03-17 09:46:44","statusId":6,"price":1000.0,"priceFormatted
+7210: ":"R$ 1.000,00","offerStatus":{"statusCode":6,"removed":false,"s
+7250: tabbed":false,"subjudice":false,"available":false,"closed":false
+7290: ,"giveYourBid":false,"sold":false,"reserved":false,"closedToBids
+72d0: ":false,"wantToKnowThePrice":true,"makeYourProposal":false},"sto
+7310: re":{"id":1161,"name":"SOLD Leil..es","highlight":true,"storeVis
+7350: ibleOnPortal":true,"logoUri":"https://static.s4bdigital.net/logo
+7390: s_empresas/sold.jpg"},"offerDetail":{"id":1804566,"initialBidVal
+73d0: ue":1000.0,"initialBidValueFormatted":"R$ 1.000,00","currentMinB
+7410: id":1000.0,"currentMinBidFormatted":"R$ 1.000,00","currentMaxBid
+7450: ":1000.0,"currentMaxBidFormatted":"R$ 1.000,00","reservedPrice":
+7490: 15000.0,"reservedPriceFormatted":"R$ 15.000,00"},"manager":{"id"
+74d0: :9,"name":"superbidind"},"currentTimestamp":"2021-04-03 02:39:59
+7510: ","auction":{"id":87675,"desc":"Teste Pipeline Leilao 1","locale
+7550: Id":"pt_BR","statusId":1,"permissionTypeId":1,"portalId":2,"moda
+7590: lityId":1,"modalityDesc":"Leil..o","businessAreaId":1,"allOffers
+75d0: OfThisAuctionIsClosed":true,"beginDate":"2021-03-13 07:00:00","m
+7610: axEnddateOffer":"2021-03-17 08:45:28","subMarketplaces":[{"subMa
+7650: rketplaceId":1,"subMarketplaceDesc":"Corporativo"}],"tags":[],"a
+7690: uctioneer":"Eduardo Sylvio Schanzer","registry":"452","address":
+76d0: {"id":27029,"streetType":"Alameda","street":"Lorena","number":"8
+7710: 00","complement":"2.. andar","district":"Jardins","city":"S..o P
+7750: aulo","stateCode":"SP","type":5}},"winnerBid":{},"currentBidIncr
+7790: ement":{"currentBidIncrement":100.0,"currentBidIncrementFormatte
+77d0: d":"R$ 100,00"},"offerDescription":{"offerDescription":"Toyota C
+7810: orolla Toyota Corolla Toyota Corolla Teste Pipeline Leilao 1"},"
+7850: groupOffer":{"id":200585,"acceptProposal":false},"product":{"pro
+7890: ductId":1662135,"shortDesc":"Toyota Corolla","detailedDescriptio
+78d0: n":"Toyota Corolla","template":{"groups":[{"title":"Acess..rios"
+7910: ,"properties":[{"title":"Multim..dia","type":"string","value":"A
+7950: variado"},{"title":"Dire....o El..trica","type":"string","value"
+7990: :"Sim"}]}]},"subCategory":{"id":10006,"description":"Sedans","tr
+79d0: anslation":{"map":{"es_PE":"Sedanes","en_US":"Sedans","es_AR":"S
+7a10: edanes","es_MX":"Sedanes","es_CO":"Sedanes","pt_BR":"Sedans","en
+7a50: _UK":"Sedans","es_CL":"Sedanes"}},"evidence":"F","subGrupo":0,"g
+7a90: rupo":0,"position":6,"category":{"id":10000,"description":"Carro
+7ad0: s","translation":{"map":{"es_PE":"Autos","en_US":"Cars","es_AR":
+7b10: "Autos","es_MX":"Autos","es_CO":"Autos","pt_BR":"Carros","en_UK"
+7b50: :"Cars","es_CL":"Autos"}},"evidence":"F","subGrupo":0,"grupo":0,
+7b90: "position":1}},"model":{"id":785,"description":"Corolla"},"brand
+7bd0: ":{"id":35,"description":"Toyota"},"location":{},"productType":{
+7c10: "id":10,"description":"Carros & Motos","translation":{"map":{"es
+7c50: _PE":"Autos & Motos","en_US":"Cars & Motorcycles","es_AR":"Autos
+7c90:  & Motos","es_MX":"Autos & Motos","es_CO":"Autos & Motos","pt_BR
+7cd0: ":"Carros & Motos","en_UK":"Cars & Motorcycles","es_CL":"Autos &
+7d10:  Motos"}},"showBrand":true,"showModel":true},"judicial":{}},"sel
+7d50: ler":{"id":685079,"name":"Fca Fiat Chrysler Autom..veis Brasil L
+7d90: tda","city":"Betim","phone":[{"ddi":"55","ddd":"31","number":"21
+7dd0: 236267"}],"company":[{"fantasyName":"FCA FIAT CHRYSLER AUTOM..VE
+7e10: IS"}]},"offersEvent":[{"offerId":1804566,"productShortDesc":"Toy
+7e50: ota Corolla"},{"offerId":1804564,"productShortDesc":"Toyota Coro
+7e90: lla"}],"isFavorite":false},{"id":1788662,"indexationDate":"2021-
+7ed0: 03-12 07:11:41","lotNumber":2,"quantityInLot":1,"totalReceivedPr
+7f10: oposals":0,"visits":0,"totalBidders":0,"totalBids":0,"hidePrices
+7f50: ":true,"endDate":"2021-01-01 00:00:00","endDateTime":"2020-12-31
+7f90: T23:00:00.000-0300","offerTypeId":11,"createAt":"2020-05-12 16:3
+7fd0: 0:45","updateAt":"2020-05-15 12:32:44","statusId":1,"offerStatus
+8010: ":{"statusCode":1,"removed":false,"stabbed":false,"subjudice":fa
+8050: lse,"available":false,"closed":false,"giveYourBid":false,"sold":
+8090: false,"reserved":false,"closedToBids":false,"wantToKnowThePrice"
+80d2: 2000
+80d8: :false,"makeYourProposal":false},"store":{"id":261,"name":"Merce
+8118: des-Benz Certified","highlight":false,"storeVisibleOnPortal":fal
+8158: se},"offerDetail":{"id":1788662,"directSaleValue":255990.0,"dire
+8198: ctSaleValueFormatted":"R$ 255.990,00"},"manager":{"id":51,"name"
+81d8: :"Bamaq Autom..veis"},"currentTimestamp":"2021-04-03 02:39:59","
+8218: auction":{"id":86699,"desc":"Bamaq 2020","localeId":"pt_BR","sta
+8258: tusId":3,"permissionTypeId":2,"portalId":2,"modalityId":6,"modal
+8298: ityDesc":"Venda Direta","businessAreaId":1,"allOffersOfThisAucti
+82d8: onIsClosed":true,"beginDate":"2020-04-28 00:00:00","maxEnddateOf
+8318: fer":"2021-01-01 00:00:00","tags":[],"address":{"id":27029,"stre
+8358: etType":"Alameda","street":"Lorena","number":"800","complement":
+8398: "2.. andar","district":"Jardins","city":"S..o Paulo","stateCode"
+83d8: :"SP","type":5}},"winnerBid":{},"currentBidIncrement":{},"offerD
+8418: escription":{"offerDescription":"C  AMG 43 C  AMG 43 Bamaq 2020"
+8458: },"groupOffer":{"id":198951,"acceptProposal":false},"product":{"
+8498: productId":1648859,"shortDesc":"C  AMG 43","galleryJson":[{"orig
+84d8: inalFileName":"IMG_9232.JPG","highlight":true,"link":"https://st
+8518: atic.s4bdigital.net/photos/0a760312-75ec-4738-8f36-579f8d2192e4.
+8558: jpg","contentType":"image/jpeg"},{"originalFileName":"IMG_9230.J
+8598: PG","highlight":false,"link":"https://static.s4bdigital.net/phot
+85d8: os/16060753-a1e7-401c-934a-3e9d55894ec6.jpg","contentType":"imag
+8618: e/jpeg"},{"originalFileName":"IMG_9232.JPG","highlight":false,"l
+8658: ink":"https://static.s4bdigital.net/photos/5e2c1dd0-5fc4-4ec3-a3
+8698: 4a-aae343d03927.jpg","contentType":"image/jpeg"},{"originalFileN
+86d8: ame":"IMG_9235.JPG","highlight":false,"link":"https://static.s4b
+8718: digital.net/photos/b4271958-bc05-4ea2-8fcc-8d9167b74602.jpg","co
+8758: ntentType":"image/jpeg"},{"originalFileName":"IMG_9237.JPG","hig
+8798: hlight":false,"link":"https://static.s4bdigital.net/photos/05c9e
+87d8: 09c-15af-4644-b96f-00bfb341f85a.jpg","contentType":"image/jpeg"}
+8818: ,{"originalFileName":"IMG_9239.JPG","highlight":false,"link":"ht
+8858: tps://static.s4bdigital.net/photos/e9f9ff49-e5c9-4159-b2bd-70906
+8898: 1901239.jpg","contentType":"image/jpeg"},{"originalFileName":"IM
+88d8: G_9240.JPG","highlight":false,"link":"https://static.s4bdigital.
+8918: net/photos/4f978033-f890-4f24-a0f1-b1cace7fb866.jpg","contentTyp
+8958: e":"image/jpeg"},{"originalFileName":"IMG_9244.JPG","highlight":
+8998: false,"link":"https://static.s4bdigital.net/photos/16459512-7c3c
+89d8: -4966-89bd-16d452d9dd1d.jpg","contentType":"image/jpeg"},{"origi
+8a18: nalFileName":"IMG_9246.JPG","highlight":false,"link":"https://st
+8a58: atic.s4bdigital.net/photos/e3f880a1-dd63-49f7-a2dd-16b65e067c29.
+8a98: jpg","contentType":"image/jpeg"},{"originalFileName":"IMG_9250.J
+8ad8: PG","highlight":false,"link":"https://static.s4bdigital.net/phot
+8b18: os/1f14d471-e9cc-43e0-b6ae-c60289ae3801.jpg","contentType":"imag
+8b58: e/jpeg"},{"originalFileName":"IMG_9230.JPG","highlight":false,"l
+8b98: ink":"https://static.s4bdigital.net/photos/03797e5d-0042-44b1-af
+8bd8: e9-48396c9cf2aa.jpg","contentType":"image/jpeg"},{"originalFileN
+8c18: ame":"IMG_9235.JPG","highlight":false,"link":"https://static.s4b
+8c58: digital.net/photos/41724782-5d92-444a-afa4-1f3064183b86.jpg","co
+8c98: ntentType":"image/jpeg"},{"originalFileName":"IMG_9237.JPG","hig
+8cd8: hlight":false,"link":"https://static.s4bdigital.net/photos/ff76a
+8d18: 256-3945-46f1-be58-8618af7222ef.jpg","contentType":"image/jpeg"}
+8d58: ,{"originalFileName":"IMG_9239.JPG","highlight":false,"link":"ht
+8d98: tps://static.s4bdigital.net/photos/1b1888be-af35-42ad-a709-bfe78
+8dd8: 70bd560.jpg","contentType":"image/jpeg"},{"originalFileName":"IM
+8e18: G_9240.JPG","highlight":false,"link":"https://static.s4bdigital.
+8e58: net/photos/7b9a0c40-d6d0-4273-9dfa-9a384de1f94e.jpg","contentTyp
+8e98: e":"image/jpeg"},{"originalFileName":"IMG_9244.JPG","highlight":
+8ed8: false,"link":"https://static.s4bdigital.net/photos/b7ab5089-f2e4
+8f18: -4916-aa6a-399bda25e2f2.jpg","contentType":"image/jpeg"},{"origi
+8f58: nalFileName":"IMG_9246.JPG","highlight":false,"link":"https://st
+8f98: atic.s4bdigital.net/photos/c00c9e64-7595-4edd-baeb-2bbd021e9045.
+8fd8: jpg","contentType":"image/jpeg"},{"originalFileName":"IMG_9250.J
+9018: PG","highlight":false,"link":"https://static.s4bdigital.net/phot
+9058: os/760d9c81-cd80-4eab-9311-2cba6cd42ce7.jpg","contentType":"imag
+9098: e/jpeg"}],"detailedDescription":"C  AMG 43","template":{"groups"
+90d8: :[{"title":"Identifica....o","properties":[{"title":"Marca","typ
+9118: e":"string","value":"Mercedes-Benz"},{"title":"Modelo","type":"s
+9158: tring","value":"C  AMG 43"},{"title":"Placa","type":"string","va
+9198: lue":"Final: 3"},{"title":"Ano Fabrica....o","type":"integer","v
+91d8: alue":"2017"},{"title":"Ano Modelo","type":"integer","value":"20
+9218: 17"},{"title":"UF","type":"string","value":"MG"},{"title":"Munic
+9258: ..pio","type":"string","value":"Belo Horizonte"}]},{"title":"Inf
+9298: orma....es","properties":[{"title":"Quilometragem","type":"integ
+92d8: er","value":"10700"},{"title":"Cor","type":"string","value":"Pra
+9318: ta"},{"title":"Combust..vel","type":"string","value":"Gasolina"}
+9358: ,{"title":"Tipo de C..mbio","type":"string","value":"Autom..tico
+9398: "},{"title":"N..mero de Portas","type":"integer","value":"4"}]}]
+93d8: },"subCategory":{"id":10006,"description":"Sedans","translation"
+9418: :{"map":{"es_PE":"Sedanes","en_US":"Sedans","es_AR":"Sedanes","e
+9458: s_MX":"Sedanes","es_CO":"Sedanes","pt_BR":"Sedans","en_UK":"Seda
+9498: ns","es_CL":"Sedanes"}},"evidence":"F","subGrupo":0,"grupo":0,"p
+94d8: osition":6,"category":{"id":10000,"description":"Carros","transl
+9518: ation":{"map":{"es_PE":"Autos","en_US":"Cars","es_AR":"Autos","e
+9558: s_MX":"Autos","es_CO":"Autos","pt_BR":"Carros","en_UK":"Cars","e
+9598: s_CL":"Autos"}},"evidence":"F","subGrupo":0,"grupo":0,"position"
+95d8: :1}},"model":{},"brand":{},"location":{"city":"Belo Horizonte","
+9618: cityId":"ChIJMyzPysqQpgARlznSOl55NVs","state":"Minas Gerais","st
+9658: ateId":"ChIJiUIyZaGQpgARs-edN8lwIRE","country":"Brasil","country
+9698: Id":"ChIJzyjM68dZnAARYz4p8gYVWik"},"productType":{"id":10,"descr
+96d8: iption":"Carros & Motos","translation":{"map":{"es_PE":"Autos & 
+9718: Motos","en_US":"Cars & Motorcycles","es_AR":"Autos & Motos","es_
+9758: MX":"Autos & Motos","es_CO":"Autos & Motos","pt_BR":"Carros & Mo
+9798: tos","en_UK":"Cars & Motorcycles","es_CL":"Autos & Motos"}},"sho
+97d8: wBrand":true,"showModel":true},"judicial":{}},"seller":{"id":779
+9818: 47,"name":"Mercedes Benz do Brasil Ltda","city":"S..o Bernardo d
+9858: o Campo","phone":[{"ddi":"55","ddd":"11","number":"21637800"}],"
+9898: company":[{"fantasyName":"MERCEDES-BENZ DO BRASIL"}]},"offersEve
+98d8: nt":[{"offerId":1788835,"productShortDesc":"C 200 EQ Boost"},{"o
+9918: fferId":1788801,"productShortDesc":"C 180 Avantgarde"},{"offerId
+9958: ":1791257,"productShortDesc":"C 200 EQ Boost"},{"offerId":178866
+9998: 2,"productShortDesc":"C  AMG 43"}],"isFavorite":false},{"id":179
+99d8: 3332,"indexationDate":"2021-03-12 07:11:39","lotNumber":1,"quant
+9a18: ityInLot":1,"totalReceivedProposals":0,"visits":0,"totalBidders"
+9a58: :0,"totalBids":0,"hidePrices":true,"endDate":"2021-01-31 00:00:0
+9a98: 0","endDateTime":"2021-01-30T23:00:00.000-0300","offerTypeId":11
+9ad8: ,"createAt":"2020-05-21 12:09:38","updateAt":"2020-05-21 12:21:4
+9b18: 8","statusId":1,"offerStatus":{"statusCode":1,"removed":false,"s
+9b58: tabbed":false,"subjudice":false,"available":false,"closed":false
+9b98: ,"giveYourBid":false,"sold":false,"reserved":false,"closedToBids
+9bd8: ":false,"wantToKnowThePrice":false,"makeYourProposal":false},"st
+9c18: ore":{"id":261,"name":"Mercedes-Benz Certified","highlight":fals
+9c58: e,"storeVisibleOnPortal":false},"offerDetail":{"id":1793332,"dir
+9c98: ectSaleValue":125000.0,"directSaleValueFormatted":"R$ 125.000,00
+9cd8: "},"manager":{"id":52,"name":"europamotors"},"currentTimestamp":
+9d18: "2021-04-03 02:39:59","auction":{"id":87055,"desc":"Europa Motor
+9d58: s 2020","localeId":"pt_BR","statusId":3,"permissionTypeId":1,"po
+9d98: rtalId":2,"modalityId":6,"modalityDesc":"Venda Direta","business
+9dd8: AreaId":1,"allOffersOfThisAuctionIsClosed":true,"beginDate":"202
+9e18: 0-05-19 00:00:00","maxEnddateOffer":"2021-01-31 00:00:00","tags"
+9e58: :[],"address":{"id":27029,"streetType":"Alameda","street":"Loren
+9e98: a","number":"800","complement":"2.. andar","district":"Jardins",
+9ed8: "city":"S..o Paulo","stateCode":"SP","type":5}},"winnerBid":{},"
+9f18: currentBidIncrement":{},"offerDescription":{"offerDescription":"
+9f58: C 180 Avantgarde Mercedes Benz C 180 Avantgarde C 180 Avantgarde
+9f98:  Europa Motors 2020"},"groupOffer":{"id":199465,"acceptProposal"
+9fd8: :false},"product":{"productId":1652542,"shortDesc":"C 180 Avantg
+a018: arde","galleryJson":[{"originalFileName":"20191205_094812.jpg","
+a058: highlight":true,"link":"https://static.s4bdigital.net/photos/329
+a098: 7574d-a171-4bff-b285-d3c3dec48d58.jpg","contentType":"image/jpeg
+a0da: 2000
+a0e0: "},{"originalFileName":"20191205_094843.jpg","highlight":false,"
+a120: link":"https://static.s4bdigital.net/photos/c82ac383-3cc4-49de-9
+a160: eda-cb44b2e732f5.jpg","contentType":"image/jpeg"},{"originalFile
+a1a0: Name":"20191205_094834.jpg","highlight":false,"link":"https://st
+a1e0: atic.s4bdigital.net/photos/72e59d6c-72bb-478d-a1b1-86bbe36c04e7.
+a220: jpg","contentType":"image/jpeg"},{"originalFileName":"20191205_0
+a260: 94825.jpg","highlight":false,"link":"https://static.s4bdigital.n
+a2a0: et/photos/e950546a-da31-4feb-b79b-afc65fc16564.jpg","contentType
+a2e0: ":"image/jpeg"},{"originalFileName":"20191205_094801.jpg","highl
+a320: ight":false,"link":"https://static.s4bdigital.net/photos/7c32174
+a360: e-0299-47e8-9fc9-c27e14eee92c.jpg","contentType":"image/jpeg"}],
+a3a0: "detailedDescription":"C 180 Avantgarde","template":{"groups":[{
+a3e0: "title":"Identifica....o","properties":[{"title":"Marca","type":
+a420: "string","value":"Mercedes-Benz"},{"title":"Modelo","type":"stri
+a460: ng","value":"C180 Avantgarde"},{"title":"Placa","type":"string",
+a4a0: "value":"Final: 7"},{"title":"Ano Fabrica....o","type":"integer"
+a4e0: ,"value":"2018"},{"title":"Ano Modelo","type":"integer","value":
+a520: "2018"},{"title":"UF","type":"string","value":"SP"},{"title":"Mu
+a560: nic..pio","type":"string","value":"Campinas"}]},{"title":"Inform
+a5a0: a....es","properties":[{"title":"Quilometragem","type":"integer"
+a5e0: ,"value":"41300"},{"title":"Cor","type":"string","value":"Prata"
+a620: },{"title":"Combust..vel","type":"string","value":"Gasolina"},{"
+a660: title":"Tipo de C..mbio","type":"string","value":"Autom..tico"},
+a6a0: {"title":"N..mero de Portas","type":"integer","value":"4"}]},{"t
+a6e0: itle":"Acess..rios","properties":[{"title":"Sistema de Som","typ
+a720: e":"multivalue","value":""},{"title":"Seguran..a","type":"multiv
+a760: alue","value":"Assistente de freio (BAS).Controle eletr..nico de
+a7a0:  estabilidade (ESP.. Curve Dynamic Assist)"}]}]},"subCategory":{
+a7e0: "id":10006,"description":"Sedans","translation":{"map":{"es_PE":
+a820: "Sedanes","en_US":"Sedans","es_AR":"Sedanes","es_MX":"Sedanes","
+a860: es_CO":"Sedanes","pt_BR":"Sedans","en_UK":"Sedans","es_CL":"Seda
+a8a0: nes"}},"evidence":"F","subGrupo":0,"grupo":0,"position":6,"categ
+a8e0: ory":{"id":10000,"description":"Carros","translation":{"map":{"e
+a920: s_PE":"Autos","en_US":"Cars","es_AR":"Autos","es_MX":"Autos","es
+a960: _CO":"Autos","pt_BR":"Carros","en_UK":"Cars","es_CL":"Autos"}},"
+a9a0: evidence":"F","subGrupo":0,"grupo":0,"position":1}},"model":{"id
+a9e0: ":10453,"description":"C 180 Avantgarde"},"brand":{"id":1,"descr
+aa20: iption":"Mercedes Benz"},"location":{"city":"Campinas","cityId":
+aa60: "ChIJJWNL5x3GyJQRKsJ4IWo65Rc","state":"S..o Paulo","stateId":"Ch
+aaa0: IJrVgvRn1ZzpQRF3x74eJBUh4","country":"Brasil","countryId":"ChIJz
+aae0: yjM68dZnAARYz4p8gYVWik"},"productType":{"id":10,"description":"C
+ab20: arros & Motos","translation":{"map":{"es_PE":"Autos & Motos","en
+ab60: _US":"Cars & Motorcycles","es_AR":"Autos & Motos","es_MX":"Autos
+aba0:  & Motos","es_CO":"Autos & Motos","pt_BR":"Carros & Motos","en_U
+abe0: K":"Cars & Motorcycles","es_CL":"Autos & Motos"}},"showBrand":tr
+ac20: ue,"showModel":true},"judicial":{}},"seller":{"id":1045137,"name
+ac60: ":"NOVA EUROPAMOTORS COMERCIO DE VEICULOS LTDA","city":"S..o Pau
+aca0: lo","phone":[{"ddi":"55","ddd":"19","number":"37588800"},{"ddi":
+ace0: "55","ddd":"11","number":"00000000"}],"company":[{"fantasyName":
+ad20: "Nova"}]},"offersEvent":[{"offerId":1793333,"productShortDesc":"
+ad60: C 180 Avantgarde"},{"offerId":1793332,"productShortDesc":"C 180 
+ada0: Avantgarde"},{"offerId":1793334,"productShortDesc":"C200 EQ"},{"
+ade0: offerId":1793340,"productShortDesc":"C 180 Avantgarde"}],"isFavo
+ae20: rite":false},{"id":1804528,"indexationDate":"2021-03-12 07:11:45
+ae60: ","lotNumber":1,"quantityInLot":1,"totalReceivedProposals":0,"vi
+aea0: sits":0,"totalBidders":0,"totalBids":0,"hidePrices":true,"endDat
+aee0: e":"2021-02-28 00:00:00","endDateTime":"2021-02-28T00:00:00.000-
+af20: 0300","offerTypeId":1,"createAt":"2021-02-17 11:58:12","updateAt
+af60: ":"2021-02-17 11:59:23","statusId":1,"price":27000.0,"priceForma
+afa0: tted":"R$ 27.000,00","offerStatus":{"statusCode":1,"removed":fal
+afe0: se,"stabbed":false,"subjudice":false,"available":false,"closed":
+b020: false,"giveYourBid":false,"sold":false,"reserved":false,"closedT
+b060: oBids":false,"wantToKnowThePrice":true,"makeYourProposal":false}
+b0a0: ,"store":{},"offerDetail":{"id":1804528,"initialBidValue":27000.
+b0e0: 0,"initialBidValueFormatted":"R$ 27.000,00","currentMinBid":2700
+b120: 0.0,"currentMinBidFormatted":"R$ 27.000,00","currentMaxBid":2700
+b160: 0.0,"currentMaxBidFormatted":"R$ 27.000,00","reservedPrice":2700
+b1a0: 0.0,"reservedPriceFormatted":"R$ 27.000,00"},"manager":{"id":9,"
+b1e0: name":"superbidind"},"currentTimestamp":"2021-04-03 02:39:59","a
+b220: uction":{"id":87653,"desc":"Teste leil..o com banner gravata","l
+b260: ocaleId":"pt_BR","statusId":1,"permissionTypeId":1,"portalId":2,
+b2a0: "modalityId":1,"modalityDesc":"Leil..o","businessAreaId":1,"allO
+b2e0: ffersOfThisAuctionIsClosed":true,"beginDate":"2021-02-16 00:00:0
+b320: 0","maxEnddateOffer":"2021-02-28 00:00:00","subMarketplaces":[{"
+b360: subMarketplaceId":1,"subMarketplaceDesc":"Corporativo"}],"tags":
+b3a0: [],"auctioneer":"Rodrigo de Queiroz Sodr.. Santoro","registry":"
+b3e0: 449","address":{"id":27029,"streetType":"Alameda","street":"Lore
+b420: na","number":"800","complement":"2.. andar","district":"Jardins"
+b460: ,"city":"S..o Paulo","stateCode":"SP","type":5}},"winnerBid":{},
+b4a0: "currentBidIncrement":{"currentBidIncrement":500.0,"currentBidIn
+b4e0: crementFormatted":"R$ 500,00"},"offerDescription":{"offerDescrip
+b520: tion":"BMW 310GS Teste leil..o com banner gravata"},"groupOffer"
+b560: :{"id":200523,"acceptProposal":false,"commissionPercent":5},"pro
+b5a0: duct":{"productId":1662093,"shortDesc":"BMW 310GS","galleryJson"
+b5e0: :[{"originalFileName":"0d93d136-120f-464c-8e35-5cbf4824c4ba.jpeg
+b620: ","link":"https://static.s4bdigital.net/stg/photos/d3107a00-e151
+b660: -4061-9497-91908dec44b6.jpeg","contentType":"image/jpeg"}],"temp
+b6a0: late":{"groups":[]},"subCategory":{"id":10013,"description":"Mot
+b6e0: ocicletas","translation":{"map":{"es_PE":"Motocicletas","en_US":
+b720: "Motorcycles","es_AR":"Motocicletas","es_MX":"Motocicletas","es_
+b760: CO":"Motocicletas","pt_BR":"Motocicletas","en_UK":"Motorcycles",
+b7a0: "es_CL":"Motocicletas"}},"evidence":"F","subGrupo":0,"grupo":0,"
+b7e0: position":11,"category":{"id":10012,"description":"Motos","trans
+b820: lation":{"map":{"es_PE":"Motos","en_US":"Motorcycles","es_AR":"M
+b860: otos","es_MX":"Motos","es_CO":"Motos","pt_BR":"Motos","en_UK":"M
+b8a0: otorcycles","es_CL":"Motos"}},"evidence":"F","subGrupo":0,"grupo
+b8e0: ":0,"position":2}},"model":{},"brand":{},"location":{},"productT
+b920: ype":{"id":10,"description":"Carros & Motos","translation":{"map
+b960: ":{"es_PE":"Autos & Motos","en_US":"Cars & Motorcycles","es_AR":
+b9a0: "Autos & Motos","es_MX":"Autos & Motos","es_CO":"Autos & Motos",
+b9e0: "pt_BR":"Carros & Motos","en_UK":"Cars & Motorcycles","es_CL":"A
+ba20: utos & Motos"}},"showBrand":true,"showModel":true},"judicial":{}
+ba60: },"seller":{"id":836560,"name":"Casa do Concurseiro Comercio de 
+baa0: Materiais Did..ticos e Educacionais S A","city":"Porto Alegre","
+bae0: phone":[{"ddi":"55","ddd":"51","number":"30852202"}],"company":[
+bb20: {"fantasyName":"UOL"}]},"offersEvent":[{"offerId":1804528,"produ
+bb60: ctShortDesc":"BMW 310GS"}],"isFavorite":false},{"id":1804529,"in
+bba0: dexationDate":"2021-03-12 07:11:46","lotNumber":1,"quantityInLot
+bbe0: ":1,"totalReceivedProposals":0,"visits":0,"totalBidders":0,"tota
+bc20: lBids":0,"hidePrices":true,"endDate":"2021-02-26 00:00:00","endD
+bc60: ateTime":"2021-02-26T00:00:00.000-0300","offerTypeId":1,"createA
+bca0: t":"2021-02-19 17:41:54","updateAt":"2021-02-19 18:03:37","statu
+bce0: sId":1,"price":1000.0,"priceFormatted":"R$ 1.000,00","offerStatu
+bd20: s":{"statusCode":1,"removed":false,"stabbed":false,"subjudice":f
+bd60: alse,"available":false,"closed":false,"giveYourBid":false,"sold"
+bda0: :false,"reserved":false,"closedToBids":false,"wantToKnowThePrice
+bde0: ":true,"makeYourProposal":false},"store":{"id":1161,"name":"SOLD
+be20:  Leil..es","highlight":true,"storeVisibleOnPortal":true,"logoUri
+be60: ":"https://static.s4bdigital.net/logos_empresas/sold.jpg"},"offe
+bea0: rDetail":{"id":1804529,"initialBidValue":1000.0,"initialBidValue
+bee0: Formatted":"R$ 1.000,00","currentMinBid":1000.0,"currentMinBidFo
+bf20: rmatted":"R$ 1.000,00","currentMaxBid":1000.0,"currentMaxBidForm
+bf60: atted":"R$ 1.000,00","reservedPrice":200000.0,"reservedPriceForm
+bfa0: atted":"R$ 200.000,00"},"manager":{"id":9,"name":"superbidind"},
+bfe0: "currentTimestamp":"2021-04-03 02:39:59","auction":{"id":87666,"
+c020: desc":"Teste Evento Sem Pipeline","localeId":"pt_BR","statusId":
+c060: 1,"permissionTypeId":1,"portalId":2,"modalityId":1,"modalityDesc
+c0a0: ":"Leil..o","businessAreaId":1,"allOffersOfThisAuctionIsClosed":
+c0e2: 2000
+c0e8: true,"beginDate":"2021-02-19 00:00:00","maxEnddateOffer":"2021-0
+c128: 2-26 00:00:00","subMarketplaces":[{"subMarketplaceId":1,"subMark
+c168: etplaceDesc":"Corporativo"}],"tags":[],"auctioneer":"Eduardo Syl
+c1a8: vio Schanzer","registry":"452","address":{"id":27029,"streetType
+c1e8: ":"Alameda","street":"Lorena","number":"800","complement":"2.. a
+c228: ndar","district":"Jardins","city":"S..o Paulo","stateCode":"SP",
+c268: "type":5}},"winnerBid":{},"currentBidIncrement":{"currentBidIncr
+c2a8: ement":100.0,"currentBidIncrementFormatted":"R$ 100,00"},"offerD
+c2e8: escription":{"offerDescription":"Teste sem Pipeline teste pipeli
+c328: ne Teste Evento Sem Pipeline"},"groupOffer":{"id":200538,"accept
+c368: Proposal":false,"commissionPercent":5},"product":{"productId":16
+c3a8: 62094,"shortDesc":"Teste sem Pipeline","galleryJson":[{"original
+c3e8: FileName":"470b2733-c85d-4ae2-8a0a-a74bd38d6d08.jpeg","link":"ht
+c428: tps://static.s4bdigital.net/stg/photos/20dcc0ec-d81a-483c-9cf0-a
+c468: 12d620edb92.jpeg","contentType":"image/jpeg"}],"detailedDescript
+c4a8: ion":"teste pipeline","template":{"groups":[]},"subCategory":{"i
+c4e8: d":10002,"description":"Convers..veis","translation":{"map":{"es
+c528: _PE":"Descapotable","en_US":"Cabriolet","es_AR":"Descapotable","
+c568: es_MX":"Descapotable","es_CO":"Descapotable","pt_BR":"Convers..v
+c5a8: eis","en_UK":"Cabriolet","es_CL":"Descapotable"}},"evidence":"F"
+c5e8: ,"subGrupo":0,"grupo":0,"position":2,"category":{"id":10000,"des
+c628: cription":"Carros","translation":{"map":{"es_PE":"Autos","en_US"
+c668: :"Cars","es_AR":"Autos","es_MX":"Autos","es_CO":"Autos","pt_BR":
+c6a8: "Carros","en_UK":"Cars","es_CL":"Autos"}},"evidence":"F","subGru
+c6e8: po":0,"grupo":0,"position":1}},"model":{},"brand":{},"location":
+c728: {},"productType":{"id":10,"description":"Carros & Motos","transl
+c768: ation":{"map":{"es_PE":"Autos & Motos","en_US":"Cars & Motorcycl
+c7a8: es","es_AR":"Autos & Motos","es_MX":"Autos & Motos","es_CO":"Aut
+c7e8: os & Motos","pt_BR":"Carros & Motos","en_UK":"Cars & Motorcycles
+c828: ","es_CL":"Autos & Motos"}},"showBrand":true,"showModel":true},"
+c868: judicial":{}},"seller":{"id":685079,"name":"Fca Fiat Chrysler Au
+c8a8: tom..veis Brasil Ltda","city":"Betim","phone":[{"ddi":"55","ddd"
+c8e8: :"31","number":"21236267"}],"company":[{"fantasyName":"FCA FIAT 
+c928: CHRYSLER AUTOM..VEIS"}]},"offersEvent":[{"offerId":1804529,"prod
+c968: uctShortDesc":"Teste sem Pipeline"}],"isFavorite":false},{"id":1
+c9a8: 804441,"indexationDate":"2021-03-12 07:11:57","lotNumber":1,"qua
+c9e8: ntityInLot":1,"totalReceivedProposals":0,"visits":0,"totalBidder
+ca28: s":0,"totalBids":0,"hidePrices":true,"endDate":"2021-02-15 18:00
+ca68: :00","endDateTime":"2021-02-15T17:00:00.000-0300","offerTypeId":
+caa8: 1,"createAt":"2021-01-17 03:05:04","updateAt":"2021-01-17 03:09:
+cae8: 09","statusId":1,"price":350000.0,"priceFormatted":"R$ 350.000,0
+cb28: 0","offerStatus":{"statusCode":1,"removed":false,"stabbed":false
+cb68: ,"subjudice":false,"available":false,"closed":false,"giveYourBid
+cba8: ":false,"sold":false,"reserved":false,"closedToBids":false,"want
+cbe8: ToKnowThePrice":true,"makeYourProposal":false},"store":{},"offer
+cc28: Detail":{"id":1804441,"initialBidValue":350000.0,"initialBidValu
+cc68: eFormatted":"R$ 350.000,00","currentMinBid":350000.0,"currentMin
+cca8: BidFormatted":"R$ 350.000,00","currentMaxBid":350000.0,"currentM
+cce8: axBidFormatted":"R$ 350.000,00","reservedPrice":350000.0,"reserv
+cd28: edPriceFormatted":"R$ 350.000,00"},"manager":{"id":9,"name":"sup
+cd68: erbidind"},"currentTimestamp":"2021-04-03 02:39:59","auction":{"
+cda8: id":87587,"desc":"Resale Integra....o","localeId":"pt_BR","statu
+cde8: sId":1,"permissionTypeId":1,"portalId":2,"modalityId":1,"modalit
+ce28: yDesc":"Leil..o","businessAreaId":1,"allOffersOfThisAuctionIsClo
+ce68: sed":true,"beginDate":"2020-09-15 07:00:00","maxEnddateOffer":"2
+cea8: 021-02-15 18:00:00","tags":[],"auctioneer":"LUIZ TOCIAKI HIRANO"
+cee8: ,"registry":"1126","address":{"id":27029,"streetType":"Alameda",
+cf28: "street":"Lorena","number":"800","complement":"2.. andar","distr
+cf68: ict":"Jardins","city":"S..o Paulo","stateCode":"SP","countryName
+cfa8: ":"Brasil","type":5}},"winnerBid":{},"currentBidIncrement":{"cur
+cfe8: rentBidIncrement":5000.0,"currentBidIncrementFormatted":"R$ 5.00
+d028: 0,00"},"offerDescription":{"offerDescription":"Casa, Residencial
+d068: , Uni..o, 4 dormit..rio(s), 3 vaga(s) de garagem Pagamento da co
+d0a8: miss..o: Comprador<br />Cart..rio de Registro: 6.. RGI de Recife
+d0e8: <br />Considera....es importantes:  Ocupado.\r<br /> Ficar..o a 
+d128: cargo do arrematante: assun....o dos riscos, provid..ncias e cus
+d168: tas necess..rias: (i) .. desocupa....o; (ii) .. apura....o e pag
+d1a8: amento do IPTU, a partir do exerc..cio 2015, parcelas vencidas e
+d1e8:  vincendas; (iii) .. regulariza....o do im..vel, notadamente a a
+d228: verba....o da  ..rea constru..da perante os ..rg..os competentes
+d268: ; (iv) decorrentes da a....o judicial em tr..mite.\r<br />\r<br 
+d2a8: />\r<br />\r<br /><br />Taxa de comiss..o: <br />Taxa de servi..
+d2e8: o: <br />Aceita Visita: nao<br />Descri....o: Casa, Uni..o, Ocup
+d328: ado, contendo 4 dormit..rio(s), sendo 1 su..te(s), 3 vaga(s) de 
+d368: garagem, 2 banheiro(s), 350.00 M.. de ..rea de terreno, 100.00 M
+d3a8: .. de ..rea constru..da, 80.00 M.. de ..rea ..til, 90.00 M.. de 
+d3e8: ..rea privativa, 30.00 M.. de ..rea comum, 450.00 M.. de ..rea t
+d428: otal. Matr..cula n.. 51504, 6.. RGI de Recife, Inscri....o Prefe
+d468: itura 15112-1518-258. IPTU anual R$ 2.500,00, valor de condom..n
+d4a8: io mensal R$ 350,00, valor avaliado R$500.000,00. Im..vel situad
+d4e8: o em regi..o de baixa densidade ocupacional, com predomin..ncia 
+d528: residencial, servida apenas por linha de ..nibus, Im..vel encont
+d568: ra-se a 10min do centro, com f..cil acesso a transporte p..blico
+d5a8: . . Resale Integra....o"},"groupOffer":{"id":200400,"acceptPropo
+d5e8: sal":false,"commissionPercent":5},"product":{"productId":1662012
+d628: ,"shortDesc":"Casa, Residencial, Uni..o, 4 dormit..rio(s), 3 vag
+d668: a(s) de garagem","detailedDescription":"Pagamento da comiss..o: 
+d6a8: Comprador<br />Cart..rio de Registro: 6.. RGI de Recife<br />Con
+d6e8: sidera....es importantes:  Ocupado.\r<br /> Ficar..o a cargo do 
+d728: arrematante: assun....o dos riscos, provid..ncias e custas neces
+d768: s..rias: (i) .. desocupa....o; (ii) .. apura....o e pagamento do
+d7a8:  IPTU, a partir do exerc..cio 2015, parcelas vencidas e vincenda
+d7e8: s; (iii) .. regulariza....o do im..vel, notadamente a averba....
+d828: o da  ..rea constru..da perante os ..rg..os competentes; (iv) de
+d868: correntes da a....o judicial em tr..mite.\r<br />\r<br />\r<br /
+d8a8: >\r<br /><br />Taxa de comiss..o: <br />Taxa de servi..o: <br />
+d8e8: Aceita Visita: nao<br />Descri....o: Casa, Uni..o, Ocupado, cont
+d928: endo 4 dormit..rio(s), sendo 1 su..te(s), 3 vaga(s) de garagem, 
+d968: 2 banheiro(s), 350.00 M.. de ..rea de terreno, 100.00 M.. de ..r
+d9a8: ea constru..da, 80.00 M.. de ..rea ..til, 90.00 M.. de ..rea pri
+d9e8: vativa, 30.00 M.. de ..rea comum, 450.00 M.. de ..rea total. Mat
+da28: r..cula n.. 51504, 6.. RGI de Recife, Inscri....o Prefeitura 151
+da68: 12-1518-258. IPTU anual R$ 2.500,00, valor de condom..nio mensal
+daa8:  R$ 350,00, valor avaliado R$500.000,00. Im..vel situado em regi
+dae8: ..o de baixa densidade ocupacional, com predomin..ncia residenci
+db28: al, servida apenas por linha de ..nibus, Im..vel encontra-se a 1
+db68: 0min do centro, com f..cil acesso a transporte p..blico. .","tem
+dba8: plate":{"groups":[{"title":"Descri....o do im..vel","properties"
+dbe8: :[{"title":"Quartos","type":"number","value":"3"},{"title":"Su..
+dc28: tes","type":"number","value":"1"},{"title":"Salas","type":"numbe
+dc68: r","value":"1"},{"title":"Escrit..rios","type":"number","value":
+dca8: "1"},{"title":"Copas","type":"number","value":"1"},{"title":"Coz
+dce8: inhas","type":"number","value":"1"},{"title":"Lavabos","type":"n
+dd28: umber","value":"1"},{"title":"Banheiros","type":"number","value"
+dd68: :"2"},{"title":"Dormit..rios de Empregada","type":"number","valu
+dda8: e":"1"},{"title":"Varandas","type":"number","value":"1"},{"title
+dde8: ":"Piscinas","type":"number","value":"1"}]},{"title":"Detalhes d
+de28: o Im..vel","properties":[]},{"title":"Caracter..sticas do Im..ve
+de68: l","properties":[{"title":"..rea Total","type":"number","value":
+dea8: "450"},{"title":"..rea ..til","type":"number","value":"80"},{"ti
+dee8: tle":"..rea Comum","type":"number","value":"30.00"},{"title":"..
+df28: rea Privativa","type":"number","value":"90.0"},{"title":"..rea d
+df68: o Terreno","type":"number","value":"350.0"},{"title":"Situa....o
+dfa8: ","type":"string","value":"Ocupado"}]},{"title":"Valores","prope
+dfe8: rties":[{"title":"Condi....es de Pagamento","type":"string","val
+e028: ue":""},{"title":"Condom..nio","type":"number","value":"350"},{"
+e068: title":"IPTU Anual","type":"number","value":"2500"}]},{"title":"
+e0a8: Documentos","properties":[{"title":"N..mero da Matr..cula","type
+e0ea: 2000
+e0f0: ":"string","value":"51504"},{"title":"N..mero do Contribuinte","
+e130: type":"string","value":"15112-1518-258"}]}]},"subCategory":{"id"
+e170: :10111,"description":"Casa Padr..o","translation":{"map":{"es_PE
+e1b0: ":"Casa Padr..o","en_US":"Casa Padr..o","es_AR":"Casa Padr..o","
+e1f0: es_MX":"Casa Padr..o","es_CO":"Casa Padr..o","pt_BR":"Casa Padr.
+e230: .o","en_UK":"Casa Padr..o","es_CL":"Casa Padr..o"}},"evidence":"
+e270: F","subGrupo":0,"grupo":0,"position":2,"category":{"id":10109,"d
+e2b0: escription":"Residencial","translation":{"map":{"es_PE":"Habitac
+e2f0: iones","en_US":"Residencial","es_AR":"Habitaciones","es_MX":"Hab
+e330: itaciones","es_CO":"Vivienda","pt_BR":"Residencial","en_UK":"Res
+e370: idencial","es_CL":"Habitaciones"}},"evidence":"F","subGrupo":0,"
+e3b0: grupo":0,"position":1}},"model":{},"brand":{},"location":{"city"
+e3f0: :"S..o Louren..o da Mata","cityId":"ChIJAxmUfUoFqwcR6k0JGxMpY_Q"
+e430: ,"state":"Pernambuco","stateId":"ChIJxYYck518AAcRJhdAk2oZ4B0","c
+e470: ountry":"Brasil","countryId":"ChIJzyjM68dZnAARYz4p8gYVWik"},"pro
+e4b0: ductType":{"id":13,"description":"Im..veis","translation":{"map"
+e4f0: :{"es_PE":"Inmuebles","en_US":"Real Estate","es_AR":"Inmuebles",
+e530: "es_MX":"Inmuebles","es_CO":"Inmuebles","pt_BR":"Im..veis","en_U
+e570: K":"Real Estate","es_CL":"Inmuebles"}},"showBrand":false,"showMo
+e5b0: del":false},"judicial":{}},"seller":{"id":93709,"name":"1.. Vara
+e5f0:  de Fal..ncias e Recupera....es Judiciais do Foro Central da Cap
+e630: ital - SP","city":"S..o Paulo","courtId":29,"phone":[{"ddi":"55"
+e670: ,"ddd":"11","number":"32847522"}],"company":[{"fantasyName":"1..
+e6b0:  Vara de Fal..ncias e Recupera....es Judiciais do Foro Central d
+e6f0: a Comarca da Capital/SP"}]},"offersEvent":[{"offerId":1804458,"p
+e730: roductShortDesc":"Casa, Residencial, Uni..o, 4 dormit..rio(s), 3
+e770:  vaga(s) de garagem"},{"offerId":1804464,"productShortDesc":"Cas
+e7b0: a, Residencial, Uni..o, 4 dormit..rio(s), 3 vaga(s) de garagem"}
+e7f0: ,{"offerId":1804441,"productShortDesc":"Casa, Residencial, Uni..
+e830: o, 4 dormit..rio(s), 3 vaga(s) de garagem"},{"offerId":1804439,"
+e870: productShortDesc":"Apartamento, Residencial, 2 vaga(s) de garage
+e8b0: m"},{"offerId":1804454,"productShortDesc":"Casa, Residencial, Un
+e8f0: i..o, 4 dormit..rio(s), 3 vaga(s) de garagem"},{"offerId":180445
+e930: 3,"productShortDesc":"Casa, Residencial, Uni..o, 4 dormit..rio(s
+e970: ), 3 vaga(s) de garagem"}],"isFavorite":false},{"id":1804522,"in
+e9b0: dexationDate":"2021-03-12 07:11:58","lotNumber":1,"quantityInLot
+e9f0: ":1,"totalReceivedProposals":0,"visits":0,"totalBidders":0,"tota
+ea30: lBids":0,"hidePrices":true,"endDate":"2021-02-22 00:00:00","endD
+ea70: ateTime":"2021-02-22T00:00:00.000-0300","offerTypeId":1,"createA
+eab0: t":"2021-02-15 14:43:14","updateAt":"2021-02-15 13:47:19","statu
+eaf0: sId":1,"price":1000.0,"priceFormatted":"R$ 1.000,00","offerStatu
+eb30: s":{"statusCode":1,"removed":false,"stabbed":false,"subjudice":f
+eb70: alse,"available":false,"closed":false,"giveYourBid":false,"sold"
+ebb0: :false,"reserved":false,"closedToBids":false,"wantToKnowThePrice
+ebf0: ":true,"makeYourProposal":false},"store":{},"offerDetail":{"id":
+ec30: 1804522,"initialBidValue":1000.0,"initialBidValueFormatted":"R$ 
+ec70: 1.000,00","currentMinBid":1000.0,"currentMinBidFormatted":"R$ 1.
+ecb0: 000,00","currentMaxBid":1000.0,"currentMaxBidFormatted":"R$ 1.00
+ecf0: 0,00","reservedPrice":20000.0,"reservedPriceFormatted":"R$ 20.00
+ed30: 0,00"},"manager":{"id":9,"name":"superbidind"},"currentTimestamp
+ed70: ":"2021-04-03 02:39:59","auction":{"id":87645,"desc":"Teste Andr
+edb0: eia Pra..as","localeId":"pt_BR","statusId":3,"permissionTypeId":
+edf0: 1,"portalId":2,"modalityId":1,"modalityDesc":"Leil..o","business
+ee30: AreaId":1,"allOffersOfThisAuctionIsClosed":true,"beginDate":"202
+ee70: 1-02-15 01:00:00","maxEnddateOffer":"2021-02-22 00:00:00","tags"
+eeb0: :[],"auctioneer":"Eduardo Sylvio Schanzer","registry":"452","add
+eef0: ress":{"id":27029,"streetType":"Alameda","street":"Lorena","numb
+ef30: er":"800","complement":"2.. andar","district":"Jardins","city":"
+ef70: S..o Paulo","stateCode":"SP","type":5}},"winnerBid":{},"currentB
+efb0: idIncrement":{"currentBidIncrement":100.0,"currentBidIncrementFo
+eff0: rmatted":"R$ 100,00"},"offerDescription":{"offerDescription":"Te
+f030: ste Andreia 2 pra..as Honda Civic Teste Andreia Pra..as"},"group
+f070: Offer":{"id":200500,"acceptProposal":false},"product":{"productI
+f0b0: d":1662090,"shortDesc":"Teste Andreia 2 pra..as","template":{"gr
+f0f0: oups":[]},"subCategory":{"id":10006,"description":"Sedans","tran
+f130: slation":{"map":{"es_PE":"Sedanes","en_US":"Sedans","es_AR":"Sed
+f170: anes","es_MX":"Sedanes","es_CO":"Sedanes","pt_BR":"Sedans","en_U
+f1b0: K":"Sedans","es_CL":"Sedanes"}},"evidence":"F","subGrupo":0,"gru
+f1f0: po":0,"position":6,"category":{"id":10000,"description":"Carros"
+f230: ,"translation":{"map":{"es_PE":"Autos","en_US":"Cars","es_AR":"A
+f270: utos","es_MX":"Autos","es_CO":"Autos","pt_BR":"Carros","en_UK":"
+f2b0: Cars","es_CL":"Autos"}},"evidence":"F","subGrupo":0,"grupo":0,"p
+f2f0: osition":1}},"model":{"id":588,"description":"Civic"},"brand":{"
+f330: id":7,"description":"Honda"},"location":{},"productType":{"id":1
+f370: 0,"description":"Carros & Motos","translation":{"map":{"es_PE":"
+f3b0: Autos & Motos","en_US":"Cars & Motorcycles","es_AR":"Autos & Mot
+f3f0: os","es_MX":"Autos & Motos","es_CO":"Autos & Motos","pt_BR":"Car
+f430: ros & Motos","en_UK":"Cars & Motorcycles","es_CL":"Autos & Motos
+f470: "}},"showBrand":true,"showModel":true},"judicial":{}},"seller":{
+f4b0: "id":685079,"name":"Fca Fiat Chrysler Autom..veis Brasil Ltda","
+f4f0: city":"Betim","phone":[{"ddi":"55","ddd":"31","number":"21236267
+f530: "}],"company":[{"fantasyName":"FCA FIAT CHRYSLER AUTOM..VEIS"}]}
+f570: ,"offersEvent":[{"offerId":1804522,"productShortDesc":"Teste And
+f5b0: reia 2 pra..as"}],"isFavorite":false},{"id":1788835,"indexationD
+f5f0: ate":"2021-03-12 07:11:59","lotNumber":4,"quantityInLot":1,"tota
+f630: lReceivedProposals":0,"visits":0,"totalBidders":0,"totalBids":0,
+f670: "hidePrices":true,"endDate":"2021-01-01 00:00:00","endDateTime":
+f6b0: "2020-12-31T23:00:00.000-0300","offerTypeId":11,"createAt":"2020
+f6f0: -05-12 17:19:29","updateAt":"2020-05-15 15:23:31","statusId":1,"
+f730: offerStatus":{"statusCode":1,"removed":false,"stabbed":false,"su
+f770: bjudice":false,"available":false,"closed":false,"giveYourBid":fa
+f7b0: lse,"sold":false,"reserved":false,"closedToBids":false,"wantToKn
+f7f0: owThePrice":false,"makeYourProposal":false},"store":{"id":261,"n
+f830: ame":"Mercedes-Benz Certified","highlight":false,"storeVisibleOn
+f870: Portal":false},"offerDetail":{"id":1788835,"directSaleValue":185
+f8b0: 000.0,"directSaleValueFormatted":"R$ 185.000,00"},"manager":{"id
+f8f0: ":51,"name":"Bamaq Autom..veis"},"currentTimestamp":"2021-04-03 
+f930: 02:39:59","auction":{"id":86699,"desc":"Bamaq 2020","localeId":"
+f970: pt_BR","statusId":3,"permissionTypeId":2,"portalId":2,"modalityI
+f9b0: d":6,"modalityDesc":"Venda Direta","businessAreaId":1,"allOffers
+f9f0: OfThisAuctionIsClosed":true,"beginDate":"2020-04-28 00:00:00","m
+fa30: axEnddateOffer":"2021-01-01 00:00:00","tags":[],"address":{"id":
+fa70: 27029,"streetType":"Alameda","street":"Lorena","number":"800","c
+fab0: omplement":"2.. andar","district":"Jardins","city":"S..o Paulo",
+faf0: "stateCode":"SP","type":5}},"winnerBid":{},"currentBidIncrement"
+fb30: :{},"offerDescription":{"offerDescription":"C 200 EQ Boost C 200
+fb70:  EQ Boost Bamaq 2020"},"groupOffer":{"id":198951,"acceptProposal
+fbb0: ":false},"product":{"productId":1649016,"shortDesc":"C 200 EQ Bo
+fbf0: ost","galleryJson":[{"originalFileName":"IMG_9504.JPG","highligh
+fc30: t":true,"link":"https://static.s4bdigital.net/photos/2f740e24-07
+fc70: 08-486d-b2c7-f39e394a151f.jpg","contentType":"image/jpeg"},{"ori
+fcb0: ginalFileName":"IMG_9502.JPG","highlight":false,"link":"https://
+fcf0: static.s4bdigital.net/photos/d950825c-5e5e-4f51-b782-57b48e6bbde
+fd30: 0.jpg","contentType":"image/jpeg"},{"originalFileName":"IMG_9506
+fd70: .JPG","highlight":false,"link":"https://static.s4bdigital.net/ph
+fdb0: otos/13ba32fa-64ef-4c64-827f-bcc65b3b1b56.jpg","contentType":"im
+fdf0: age/jpeg"},{"originalFileName":"IMG_9507.JPG","highlight":false,
+fe30: "link":"https://static.s4bdigital.net/photos/d3d00783-66a5-48d8-
+fe70: bf36-fec467c007de.jpg","contentType":"image/jpeg"},{"originalFil
+feb0: eName":"IMG_9510.JPG","highlight":false,"link":"https://static.s
+fef0: 4bdigital.net/photos/e0b9ce24-d29e-434f-b1b7-5feba54ccdef.jpg","
+ff30: contentType":"image/jpeg"},{"originalFileName":"IMG_9514.JPG","h
+ff70: ighlight":false,"link":"https://static.s4bdigital.net/photos/5a2
+ffb0: 2a21c-4b74-4de9-bb58-b79a647382af.jpg","contentType":"image/jpeg
+fff0: "},{"originalFileName":"IMG_9521.JPG","highlight":false,"link":"
+10030: https://static.s4bdigital.net/photos/e88cd609-deb8-401c-b901-e72
+10070: b985f89bf.jpg","contentType":"image/jpeg"},{"originalFileName":"
+100b0: IMG_9523.JPG","highlight":false,"link":"https://static.s4bdigita
+100f2: 2000
+100f8: l.net/photos/4ae8a780-1b8d-4a22-9af9-2f32b0dca67d.jpg","contentT
+10138: ype":"image/jpeg"}],"detailedDescription":"C 200 EQ Boost","temp
+10178: late":{"groups":[{"title":"Identifica....o","properties":[{"titl
+101b8: e":"Marca","type":"string","value":"Mercedes-Benz"},{"title":"Mo
+101f8: delo","type":"string","value":"C 200 EQ BOOST"},{"title":"Placa"
+10238: ,"type":"string","value":"Final: 8"},{"title":"Ano Fabrica....o"
+10278: ,"type":"integer","value":"2019"},{"title":"Ano Modelo","type":"
+102b8: integer","value":"2019"},{"title":"UF","type":"string","value":"
+102f8: MG"},{"title":"Munic..pio","type":"string","value":"Belo Horizon
+10338: te"}]},{"title":"Informa....es","properties":[{"title":"Quilomet
+10378: ragem","type":"integer","value":"8160"},{"title":"Cor","type":"s
+103b8: tring","value":"Branco"},{"title":"Combust..vel","type":"string"
+103f8: ,"value":"Gasolina e ..lcool"},{"title":"Tipo de C..mbio","type"
+10438: :"string","value":"Autom..tico"},{"title":"N..mero de Portas","t
+10478: ype":"integer","value":"4"}]}]},"subCategory":{"id":10006,"descr
+104b8: iption":"Sedans","translation":{"map":{"es_PE":"Sedanes","en_US"
+104f8: :"Sedans","es_AR":"Sedanes","es_MX":"Sedanes","es_CO":"Sedanes",
+10538: "pt_BR":"Sedans","en_UK":"Sedans","es_CL":"Sedanes"}},"evidence"
+10578: :"F","subGrupo":0,"grupo":0,"position":6,"category":{"id":10000,
+105b8: "description":"Carros","translation":{"map":{"es_PE":"Autos","en
+105f8: _US":"Cars","es_AR":"Autos","es_MX":"Autos","es_CO":"Autos","pt_
+10638: BR":"Carros","en_UK":"Cars","es_CL":"Autos"}},"evidence":"F","su
+10678: bGrupo":0,"grupo":0,"position":1}},"model":{},"brand":{},"locati
+106b8: on":{"city":"Belo Horizonte","cityId":"ChIJMyzPysqQpgARlznSOl55N
+106f8: Vs","state":"Minas Gerais","stateId":"ChIJiUIyZaGQpgARs-edN8lwIR
+10738: E","country":"Brasil","countryId":"ChIJzyjM68dZnAARYz4p8gYVWik"}
+10778: ,"productType":{"id":10,"description":"Carros & Motos","translat
+107b8: ion":{"map":{"es_PE":"Autos & Motos","en_US":"Cars & Motorcycles
+107f8: ","es_AR":"Autos & Motos","es_MX":"Autos & Motos","es_CO":"Autos
+10838:  & Motos","pt_BR":"Carros & Motos","en_UK":"Cars & Motorcycles",
+10878: "es_CL":"Autos & Motos"}},"showBrand":true,"showModel":true},"ju
+108b8: dicial":{}},"seller":{"id":77947,"name":"Mercedes Benz do Brasil
+108f8:  Ltda","city":"S..o Bernardo do Campo","phone":[{"ddi":"55","ddd
+10938: ":"11","number":"21637800"}],"company":[{"fantasyName":"MERCEDES
+10978: -BENZ DO BRASIL"}]},"offersEvent":[{"offerId":1788835,"productSh
+109b8: ortDesc":"C 200 EQ Boost"},{"offerId":1788801,"productShortDesc"
+109f8: :"C 180 Avantgarde"},{"offerId":1791257,"productShortDesc":"C 20
+10a38: 0 EQ Boost"},{"offerId":1788662,"productShortDesc":"C  AMG 43"}]
+10a78: ,"isFavorite":false},{"id":1804458,"indexationDate":"2021-03-12 
+10ab8: 07:12:04","lotNumber":5,"quantityInLot":1,"totalReceivedProposal
+10af8: s":0,"visits":0,"totalBidders":0,"totalBids":0,"hidePrices":true
+10b38: ,"endDate":"2021-02-15 18:00:00","endDateTime":"2021-02-15T17:00
+10b78: :00.000-0300","offerTypeId":1,"createAt":"2021-01-17 03:05:15","
+10bb8: updateAt":"2021-01-17 03:09:09","statusId":1,"price":350000.0,"p
+10bf8: riceFormatted":"R$ 350.000,00","offerStatus":{"statusCode":1,"re
+10c38: moved":false,"stabbed":false,"subjudice":false,"available":false
+10c78: ,"closed":false,"giveYourBid":false,"sold":false,"reserved":fals
+10cb8: e,"closedToBids":false,"wantToKnowThePrice":true,"makeYourPropos
+10cf8: al":false},"store":{},"offerDetail":{"id":1804458,"initialBidVal
+10d38: ue":350000.0,"initialBidValueFormatted":"R$ 350.000,00","current
+10d78: MinBid":350000.0,"currentMinBidFormatted":"R$ 350.000,00","curre
+10db8: ntMaxBid":350000.0,"currentMaxBidFormatted":"R$ 350.000,00","res
+10df8: ervedPrice":350000.0,"reservedPriceFormatted":"R$ 350.000,00"},"
+10e38: manager":{"id":9,"name":"superbidind"},"currentTimestamp":"2021-
+10e78: 04-03 02:39:59","auction":{"id":87587,"desc":"Resale Integra....
+10eb8: o","localeId":"pt_BR","statusId":1,"permissionTypeId":1,"portalI
+10ef8: d":2,"modalityId":1,"modalityDesc":"Leil..o","businessAreaId":1,
+10f38: "allOffersOfThisAuctionIsClosed":true,"beginDate":"2020-09-15 07
+10f78: :00:00","maxEnddateOffer":"2021-02-15 18:00:00","tags":[],"aucti
+10fb8: oneer":"LUIZ TOCIAKI HIRANO","registry":"1126","address":{"id":2
+10ff8: 7029,"streetType":"Alameda","street":"Lorena","number":"800","co
+11038: mplement":"2.. andar","district":"Jardins","city":"S..o Paulo","
+11078: stateCode":"SP","countryName":"Brasil","type":5}},"winnerBid":{}
+110b8: ,"currentBidIncrement":{"currentBidIncrement":5000.0,"currentBid
+110f8: IncrementFormatted":"R$ 5.000,00"},"offerDescription":{"offerDes
+11138: cription":"Casa, Residencial, Uni..o, 4 dormit..rio(s), 3 vaga(s
+11178: ) de garagem Pagamento da comiss..o: Comprador<br />Cart..rio de
+111b8:  Registro: 18.. RGI de Recife<br />Considera....es importantes: 
+111f8:  Ocupado.\r<br /> Ficar..o a cargo do arrematante: assun....o do
+11238: s riscos, provid..ncias e custas necess..rias: (i) .. desocupa..
+11278: ..o; (ii) .. apura....o e pagamento do IPTU, a partir do exerc..
+112b8: cio 2015, parcelas vencidas e vincendas; (iii) .. regulariza....
+112f8: o do im..vel, notadamente a averba....o da  ..rea constru..da pe
+11338: rante os ..rg..os competentes; (iv) decorrentes da a....o judici
+11378: al em tr..mite.\r<br />\r<br />\r<br />\r<br /><br />Taxa de com
+113b8: iss..o: <br />Taxa de servi..o: <br />Aceita Visita: sim<br />De
+113f8: scri....o: Casa, Uni..o, Desocupado, contendo 4 dormit..rio(s), 
+11438: sendo 1 su..te(s), 3 vaga(s) de garagem, 2 banheiro(s), 350.00 M
+11478: .. de ..rea de terreno, 100.00 M.. de ..rea constru..da, 80.00 M
+114b8: .. de ..rea ..til, 90.00 M.. de ..rea privativa, 30.00 M.. de ..
+114f8: rea comum, 450.00 M.. de ..rea total. Matr..cula n.. 51516, 18..
+11538:  RGI de Recife, Inscri....o Prefeitura 15112-1518-270. IPTU anua
+11578: l R$ 2.500,00, valor de condom..nio mensal R$ 350,00, valor aval
+115b8: iado R$500.000,00. Im..vel situado em regi..o de baixa densidade
+115f8:  ocupacional, com predomin..ncia residencial, servida apenas por
+11638:  linha de ..nibus, Im..vel encontra-se a 10min do centro, com f.
+11678: .cil acesso a transporte p..blico. . Resale Integra....o"},"grou
+116b8: pOffer":{"id":200400,"acceptProposal":false,"commissionPercent":
+116f8: 5},"product":{"productId":1662006,"shortDesc":"Casa, Residencial
+11738: , Uni..o, 4 dormit..rio(s), 3 vaga(s) de garagem","detailedDescr
+11778: iption":"Pagamento da comiss..o: Comprador<br />Cart..rio de Reg
+117b8: istro: 18.. RGI de Recife<br />Considera....es importantes:  Ocu
+117f8: pado.\r<br /> Ficar..o a cargo do arrematante: assun....o dos ri
+11838: scos, provid..ncias e custas necess..rias: (i) .. desocupa....o;
+11878:  (ii) .. apura....o e pagamento do IPTU, a partir do exerc..cio 
+118b8: 2015, parcelas vencidas e vincendas; (iii) .. regulariza....o do
+118f8:  im..vel, notadamente a averba....o da  ..rea constru..da perant
+11938: e os ..rg..os competentes; (iv) decorrentes da a....o judicial e
+11978: m tr..mite.\r<br />\r<br />\r<br />\r<br /><br />Taxa de comiss.
+119b8: .o: <br />Taxa de servi..o: <br />Aceita Visita: sim<br />Descri
+119f8: ....o: Casa, Uni..o, Desocupado, contendo 4 dormit..rio(s), send
+11a38: o 1 su..te(s), 3 vaga(s) de garagem, 2 banheiro(s), 350.00 M.. d
+11a78: e ..rea de terreno, 100.00 M.. de ..rea constru..da, 80.00 M.. d
+11ab8: e ..rea ..til, 90.00 M.. de ..rea privativa, 30.00 M.. de ..rea 
+11af8: comum, 450.00 M.. de ..rea total. Matr..cula n.. 51516, 18.. RGI
+11b38:  de Recife, Inscri....o Prefeitura 15112-1518-270. IPTU anual R$
+11b78:  2.500,00, valor de condom..nio mensal R$ 350,00, valor avaliado
+11bb8:  R$500.000,00. Im..vel situado em regi..o de baixa densidade ocu
+11bf8: pacional, com predomin..ncia residencial, servida apenas por lin
+11c38: ha de ..nibus, Im..vel encontra-se a 10min do centro, com f..cil
+11c78:  acesso a transporte p..blico. .","template":{"groups":[{"title"
+11cb8: :"Descri....o do im..vel","properties":[{"title":"Quartos","type
+11cf8: ":"number","value":"3"},{"title":"Su..tes","type":"number","valu
+11d38: e":"1"},{"title":"Salas","type":"number","value":"1"},{"title":"
+11d78: Escrit..rios","type":"number","value":"1"},{"title":"Copas","typ
+11db8: e":"number","value":"1"},{"title":"Cozinhas","type":"number","va
+11df8: lue":"1"},{"title":"Lavabos","type":"number","value":"1"},{"titl
+11e38: e":"Banheiros","type":"number","value":"2"},{"title":"Dormit..ri
+11e78: os de Empregada","type":"number","value":"1"},{"title":"Varandas
+11eb8: ","type":"number","value":"1"},{"title":"Piscinas","type":"numbe
+11ef8: r","value":"1"}]},{"title":"Detalhes do Im..vel","properties":[]
+11f38: },{"title":"Caracter..sticas do Im..vel","properties":[{"title":
+11f78: "..rea Total","type":"number","value":"450"},{"title":"..rea ..t
+11fb8: il","type":"number","value":"80"},{"title":"..rea Comum","type":
+11ff8: "number","value":"30.00"},{"title":"..rea Privativa","type":"num
+12038: ber","value":"90.0"},{"title":"..rea do Terreno","type":"number"
+12078: ,"value":"350.0"},{"title":"Situa....o","type":"string","value":
+120b8: "Desocupado"}]},{"title":"Valores","properties":[{"title":"Condi
+120fa: 16b3
+12100: ....es de Pagamento","type":"string","value":""},{"title":"Condo
+12140: m..nio","type":"number","value":"350"},{"title":"IPTU Anual","ty
+12180: pe":"number","value":"2500"}]},{"title":"Documentos","properties
+121c0: ":[{"title":"N..mero da Matr..cula","type":"string","value":"515
+12200: 16"},{"title":"N..mero do Contribuinte","type":"string","value":
+12240: "15112-1518-270"}]}]},"subCategory":{"id":10111,"description":"C
+12280: asa Padr..o","translation":{"map":{"es_PE":"Casa Padr..o","en_US
+122c0: ":"Casa Padr..o","es_AR":"Casa Padr..o","es_MX":"Casa Padr..o","
+12300: es_CO":"Casa Padr..o","pt_BR":"Casa Padr..o","en_UK":"Casa Padr.
+12340: .o","es_CL":"Casa Padr..o"}},"evidence":"F","subGrupo":0,"grupo"
+12380: :0,"position":2,"category":{"id":10109,"description":"Residencia
+123c0: l","translation":{"map":{"es_PE":"Habitaciones","en_US":"Residen
+12400: cial","es_AR":"Habitaciones","es_MX":"Habitaciones","es_CO":"Viv
+12440: ienda","pt_BR":"Residencial","en_UK":"Residencial","es_CL":"Habi
+12480: taciones"}},"evidence":"F","subGrupo":0,"grupo":0,"position":1}}
+124c0: ,"model":{},"brand":{},"location":{"city":"S..o Louren..o da Mat
+12500: a","cityId":"ChIJAxmUfUoFqwcR6k0JGxMpY_Q","state":"Pernambuco","
+12540: stateId":"ChIJxYYck518AAcRJhdAk2oZ4B0","country":"Brasil","count
+12580: ryId":"ChIJzyjM68dZnAARYz4p8gYVWik"},"productType":{"id":13,"des
+125c0: cription":"Im..veis","translation":{"map":{"es_PE":"Inmuebles","
+12600: en_US":"Real Estate","es_AR":"Inmuebles","es_MX":"Inmuebles","es
+12640: _CO":"Inmuebles","pt_BR":"Im..veis","en_UK":"Real Estate","es_CL
+12680: ":"Inmuebles"}},"showBrand":false,"showModel":false},"judicial":
+126c0: {}},"seller":{"id":93709,"name":"1.. Vara de Fal..ncias e Recupe
+12700: ra....es Judiciais do Foro Central da Capital - SP","city":"S..o
+12740:  Paulo","courtId":29,"phone":[{"ddi":"55","ddd":"11","number":"3
+12780: 2847522"}],"company":[{"fantasyName":"1.. Vara de Fal..ncias e R
+127c0: ecupera....es Judiciais do Foro Central da Comarca da Capital/SP
+12800: "}]},"offersEvent":[{"offerId":1804458,"productShortDesc":"Casa,
+12840:  Residencial, Uni..o, 4 dormit..rio(s), 3 vaga(s) de garagem"},{
+12880: "offerId":1804464,"productShortDesc":"Casa, Residencial, Uni..o,
+128c0:  4 dormit..rio(s), 3 vaga(s) de garagem"},{"offerId":1804441,"pr
+12900: oductShortDesc":"Casa, Residencial, Uni..o, 4 dormit..rio(s), 3 
+12940: vaga(s) de garagem"},{"offerId":1804439,"productShortDesc":"Apar
+12980: tamento, Residencial, 2 vaga(s) de garagem"},{"offerId":1804454,
+129c0: "productShortDesc":"Casa, Residencial, Uni..o, 4 dormit..rio(s),
+12a00:  3 vaga(s) de garagem"},{"offerId":1804453,"productShortDesc":"C
+12a40: asa, Residencial, Uni..o, 4 dormit..rio(s), 3 vaga(s) de garagem
+12a80: "}],"isFavorite":false},{"id":1804564,"indexationDate":"2021-03-
+12ac0: 17 09:50:01","lotNumber":1,"quantityInLot":1,"totalReceivedPropo
+12b00: sals":0,"visits":0,"totalBidders":2,"totalBids":2,"hidePrices":t
+12b40: rue,"endDate":"2021-03-13 18:00:00","endDateTime":"2021-03-13T18
+12b80: :00:00.000-0300","offerTypeId":1,"createAt":"2021-03-09 09:31:50
+12bc0: ","updateAt":"2021-03-13 14:41:45","statusId":1,"price":1100.0,"
+12c00: priceFormatted":"R$ 1.100,00","offerStatus":{"statusCode":1,"rem
+12c40: oved":false,"stabbed":false,"subjudice":false,"available":false,
+12c80: "closed":false,"giveYourBid":false,"sold":false,"reserved":false
+12cc0: ,"closedToBids":false,"wantToKnowThePrice":true,"makeYourProposa
+12d00: l":false},"store":{},"offerDetail":{"id":1804564,"initialBidValu
+12d40: e":1000.0,"initialBidValueFormatted":"R$ 1.000,00","currentMinBi
+12d80: d":1100.0,"currentMinBidFormatted":"R$ 1.100,00","currentMaxBid"
+12dc0: :1100.0,"currentMaxBidFormatted":"R$ 1.100,00","reservedPrice":1
+12e00: 5000.0,"reservedPriceFormatted":"R$ 15.000,00"},"manager":{"id":
+12e40: 9,"name":"superbidind"},"currentTimestamp":"2021-04-03 02:39:59"
+12e80: ,"auction":{"id":87675,"desc":"Teste Pipeline Leilao 1","localeI
+12ec0: d":"pt_BR","statusId":1,"permissionTypeId":1,"portalId":2,"modal
+12f00: ityId":1,"modalityDesc":"Leil..o","businessAreaId":1,"allOffersO
+12f40: fThisAuctionIsClosed":true,"beginDate":"2021-03-13 07:00:00","ma
+12f80: xEnddateOffer":"2021-03-13 18:01:00","subMarketplaces":[{"subMar
+12fc0: ketplaceId":1,"subMarketplaceDesc":"Corporativo"}],"tags":[],"au
+13000: ctioneer":"Eduardo Sylvio Schanzer","registry":"452","address":{
+13040: "id":27029,"streetType":"Alameda","street":"Lorena","number":"80
+13080: 0","complement":"2.. andar","district":"Jardins","city":"S..o Pa
+130c0: ulo","stateCode":"SP","type":5}},"winnerBid":{"currentWinner":29
+13100: 319,"currentWinnerLogin":"dufabricio"},"currentBidIncrement":{"c
+13140: urrentBidIncrement":100.0,"currentBidIncrementFormatted":"R$ 100
+13180: ,00"},"offerDescription":{"offerDescription":"Toyota Corolla Toy
+131c0: ota Corolla Toyota Corolla Teste Pipeline Leilao 1"},"groupOffer
+13200: ":{"id":200585,"acceptProposal":false},"product":{"productId":16
+13240: 62134,"shortDesc":"Toyota Corolla","detailedDescription":"Toyota
+13280:  Corolla","template":{"groups":[]},"subCategory":{"id":10006,"de
+132c0: scription":"Sedans","translation":{"map":{"es_PE":"Sedanes","en_
+13300: US":"Sedans","es_AR":"Sedanes","es_MX":"Sedanes","es_CO":"Sedane
+13340: s","pt_BR":"Sedans","en_UK":"Sedans","es_CL":"Sedanes"}},"eviden
+13380: ce":"F","subGrupo":0,"grupo":0,"position":6,"category":{"id":100
+133c0: 00,"description":"Carros","translation":{"map":{"es_PE":"Autos",
+13400: "en_US":"Cars","es_AR":"Autos","es_MX":"Autos","es_CO":"Autos","
+13440: pt_BR":"Carros","en_UK":"Cars","es_CL":"Autos"}},"evidence":"F",
+13480: "subGrupo":0,"grupo":0,"position":1}},"model":{"id":785,"descrip
+134c0: tion":"Corolla"},"brand":{"id":35,"description":"Toyota"},"locat
+13500: ion":{},"productType":{"id":10,"description":"Carros & Motos","t
+13540: ranslation":{"map":{"es_PE":"Autos & Motos","en_US":"Cars & Moto
+13580: rcycles","es_AR":"Autos & Motos","es_MX":"Autos & Motos","es_CO"
+135c0: :"Autos & Motos","pt_BR":"Carros & Motos","en_UK":"Cars & Motorc
+13600: ycles","es_CL":"Autos & Motos"}},"showBrand":true,"showModel":tr
+13640: ue},"judicial":{}},"seller":{"id":685079,"name":"Fca Fiat Chrysl
+13680: er Autom..veis Brasil Ltda","city":"Betim","phone":[{"ddi":"55",
+136c0: "ddd":"31","number":"21236267"}],"company":[{"fantasyName":"FCA 
+13700: FIAT CHRYSLER AUTOM..VEIS"}]},"offersEvent":[{"offerId":1804564,
+13740: "productShortDesc":"Toyota Corolla"},{"offerId":1804566,"product
+13780: ShortDesc":"Toyota Corolla"}],"isFavorite":false}]}
+137b5: 0
+137b8: 
+== Info: Connection #0 to host localhost left intact
